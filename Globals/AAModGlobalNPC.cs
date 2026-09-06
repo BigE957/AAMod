@@ -1004,7 +1004,11 @@ namespace AAModClassic.Globals
 
             //Nukes vanilla spawns
             if (aaBiomeZone && !pillarZone)
-                pool[0] = 0f;
+                pool.Remove(0);
+
+            //Nukes all non-AA spawns
+            if (spawnInfo.Player.AAPlayer().ZoneVoid)
+                ClearPoolWithExceptions(pool);
 
             if (!NPCUtils.AnyEvents(spawnInfo.Player) && spawnInfo.Player.AAPlayer().ZoneAcropolis)
                 pool[NPCID.Harpy] = 0.06f;
