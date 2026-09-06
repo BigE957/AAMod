@@ -52,8 +52,8 @@ namespace AAModClassic._Content.Acropolis._PostMoonlord.NPCs.__BossAthenaA
 
         public int damage = 0;
 
-        public static Point CloudPoint = new Point((int)(Main.maxTilesX * 0.65f), 100);
-        public Vector2 Origin = new Vector2((int)(Main.maxTilesX * 0.65f), 100) * 16;
+        public static Point CloudPoint => AAWorld.acropolisPos;
+        public Vector2 Origin => CloudPoint.ToWorldCoordinates();
 
         public override void SetDefaults()
         {

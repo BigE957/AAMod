@@ -1,4 +1,4 @@
-using AAModClassic._Content.Acropolis._PostMoonlord.NPCs.__BossAthenaA;
+﻿using AAModClassic._Content.Acropolis._PostMoonlord.NPCs.__BossAthenaA;
 using AAModClassic.Base.BaseMod.Base;
 using AAModClassic.Effects;
 using AAModClassic.Globals;
@@ -44,8 +44,9 @@ namespace AAModClassic._Content.Acropolis.__Hardmode.NPCs.__BossAthena
 
         public override void AI()
         {
-            Vector2 Origin = new Vector2((int)(Main.maxTilesX * 0.65f), 100) * 16;
-            Vector2 Acropolis = new Vector2(Origin.X + 80 * 16, Origin.Y + 79 * 16);
+            
+            Vector2 Acropolis = new Vector2(AAWorld.acropolisPos.X + 80 * 16, AAWorld.acropolisPos
+                .Y + 79 * 16);
             NPC.TargetClosest();
             if (Main.netMode != NetmodeID.MultiplayerClient)
             {
