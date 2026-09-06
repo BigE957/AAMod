@@ -73,7 +73,7 @@ RazewoodPiano_Tile.MapEntry: Piano de Madera Asoladora
 RazewoodSink_Tile.MapEntry: Fregadero de Madera Asoladora
 RazewoodTable_Tile.MapEntry: Mesa de Madera Asoladora
 RazewoodTub_Tile.MapEntry: Bañera de Madera Asoladora
-RazewoodWorkbench_Tile.MapEntry: Mesa de Trabajo de Madera Asoladora
+RazewoodWorkbench_Tile.MapEntry: Banco de Trabajo de Madera Asoladora
 DragonfireTorch_Tile.MapEntry: Antorcha de Fuego de Dragón
 SharpeningLavaFish_Tile.MapEntry: Pez de Lava Afilador
 DaybreakIncineriteOre_Tile.MapEntry: Mineral de Incinerita del Amanecer
@@ -84,26 +84,26 @@ DragonEgg_Tile.MapEntry: Huevo de Dragón
 RazewoodPalmSapling_Tile.MapEntry: Brote de Palmera Asoladora
 RazewoodSapling_Tile.MapEntry: Brote Asolador
 AbyssiumOre_Tile.MapEntry: Mineral de Abyssium
-BogwoodBathtub_Tile.MapEntry: Bañera de Madera de Pantano
-BogwoodBed_Tile.MapEntry: Cama de Madera de Pantano
-BogwoodBench_Tile.MapEntry: Banco de Madera de Pantano
-BogwoodBookshelf_Tile.MapEntry: Estantería de Madera de Pantano
-BogwoodCandelabra_Tile.MapEntry: Candelabro de Madera de Pantano
-BogwoodCandle_Tile.MapEntry: Vela de Madera de Pantano
-BogwoodChair_Tile.MapEntry: Silla de Madera de Pantano
-BogwoodChandelier_Tile.MapEntry: Lámpara de Araña de Madera de Pantano
-BogwoodChest_Tile.MapEntry: Cofre de Madera de Pantano
-BogwoodClock_Tile.MapEntry: Reloj de Madera de Pantano
-BogwoodCouch_Tile.MapEntry: Sofá de Madera de Pantano
-BogwoodDoorClosed_Tile.MapEntry: Puerta de Madera de Pantano
-BogwoodDoorOpen_Tile.MapEntry: Puerta de Madera de Pantano
-BogwoodDresser_Tile.MapEntry: Aparador de Madera de Pantano
-BogwoodLamp_Tile.MapEntry: Lámpara de Madera de Pantano
-BogwoodLantern_Tile.MapEntry: Linterna de Madera de Pantano
-BogwoodPiano_Tile.MapEntry: Piano de Madera de Pantano
-BogwoodSink_Tile.MapEntry: Fregadero de Madera de Pantano
-BogwoodTable_Tile.MapEntry: Mesa de Madera de Pantano
-BogwoodWorkbench_Tile.MapEntry: Mesa de Trabajo de Madera de Pantano
+BogwoodBathtub_Tile.MapEntry: Bañera de Madera del Lodazal
+BogwoodBed_Tile.MapEntry: Cama de Madera del Lodazal
+BogwoodBench_Tile.MapEntry: Banco de Madera del Lodazal
+BogwoodBookshelf_Tile.MapEntry: Estantería de Madera del Lodazal
+BogwoodCandelabra_Tile.MapEntry: Candelabro de Madera del Lodazal
+BogwoodCandle_Tile.MapEntry: Vela de Madera del Lodazal
+BogwoodChair_Tile.MapEntry: Silla de Madera del Lodazal
+BogwoodChandelier_Tile.MapEntry: Lámpara de Araña de Madera del Lodazal
+BogwoodChest_Tile.MapEntry: Cofre de Madera del Lodazal
+BogwoodClock_Tile.MapEntry: Reloj de Madera del Lodazal
+BogwoodCouch_Tile.MapEntry: Sofá de Madera del Lodazal
+BogwoodDoorClosed_Tile.MapEntry: Puerta de Madera del Lodazal
+BogwoodDoorOpen_Tile.MapEntry: Puerta de Madera del Lodazal
+BogwoodDresser_Tile.MapEntry: Aparador de Madera del Lodazal
+BogwoodLamp_Tile.MapEntry: Lámpara de Madera del Lodazal
+BogwoodLantern_Tile.MapEntry: Linterna de Madera del Lodazal
+BogwoodPiano_Tile.MapEntry: Piano de Madera del Lodazal
+BogwoodSink_Tile.MapEntry: Fregadero de Madera del Lodazal
+BogwoodTable_Tile.MapEntry: Mesa de Madera del Lodazal
+BogwoodWorkbench_Tile.MapEntry: Banco de Trabajo de Madera del Lodazal
 BogtoxinTorch_Tile.MapEntry: Antorcha de Bogotoxina
 ToxinMonkfish_Tile.MapEntry: Pez Sapo Tóxico
 EventideAbyssiumOre_Tile.MapEntry: Mineral de Abyssium del Anochecer
@@ -132,19 +132,19 @@ OuroborosWoodClock_Tile.MapEntry: Reloj de Madera de Uróboros
 OuroborosWoodDoorClosed_Tile.MapEntry: Puerta de Madera de Uróboros
 OuroborosWoodDoorOpen_Tile.MapEntry: Puerta de Madera de Uróboros
 OuroborosWoodLantern_Tile.MapEntry: Linterna de Madera de Uróboros
-OuroborosWoodWorkbench_Tile.MapEntry: Mesa de Trabajo de Madera de Uróboros
+OuroborosWoodWorkbench_Tile.MapEntry: Banco de Trabajo de Madera de Uróboros
 ApocalyptiteOre_Tile.MapEntry: Mineral de Apocaliptita
-DoomBathtub_Tile.MapEntry: Bañera del Destino
-DoomBed_Tile.MapEntry: Cama del Destino
-DoomBookcase_Tile.MapEntry: Librería del Destino
-DoomCandelabra_Tile.MapEntry: Candelabro del Destino
-DoomCandle_Tile.MapEntry: Vela del Destino
-DoomChair_Tile.MapEntry: Silla del Destino
-DoomChandelier_Tile.MapEntry: Lámpara de Araña del Destino
-DoomChest_Tile.MapEntry: Cofre del Destino
+DoomBathtub_Tile.MapEntry: Bañera de la Perdición
+DoomBed_Tile.MapEntry: Cama de la Perdición
+DoomBookcase_Tile.MapEntry: Librería de la Perdición
+DoomCandelabra_Tile.MapEntry: Candelabro de la Perdición
+DoomCandle_Tile.MapEntry: Vela de la Perdición
+DoomChair_Tile.MapEntry: Silla de la Perdición
+DoomChandelier_Tile.MapEntry: Lámpara de Araña de la Perdición
+DoomChest_Tile.MapEntry: Cofre de la Perdición
 
 DoomClock_Tile: {
-	MapEntry: Reloj del Destino
+	MapEntry: Reloj de la Perdición
 
 	FlavorText: {
 		PreZero:
@@ -156,18 +156,18 @@ DoomClock_Tile: {
 	}
 }
 
-DoomCouch_Tile.MapEntry: Sofá de Doom
-DoomDoorClosed_Tile.MapEntry: Puerta de Doom
-DoomDoorOpen_Tile.MapEntry: Puerta de Doom
-DoomDresser_Tile.MapEntry: Aparador de Doom
-DoomLamp_Tile.MapEntry: Lámpara de Doom
-DoomLantern_Tile.MapEntry: Linterna de Doom
-DoomPiano_Tile.MapEntry: Piano de Doom
-DoomSink_Tile.MapEntry: Fregadero de Doom
-DoomTable_Tile.MapEntry: Mesa de Doom
-DoomWorkbench_Tile.MapEntry: Mesa de Trabajo de Doom
+DoomCouch_Tile.MapEntry: Sofá de la Perdición
+DoomDoorClosed_Tile.MapEntry: Puerta de la Perdición
+DoomDoorOpen_Tile.MapEntry: Puerta de la Perdición
+DoomDresser_Tile.MapEntry: Aparador de la Perdición
+DoomLamp_Tile.MapEntry: Lámpara de la Perdición
+DoomLantern_Tile.MapEntry: Linterna de la Perdición
+DoomPiano_Tile.MapEntry: Piano de la Perdición
+DoomSink_Tile.MapEntry: Fregadero de la Perdición
+DoomTable_Tile.MapEntry: Mesa de la Perdición
+DoomWorkbench_Tile.MapEntry: Banco de Trabajo de la Perdición
 BinaryReassembler_Tile.MapEntry: Reensamblador Binario
-DoomsdayChest_Tile.MapEntry: Cofre del Fin del Mundo
+DoomsdayChest_Tile.MapEntry: Cofre del Juicio Final
 OuroborosSapling_Tile.MapEntry: Brote de Uróboros
 AncientDataBank_Tile.MapEntry: Banco de Datos Antiguo
 DataBank_Tile.MapEntry: Banco de Datos
@@ -175,48 +175,48 @@ StormChest_Tile.MapEntry: Cofre de la Tormenta
 Core_Tile.MapEntry: Célula de Biomita
 CoreActivator_Tile.MapEntry: Motor del Núcleo
 CoreDoor_Tile.MapEntry: Puerta Sellada
-KeepBath_Tile.MapEntry: Bañera de Keep
-KeepBed_Tile.MapEntry: Cama de Keep
-KeepBookcase_Tile.MapEntry: Librería de Keep
-KeepCandelabra_Tile.MapEntry: Candelabro de Keep
-KeepCandle_Tile.MapEntry: Vela de Keep
-KeepChair_Tile.MapEntry: Silla de Keep
-KeepChandelier_Tile.MapEntry: Lámpara de Araña de Keep
-KeepClock_Tile.MapEntry: Reloj de Keep
-KeepCouch_Tile.MapEntry: Sofá de Keep
-KeepDoorClosed_Tile.MapEntry: Puerta de Keep
-KeepDoorOpen_Tile.MapEntry: Puerta de Keep
-KeepDresser_Tile.MapEntry: Aparador de Keep
-KeepLamp_Tile.MapEntry: Lámpara de Keep
-KeepLantern_Tile.MapEntry: Linterna de Keep
-KeepPiano_Tile.MapEntry: Piano de Keep
-KeepSink_Tile.MapEntry: Fregadero de Keep
-KeepTable_Tile.MapEntry: Mesa de Keep
-KeepWorkbench_Tile.MapEntry: Mesa de Trabajo de Keep
+KeepBath_Tile.MapEntry: Bañera del Bastión
+KeepBed_Tile.MapEntry: Cama del Bastión
+KeepBookcase_Tile.MapEntry: Librería del Bastión
+KeepCandelabra_Tile.MapEntry: Candelabro del Bastión
+KeepCandle_Tile.MapEntry: Vela del Bastión
+KeepChair_Tile.MapEntry: Silla del Bastión
+KeepChandelier_Tile.MapEntry: Lámpara de Araña del Bastión
+KeepClock_Tile.MapEntry: Reloj del Bastión
+KeepCouch_Tile.MapEntry: Sofá del Bastión
+KeepDoorClosed_Tile.MapEntry: Puerta del Bastión
+KeepDoorOpen_Tile.MapEntry: Puerta del Bastión
+KeepDresser_Tile.MapEntry: Aparador del Bastión
+KeepLamp_Tile.MapEntry: Lámpara del Bastión
+KeepLantern_Tile.MapEntry: Linterna del Bastión
+KeepPiano_Tile.MapEntry: Piano del Bastión
+KeepSink_Tile.MapEntry: Fregadero del Bastión
+KeepTable_Tile.MapEntry: Mesa del Bastión
+KeepWorkbench_Tile.MapEntry: Banco de Trabajo del Bastión
 SpiralStairs_Tile.MapEntry: Escaleras de Caracol
-TerraBath_Tile.MapEntry: Bañera de Terra
-TerraBed_Tile.MapEntry: Cama de Terra
-TerraBookcase_Tile.MapEntry: Librería de Terra
-TerraCandelabra_Tile.MapEntry: Candelabro de Terra
-TerraCandle_Tile.MapEntry: Vela de Terra
-TerraChair_Tile.MapEntry: Silla de Terra
-TerraChandelier_Tile.MapEntry: Lámpara de Araña de Terra
-TerraChest_Tile.MapEntry: Cofre de Terra
-TerraClock_Tile.MapEntry: Reloj de Terra
-TerraCouch_Tile.MapEntry: Sofá de Terra
-TerraDoorClosed_Tile.MapEntry: Puerta de Terra
-TerraDoorOpen_Tile.MapEntry: Puerta de Terra
-TerraDresser_Tile.MapEntry: Cómoda de Terra
-TerraLamp_Tile.MapEntry: Lámpara de Terra
-TerraLantern_Tile.MapEntry: Linterna de Terra
-TerraPiano_Tile.MapEntry: Piano de Terra
-TerraSink_Tile.MapEntry: Fregadero de Terra
-TerraTable_Tile.MapEntry: Mesa de Terra
-TerraWorkbench_Tile.MapEntry: Mesa de Trabajo de Terra
-KeepDoor1_Tile.MapEntry: Puerta de Keep
-KeepDoor2_Tile.MapEntry: Puerta de Keep
-KeepDoor2S_Tile.MapEntry: Puerta de Keep
-KeepDoor3_Tile.MapEntry: Puerta de Keep
+TerraBath_Tile.MapEntry: Bañera Terra
+TerraBed_Tile.MapEntry: Cama Terra
+TerraBookcase_Tile.MapEntry: Librería Terra
+TerraCandelabra_Tile.MapEntry: Candelabro Terra
+TerraCandle_Tile.MapEntry: Vela Terra
+TerraChair_Tile.MapEntry: Silla Terra
+TerraChandelier_Tile.MapEntry: Lámpara de Araña Terra
+TerraChest_Tile.MapEntry: Cofre Terra
+TerraClock_Tile.MapEntry: Reloj Terra
+TerraCouch_Tile.MapEntry: Sofá Terra
+TerraDoorClosed_Tile.MapEntry: Puerta Terra
+TerraDoorOpen_Tile.MapEntry: Puerta Terra
+TerraDresser_Tile.MapEntry: Cómoda Terra
+TerraLamp_Tile.MapEntry: Lámpara Terra
+TerraLantern_Tile.MapEntry: Linterna Terra
+TerraPiano_Tile.MapEntry: Piano Terra
+TerraSink_Tile.MapEntry: Fregadero Terra
+TerraTable_Tile.MapEntry: Mesa Terra
+TerraWorkbench_Tile.MapEntry: Banco de Trabajo Terra
+KeepDoor1_Tile.MapEntry: Puerta del Bastión
+KeepDoor2_Tile.MapEntry: Puerta del Bastión
+KeepDoor2S_Tile.MapEntry: Puerta del Bastión
+KeepDoor3_Tile.MapEntry: Puerta del Bastión
 
 TerraStatue_Tile: {
 	MapEntry: Estatua de Héroe Perdido

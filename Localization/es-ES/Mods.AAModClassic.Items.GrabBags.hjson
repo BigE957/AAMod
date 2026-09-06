@@ -1,61 +1,61 @@
 TreasureBags: {
 	ShenDoragonTreasureBag: {
-		DisplayName: Bolsa de Tesoro (Shen Doragon)
+		DisplayName: Bolsa del Tesoro (Shen Doragon)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	AnubisTreasureBag: {
-		DisplayName: Bolsa de Tesoro (Anubis)
+		DisplayName: Bolsa del Tesoro (Anubis)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	AnubisATreasureBag: {
-		DisplayName: Bolsa de Tesoro (Anubis, el Juez Abandonado)
+		DisplayName: Bolsa del Tesoro (Anubis, el Juez Abandonado)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	BroodmotherTreasureBag: {
-		DisplayName: Bolsa de Tesoro (Madre de la Camada)
+		DisplayName: Bolsa del Tesoro (Madre de la Camada)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	AkumaTreasureBag: {
-		DisplayName: Bolsa de Tesoro (Akuma)
+		DisplayName: Bolsa del Tesoro (Akuma)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	HydraTreasureBag: {
-		DisplayName: Bolsa de Tesoro (Hidra)
+		DisplayName: Bolsa del Tesoro (Hidra)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	YamataTreasureBag: {
-		DisplayName: Bolsa de Tesoro (Yamata)
+		DisplayName: Bolsa del Tesoro (Yamata)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	ZeroTreasureBag: {
-		DisplayName: Bolsa de Tesoro (Cero)
+		DisplayName: Bolsa del Tesoro (Cero)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	OrthrusXTreasureBag: {
-		DisplayName: Bolsa de Tesoro (Orthrus X)
+		DisplayName: Bolsa del Tesoro (Orthrus X)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	RaiderUltimaTreasureBag: {
-		DisplayName: Bolsa de Tesoro (Raider Ultima)
+		DisplayName: Bolsa del Tesoro (Raider Ultima)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	RetrieverTreasureBag: {
-		DisplayName: Bolsa de Tesoro (Recolector)
+		DisplayName: Bolsa del Tesoro (Recolector)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	TechnoTruffleTreasureBag: {
-		DisplayName: Bolsa de Tesoro (Tecnotrufa)
+		DisplayName: Bolsa del Tesoro (Tecnotrufa)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
@@ -65,17 +65,17 @@ TreasureBags: {
 	}
 
 	AthenaTreasureBag: {
-		DisplayName: Bolsa de Tesoro (Atenea)
+		DisplayName: Bolsa del Tesoro (Atenea)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	AthenaATreasureBag: {
-		DisplayName: Bolsa de Tesoro (Atenea Olímpica)
+		DisplayName: Bolsa del Tesoro (Atenea Olímpica)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	RajahRabbitTreasureBag: {
-		DisplayName: Bolsa de Tesoro (Rajah Rabbit)
+		DisplayName: Bolsa del Tesoro (Rajah Rabbit)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
@@ -85,52 +85,52 @@ TreasureBags: {
 	}
 
 	GripsOfChaosTreasureBag: {
-		DisplayName: Bolsa de Tesoro (Garras del Caos)
+		DisplayName: Bolsa del Tesoro (Garras del Caos)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	SistersOfDiscordTreasureBag: {
-		DisplayName: Bolsa de Tesoro (Hermanas de la Discordia)
+		DisplayName: Bolsa del Tesoro (Hermanas de la Discordia)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	DesertDjinnTreasureBag: {
-		DisplayName: Bolsa de Tesoro (Genio del Desierto)
+		DisplayName: Bolsa del Tesoro (Genio del Desierto)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	FeudalFungusTreasureBag: {
-		DisplayName: Bolsa de Tesoro (Hongo Feudal)
+		DisplayName: Bolsa del Tesoro (Hongo Feudal)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	TruffleToadTreasureBag: {
-		DisplayName: Bolsa de Tesoro (Sapo de Trufa)
+		DisplayName: Bolsa del Tesoro (Sapo de Trufa)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	GreedTreasureBag: {
-		DisplayName: Bolsa de Tesoro (Avaricia)
+		DisplayName: Bolsa del Tesoro (Avaricia)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	GreedATreasureBag: {
-		DisplayName: Bolsa de Tesoro (Avaricia, el Rey Gusano)
+		DisplayName: Bolsa del Tesoro (Avaricia, el Rey Gusano)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	MushroomMonarchTreasureBag: {
-		DisplayName: Bolsa de Tesoro (Monarca Fúngico)
+		DisplayName: Bolsa del Tesoro (Monarca Fúngico)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	SubzeroSerpentTreasureBag: {
-		DisplayName: Bolsa de Tesoro (Serpiente Subcero)
+		DisplayName: Bolsa del Tesoro (Serpiente Subcero)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
 	EquinoxWormsTreasureBag: {
-		DisplayName: Bolsa de Tesoro (Gusanos del Equinoccio)
+		DisplayName: Bolsa del Tesoro (Gusanos del Equinoccio)
 		Tooltip:
 			'''
 			{$CommonItemTooltip.RightClickToOpen}
@@ -139,7 +139,7 @@ TreasureBags: {
 	}
 
 	SagittariusTreasureBag: {
-		DisplayName: Bolsa de Tesoro (Sagitario)
+		DisplayName: Bolsa del Tesoro (Sagitario)
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 	}
 
@@ -170,7 +170,7 @@ Vanity: {
 	}
 
 	AvesBag: {
-		DisplayName: Bolsa de DJ Duck
+		DisplayName: Bolsa de DJ Pato
 		Tooltip:
 			'''
 			"{$CommonItemTooltip.RightClickToOpen}" 
@@ -206,11 +206,11 @@ Vanity: {
 	}
 
 	CCBag: {
-		DisplayName: Caja de Cartón de Mire Manic
+		DisplayName: Caja de Cartón del Maníatico del Lodazal
 		Tooltip:
 			'''
 			"{$CommonItemTooltip.RightClickToOpen}" 
-			'¡Todo lo esencial para hacerse pasar por el Devoto del Pavor!'
+			'¡Todo lo esencial para hacerse pasar por el Devoto del Terror!'
 			'''
 	}
 
@@ -224,7 +224,7 @@ Vanity: {
 	}
 
 	CharlieBag: {
-		DisplayName: Bolsa de Reaper
+		DisplayName: Bolsa del Segador
 		Tooltip:
 			'''
 			"{$CommonItemTooltip.RightClickToOpen}" 
@@ -381,7 +381,7 @@ Vanity: {
 		Tooltip:
 			'''
 			"{$CommonItemTooltip.RightClickToOpen}"
-			Contiene un conjunto de ropa de Asesino de la Medianoche
+			Contiene un conjunto de ropa de la Asesina de la Medianoche
 			'''
 	}
 

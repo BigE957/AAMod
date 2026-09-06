@@ -204,209 +204,209 @@ Razewood: {
 
 Bogwood: {
 	BogwoodBathtub: {
-		DisplayName: Bañera de Madera de Pantano
+		DisplayName: Bañera de Madera del Lodazal
 		Tooltip: ""
 	}
 
 	BogwoodBed: {
-		DisplayName: Cama de Madera de Pantano
+		DisplayName: Cama de Madera del Lodazal
 		Tooltip: ""
 	}
 
 	BogwoodBench: {
-		DisplayName: Sofá de Madera de Pantano
+		DisplayName: Sofá de Madera del Lodazal
 		Tooltip: ""
 	}
 
 	BogwoodBookshelf: {
-		DisplayName: Librería de Madera de Pantano
+		DisplayName: Librería de Madera del Lodazal
 		Tooltip: ""
 	}
 
 	BogwoodCandelabra: {
-		DisplayName: Candelabro de Madera de Pantano
+		DisplayName: Candelabro de Madera del Lodazal
 		Tooltip: ""
 	}
 
 	BogwoodCandle: {
-		DisplayName: Vela de Madera de Pantano
+		DisplayName: Vela de Madera del Lodazal
 		Tooltip: ""
 	}
 
 	BogwoodChair: {
-		DisplayName: Silla de Madera de Pantano
+		DisplayName: Silla de Madera del Lodazal
 		Tooltip: ""
 	}
 
 	BogwoodChandelier: {
-		DisplayName: Lámpara de Madera de Pantano
+		DisplayName: Lámpara de Madera del Lodazal
 		Tooltip: ""
 	}
 
 	BogwoodChest: {
-		DisplayName: Cofre de Madera de Pantano
+		DisplayName: Cofre de Madera del Lodazal
 		Tooltip: ""
 	}
 
 	BogwoodClock: {
-		DisplayName: Reloj de Madera de Pantano
+		DisplayName: Reloj de Madera del Lodazal
 		Tooltip: ""
 	}
 
 	BogwoodCouch: {
-		DisplayName: Sofá de Madera de Pantano
+		DisplayName: Sofá de Madera del Lodazal
 		Tooltip: ""
 	}
 
 	BogwoodDoor: {
-		DisplayName: Puerta de Madera de Pantano
+		DisplayName: Puerta de Madera del Lodazal
 		Tooltip: ""
 	}
 
 	BogwoodDresser: {
-		DisplayName: Aparador de Madera de Pantano
+		DisplayName: Aparador de Madera del Lodazal
 		Tooltip: ""
 	}
 
 	BogwoodLamp: {
-		DisplayName: Lámpara de Madera de Pantano
+		DisplayName: Lámpara de Madera del Lodazal
 		Tooltip: ""
 	}
 
 	BogwoodLantern: {
-		DisplayName: Linterna de Madera de Pantano
+		DisplayName: Linterna de Madera del Lodazal
 		Tooltip: ""
 	}
 
 	BogwoodPiano: {
-		DisplayName: Piano de Madera de Pantano
+		DisplayName: Piano de Madera del Lodazal
 		Tooltip: ""
 	}
 
 	BogwoodPlatform: {
-		DisplayName: Plataforma de Madera de Pantano
+		DisplayName: Plataforma de Madera del Lodazal
 		Tooltip: ""
 	}
 
 	BogwoodSink: {
-		DisplayName: Fregadero de Madera de Pantano
+		DisplayName: Fregadero de Madera del Lodazal
 		Tooltip: ""
 	}
 
 	BogwoodTable: {
-		DisplayName: Mesa de Madera de Pantano
+		DisplayName: Mesa de Madera del Lodazal
 		Tooltip: ""
 	}
 
 	BogwoodWorkbench: {
-		DisplayName: Banco de Trabajo de Madera de Pantano
+		DisplayName: Banco de Trabajo de Madera del Lodazal
 		Tooltip: ""
 	}
 
 	BogwoodToilet: {
-		DisplayName: Retrete de Madera de Pantano
+		DisplayName: Retrete de Madera del Lodazal
 		Tooltip: ""
 	}
 }
 
 OuroborosWood: {
 	OuroborosWoodBathtub: {
-		DisplayName: Bañera de Madera de Ouroboros
+		DisplayName: Bañera de Madera de Uróboros
 		Tooltip: ""
 	}
 
 	OuroborosWoodBed: {
-		DisplayName: Cama de Madera de Ouroboros
+		DisplayName: Cama de Madera de Uróboros
 		Tooltip: ""
 	}
 
 	OuroborosWoodBookcase: {
-		DisplayName: Librería de Madera de Ouroboros
+		DisplayName: Librería de Madera de Uróboros
 		Tooltip: ""
 	}
 
 	OuroborosWoodCandle: {
-		DisplayName: Vela de Madera de Ouroboros
+		DisplayName: Vela de Madera de Uróboros
 		Tooltip: ""
 	}
 
 	OuroborosWoodChair: {
-		DisplayName: Silla de Madera de Ouroboros
+		DisplayName: Silla de Madera de Uróboros
 		Tooltip: ""
 	}
 
 	OuroborosWoodChest: {
-		DisplayName: Cofre de Madera de Ouroboros
+		DisplayName: Cofre de Madera de Uróboros
 		Tooltip: ""
 	}
 
 	OuroborosWoodClock: {
-		DisplayName: Reloj de Madera de Ouroboros
+		DisplayName: Reloj de Madera de Uróboros
 		Tooltip: ""
 	}
 
 	OuroborosWoodDoor: {
-		DisplayName: Puerta de Madera de Ouroboros
+		DisplayName: Puerta de Madera de Uróboros
 		Tooltip: ""
 	}
 
 	OuroborosWoodLamp: {
-		DisplayName: Lámpara de Madera de Ouroboros
+		DisplayName: Lámpara de Madera de Uróboros
 		Tooltip: ""
 	}
 
 	OuroborosWoodLantern: {
-		DisplayName: Farol de Madera de Ouroboros
+		DisplayName: Farol de Madera de Uróboros
 		Tooltip: ""
 	}
 
 	OuroborosWoodPlatform: {
-		DisplayName: Plataforma de Madera de Ouroboros
+		DisplayName: Plataforma de Madera de Uróboros
 		Tooltip: ""
 	}
 
 	OuroborosWoodWorkbench: {
-		DisplayName: Banco de Trabajo de Madera de Ouroboros
+		DisplayName: Banco de Trabajo de Madera de Uróboros
 		Tooltip: ""
 	}
 
 	OuroborosWoodCandelabra: {
-		DisplayName: Candelabro de Madera de Ouroboros
+		DisplayName: Candelabro de Madera de Uróboros
 		Tooltip: ""
 	}
 
 	OuroborosWoodChandelier: {
-		DisplayName: Lámpara de Araña de Madera de Ouroboros
+		DisplayName: Lámpara de Araña de Madera de Uróboros
 		Tooltip: ""
 	}
 
 	OuroborosWoodCouch: {
-		DisplayName: Sofá de Madera de Ouroboros
+		DisplayName: Sofá de Madera de Uróboros
 		Tooltip: ""
 	}
 
 	OuroborosWoodDresser: {
-		DisplayName: Aparador de Madera de Ouroboros
+		DisplayName: Aparador de Madera de Uróboros
 		Tooltip: ""
 	}
 
 	OuroborosWoodPiano: {
-		DisplayName: Piano de Madera de Ouroboros
+		DisplayName: Piano de Madera de Uróboros
 		Tooltip: ""
 	}
 
 	OuroborosWoodSink: {
-		DisplayName: Fregadero de Madera de Ouroboros
+		DisplayName: Fregadero de Madera de Uróboros
 		Tooltip: ""
 	}
 
 	OuroborosWoodTable: {
-		DisplayName: Mesa de Madera de Ouroboros
+		DisplayName: Mesa de Madera de Uróboros
 		Tooltip: ""
 	}
 
 	OuroborosWoodToilet: {
-		DisplayName: Retrete de Madera de Ouroboros
+		DisplayName: Retrete de Madera de Uróboros
 		Tooltip: ""
 	}
 }
@@ -570,7 +570,7 @@ Terra: {
 	}
 
 	TerraLamp: {
-		DisplayName: Lámpara de de Terra
+		DisplayName: Lámpara Terra
 		Tooltip: ""
 	}
 

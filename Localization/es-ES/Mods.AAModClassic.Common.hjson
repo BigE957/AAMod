@@ -91,18 +91,18 @@ RazewoodClockGetTime: Quizás hacer un reloj de madera calcinada no fue tan buen
 InfernoChest_Locked: Cofre del infierno cerrado
 MireChest_Locked: Cofre del lodazal cerrado
 DoomsdayChest_Locked: Cofre del juicio final cerrado
-GreedChest_Locked: Cofre de la codicia cerrado
+GreedChest_Locked: Cofre de la avaricia cerrado
 #TownNPCName
 
-GoblinSlayerName: Cazador Goblin
+GoblinSlayerName: Asesino de Duendes
 #BossName
 
-MushroomMonarch: El Monarca Champiñón
+MushroomMonarch: El Monarca Fúngico
 FeudalFungus: El Hongo Feudal
 Broodmother: La Madre de la Camada
 Hydra: La Hidra
-GripsofChaos: Los Agarres del Caos
-SubzeroSerpent: La Serpiente Bajo Cero
+GripsofChaos: Las Garras del Caos
+SubzeroSerpent: La Serpiente Subcero
 TruffleToad: El Sapo de Trufa
 Sagittarius: Sagitario
 Skeletron: Esqueletrón
@@ -110,10 +110,10 @@ RajahRabbit: Rajah Rabbit
 DesertDjinn: El Genio del Desierto
 Plantera: Plantera
 Athena: Atenea
-Greed: Codicia
+Greed: Avaricia
 Akuma: Akuma, Demonio Draconiano
 AkumaA: Oni Akuma
-Yamata: Yamata, Pesadilla Pavorosa
+Yamata: Yamata, Pesadilla Terrible
 YamataA: Yamata no Orochi
 ShenDoragon: Shen Doragon, Profeta del Caos
 SupremeRajah: Rajah Rabbit
@@ -221,8 +221,8 @@ RecipeGroups: {
 	Weapons.EvilStaff: Bastón Maligno
 
 	Armor: {
-		TerraChestplate: Coraza de Terra
-		TerraLeggings: Grebas de Terra
+		TerraChestplate: Coraza Terra
+		TerraLeggings: Grebas Terra
 		ChaosChestplate: Coraza del Caos
 		ChaosLeggings: Grebas del Caos
 		RadiumHelmet: Casco de Radio
@@ -256,9 +256,9 @@ ChaosSigilTrue1: Gran error, chico...
 ChaosSigilTrue2: Hmpf... ¿otra vez..? Muy bien, vamos a terminar con esto de una vez.
 ConfusingMushroomFalse1: El champiñón brilla y su olor te marea.
 ConfusingMushroomFalse2: El Hongo Feudal sigue intentando atacarte
-CuriousClawFalse1: ¡Los Agarres del Caos ya están aquí!
+CuriousClawFalse1: ¡Las Garras del Caos ya están aquí!
 CuriousClawFalse2: La garra yace flácida en tu mano. Qué asco.
-Grips.GripsofChaosAwoken: ¡Los Agarres del Caos han despertado!
+Grips.GripsofChaosAwoken: ¡Las Garras del Caos han despertado!
 DiamondCarrotRajahText1: ¡GRAVE ERROR, TERRARIANO!
 DiamondCarrotRajahText2: Muéstrame de qué estás hecho,
 DjinnLampDesertFalse1: La lámpara escupe arena mientras la frotas
@@ -293,7 +293,7 @@ SistersInfo2: ¡ESTA VEZ NO VOY A PERDER! ¡Vas a probar el sabor de la derrota,
 HydraChowTimeFalse: No viene nada. Las criaturas del lodazal duermen.
 HydraChowFalse1: La Hidra quiere esa comida.
 HydraChowFalse2: No viene nada. Ahora te ves tonto sosteniendo esa bola apestosa de mugre.
-InterestingClawFalse1: ¡Los Agarres del Caos ya están aquí!
+InterestingClawFalse1: ¡Las Garras del Caos ya están aquí!
 InterestingClawFalse2: La garra yace flácida en tu mano. Qué asco.
 IntimidatingMushroomFalse1: El champiñón solo te mira fijamente y te da escalofríos con solo mirarlo.
 IntimidatingMushroomFalse2: El Monarca Champiñón sigue intentando pisotearte
@@ -312,13 +312,13 @@ ZeroTesseractDownedTrue: 0BJETIV0 FIJAD0. ESTA VEZ N0 EXISTE LA P0SIBILIDAD DE N
 RoyalRabbitSummoned1: ¡Aquellos que masacran a los inocentes deben ser CASTIGADOS!
 RoyalRabbitSummoned2: PAGARÁS POR TUS PECADOS,
 ScrapHeapFalse1: Sientes una descarga estática al usar esto. ¿Quizás esté intentando enviar una señal?
-ScrapHeapFalse2: ¡Ortros quiere comerse eso Y A TI!
+ScrapHeapFalse2: Orthrus quiere comerse eso Y A TI!
 CyberneticClawFalse1: La garra simplemente yace flácida en tu mano.
-CyberneticClawFalse2: ¡El Retriever todavía está intentando atraparte!
+CyberneticClawFalse2: ¡El Recolector todavía está intentando atraparte!
 CyberneticBellFalse1: La campana suena, pero no pasa nada.
 CyberneticBellFalse2: ¡El Raider escucha la campana y sigue intentando matarte!
 CyberneticShroomFalse1: Deja de agitar ese champiñón de metal como un psicópata.
-CyberneticShroomFalse2: La Techno Trufa continúa existiendo.
+CyberneticShroomFalse2: La Tecnotrufa continúa existiendo.
 CursedCompassFalse: Las maldiciones ligadas a la brújula gimen ante la presencia de su creador.
 MassShroomInitiated: ¡Es hora de un foso de champiñones!
 GlowingMassShroomInitiated: ¡Estás siendo asaltado por un montón de hongos!
@@ -333,7 +333,7 @@ Conditions: {
 	NotUnofficial: En mundos oficiales
 	PostLateAncientsAndRemovedWorld: Después de los Antiguos Tardíos
 	SpawnedByTruffleToad: Si no fue invocado por el Sapo de Trufa
-	SpawnedByGrips: Si no fue invocado por los Agarres del Caos
+	SpawnedByGrips: Si no fue invocado por las Garras del Caos
 	InAnyInferno: En el bioma del Infierno
 	InAnyMire: En el bioma del Lodazal
 	InAnyRedMushroom: En el bioma de Champiñones Rojos
@@ -348,8 +348,8 @@ Conditions: {
 	DownedMoth: Si Polillón ha sido derrotado
 	DownedBroodmother: Si la Madre de la Camada ha sido derrotada
 	DownedHydra: Si la Hidra ha sido derrotada
-	DownedAnyLateAncient: Cualquier Anciano tardío ha sido derrotado
-	DownedAnySuperancient: Cualquier Superanciano ha sido derrotado
+	DownedAnyLateAncient: Cualquier Antiguo tardío ha sido derrotado
+	DownedAnySuperancient: Cualquier Superantiguo ha sido derrotado
 
 	LovecraftianQuest: {
 		Purity: Si se ha completado la misión de pureza del Lovecraftiano

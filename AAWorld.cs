@@ -552,12 +552,12 @@ namespace AAModClassic
             int liquidsIndex = tasks.FindIndex(genpass => genpass.Name.Equals("Settle Liquids Again"));
             if (liquidsIndex != -1)
             {
-                tasks.Insert(liquidsIndex + 1, new PassLegacy("LostKeep", delegate (GenerationProgress progress, GameConfiguration config)
+                tasks.Insert(liquidsIndex + 1, new PassLegacy("Reserve Lost Keep", delegate (GenerationProgress progress, GameConfiguration config)
                 {
                     ReserveLostKeep(progress);
                 }));
 
-                tasks.Insert(liquidsIndex + 1, new PassLegacy("Terrarium", delegate (GenerationProgress progress, GameConfiguration config)
+                tasks.Insert(liquidsIndex + 1, new PassLegacy("Reserve Terrarium", delegate (GenerationProgress progress, GameConfiguration config)
                 {
                     ReserveTerrarium(progress);
                 }));
@@ -596,12 +596,12 @@ namespace AAModClassic
                     BogwoodConvert(progress);
                 }));
 
-                tasks.Insert(shiniesIndex2 + 2, new PassLegacy("Altars", delegate (GenerationProgress progress, GameConfiguration config)
+                tasks.Insert(shiniesIndex2 + 2, new PassLegacy("Terrarium", delegate (GenerationProgress progress, GameConfiguration config)
                 {
                     Terrarium(progress);
                 }));
 
-                tasks.Insert(shiniesIndex2 + 3, new PassLegacy("Altars", delegate (GenerationProgress progress, GameConfiguration config)
+                tasks.Insert(shiniesIndex2 + 3, new PassLegacy("Lost Keep", delegate (GenerationProgress progress, GameConfiguration config)
                 {
                     LostKeep(progress);
                 }));
@@ -621,7 +621,7 @@ namespace AAModClassic
                     VoidIslands(progress);
                 }));
 
-                tasks.Insert(shiniesIndex2 + 7, new PassLegacy("Altars", delegate (GenerationProgress progress, GameConfiguration config)
+                tasks.Insert(shiniesIndex2 + 7, new PassLegacy("Chaos Altars", delegate (GenerationProgress progress, GameConfiguration config)
                 {
                     Altars(progress);
                 }));

@@ -97,7 +97,7 @@ namespace AAModClassic._Unreleased.Content.Parthenan.World.Biomes
             TexGen gen = TexGen.GetTexGenerator(ParthenanTexGenAssets.ParthenanTileData, colorToTile, ParthenanTexGenAssets.ParthenanWallData, colorToWall);
 
             gen.Generate(placementPoint.X, placementPoint.Y, true, true);
-            WorldGen.PlaceObject(placementPoint.X + 37, placementPoint.Y + 45, (ushort)ModContent.TileType<AncientDataBank_Tile>());
+            WorldGen.PlaceObject(placementPoint.X + 37, placementPoint.Y + 47, (ushort)ModContent.TileType<AncientDataBank_Tile>());
             WorldGen.PlaceChest(placementPoint.X + 32, placementPoint.Y + 47, (ushort)ModContent.TileType<StormChest_Tile>());
             WorldGen.PlaceChest(placementPoint.X + 41, placementPoint.Y + 47, (ushort)ModContent.TileType<StormChest_Tile>());
             return true;

@@ -37,7 +37,7 @@ Functional: {
 	}
 
 	RadiantArcanum: {
-		DisplayName: Arcano Radiante
+		DisplayName: Arcanum Radiante
 		Tooltip:
 			'''
 			Pídele un deseo a una estrella
@@ -80,7 +80,7 @@ Functional: {
 	}
 
 	PaladinsSmeltery: {
-		DisplayName: Forja de Fundición de Paladín
+		DisplayName: Forja de Fundición del Paladín
 		Tooltip:
 			'''
 			Esta cosa puede hacer un montón de cosas
@@ -94,7 +94,7 @@ Functional: {
 	}
 
 	SharpeningLavaFish: {
-		DisplayName: Pez de Lava de Afilado
+		DisplayName: Pez de Lava Afilador
 		Tooltip: ""
 	}
 
@@ -158,7 +158,7 @@ DoomsdayCircuitPlating: {
 }
 
 DoomstoneBrick: {
-	DisplayName: Ladrillo del Juicio Final
+	DisplayName: Ladrillo de Piedra de la Perdición
 	Tooltip: ""
 }
 
@@ -262,7 +262,7 @@ SkymarbleBrick: {
 }
 
 RoyalRabbitCage: {
-	DisplayName: Jaula de Conejo Royal
+	DisplayName: Jaula de Conejo Real
 	Tooltip: ""
 }
 
@@ -297,12 +297,12 @@ CovetiteBrickWall: {
 }
 
 GreedBrick: {
-	DisplayName: Ladrillo de Tesoro
+	DisplayName: Ladrillo del Alijo
 	Tooltip: ""
 }
 
 GreedChest: {
-	DisplayName: Cofre de la Codicia
+	DisplayName: Cofre de Avaricia
 	Tooltip: ""
 }
 
@@ -312,7 +312,7 @@ GreedLantern: {
 }
 
 GreedStone: {
-	DisplayName: Piedra de Tesoro
+	DisplayName: Piedra del Alijo
 	Tooltip: ""
 }
 
@@ -337,7 +337,7 @@ RazewoodWall: {
 }
 
 DragonfireTorch: {
-	DisplayName: Antorcha de Fuego Dragón
+	DisplayName: Antorcha de Fuego de Dragón
 	Tooltip: ""
 }
 
@@ -372,17 +372,17 @@ InfernoChest: {
 }
 
 ScorchedDynastyWood: {
-	DisplayName: Madera de Dinastía Chamuscada
+	DisplayName: Madera Dinástica Chamuscada
 	Tooltip: ""
 }
 
 ScorchedDynastyWoodUnsafe: {
-	DisplayName: Madera de Dinastía Chamuscada Insegura
+	DisplayName: Madera Dinástica Chamuscada Insegura
 	Tooltip: ""
 }
 
 ScorchedShingles: {
-	DisplayName: Tejas Chamuscadas
+	DisplayName: Tejuelas Chamuscadas
 	Tooltip: ""
 }
 
@@ -392,27 +392,27 @@ TorchAsh: {
 }
 
 Torchice: {
-	DisplayName: Hielo Naranja
+	DisplayName: Bloque de Hielo Naranja
 	Tooltip: ""
 }
 
 Torchsand: {
-	DisplayName: Arena de Antorcha
+	DisplayName: Bloque de Arena Antorchal
 	Tooltip: ""
 }
 
 TorchsandHardened: {
-	DisplayName: Arena de Antorcha Endurecida
+	DisplayName: Bloque de Arena Antorchal Endurecida
 	Tooltip: ""
 }
 
 Torchsandstone: {
-	DisplayName: Arenisca de Antorcha
+	DisplayName: Bloque de Arenisca Antorchal
 	Tooltip: ""
 }
 
 Torchstone: {
-	DisplayName: Piedra de Antorcha
+	DisplayName: Bloque de Piedra Antorchal
 	Tooltip: Cálida al tacto
 }
 
@@ -422,22 +422,22 @@ AbyssiumBrick: {
 }
 
 Bogwood: {
-	DisplayName: Madera de Pantano
+	DisplayName: Madera del Lodazal
 	Tooltip: ""
 }
 
 BogwoodWall: {
-	DisplayName: Pared de Madera de Pantano
+	DisplayName: Pared de Madera del Lodazal
 	Tooltip: ""
 }
 
 BogtoxinTorch: {
-	DisplayName: Antorcha de Toxina de Pantano
+	DisplayName: Antorcha de Toxina del Lodazal
 	Tooltip: ""
 }
 
 DreadMoonAltar: {
-	DisplayName: Altar de la Luna de Pavor
+	DisplayName: Altar de la Luna del Terror
 	Tooltip: ""
 }
 
@@ -447,17 +447,17 @@ DreadMoonAltarA: {
 }
 
 EventideAbyssiumBrick: {
-	DisplayName: Ladrillo del Atardecer
+	DisplayName: Ladrillo del Anochecer
 	Tooltip: ""
 }
 
 EventideBrickWall: {
-	DisplayName: Pared de Ladrillos del Atardecer
+	DisplayName: Pared de Ladrillos del Anochecer
 	Tooltip: ""
 }
 
 EventideTorch: {
-	DisplayName: Antorcha del Atardecer
+	DisplayName: Antorcha del Anochecer
 	Tooltip: ""
 }
 
@@ -467,32 +467,32 @@ MireChest: {
 }
 
 Darkmud: {
-	DisplayName: Lodo Oscuro
+	DisplayName: Bloque de Lodo Oscuro
 	Tooltip: ""
 }
 
 Depthsand: {
-	DisplayName: Arena de las Profundidades
+	DisplayName: Bloque de Arena Profunda
 	Tooltip: ""
 }
 
 DepthsandHardened: {
-	DisplayName: Arena de las Profundidades Endurecida
+	DisplayName: Bloque de Arena Profunda Endurecida
 	Tooltip: ""
 }
 
 Depthsandstone: {
-	DisplayName: Arenisca de las Profundidades
+	DisplayName: Bloque de Arenisca Profunda
 	Tooltip: ""
 }
 
 Depthstone: {
-	DisplayName: Piedra de las Profundidades
-	Tooltip: Dank
+	DisplayName: Bloque de Piedra Profunda
+	Tooltip: Húmeda
 }
 
 IndigoIce: {
-	DisplayName: Hielo Índigo
+	DisplayName: Bloque de Hielo Índigo
 	Tooltip: ""
 }
 
@@ -577,17 +577,17 @@ DoomsdayPlatingWall: {
 }
 
 DoomstoneBrickWall: {
-	DisplayName: Pared de Ladrillos de Piedra del Juicio Final
+	DisplayName: Pared de Ladrillos de Piedra de de la Perdición
 	Tooltip: ""
 }
 
 DoomstoneB: {
-	DisplayName: Piedra del Juicio Final
+	DisplayName: Bloque de Piedra de la Perdición
 	Tooltip: ""
 }
 
 Doomstone: {
-	DisplayName: Piedra del Juicio Final Cargada
+	DisplayName: Bloque de Piedra de la Perdición Cargada
 	Tooltip: ""
 }
 
@@ -602,7 +602,7 @@ DoomitePlatingWall: {
 }
 
 KeepBrick: {
-	DisplayName: Ladrillo de Keep
+	DisplayName: Ladrillo del Bastión
 	Tooltip: ""
 }
 
@@ -653,7 +653,7 @@ HotJPainting: {
 
 IZPainting: {
 	DisplayName: Ojo del Infinito
-	Tooltip: "'Todavía atormenta mi pesadilla...'"
+	Tooltip: "'Todavía atormenta mis pesadillas...'"
 }
 
 JojoBagginsPainting: {
@@ -692,7 +692,7 @@ SanguinePainting: {
 }
 
 ShenPainting: {
-	DisplayName: Profeta del Juicio Final de la Discordia
+	DisplayName: Profeta del Apocalipsis Discordiano
 	Tooltip: "'Lo sellé, pero la cosa sobre contener el caos para siempre... es que no se puede.'"
 }
 
@@ -742,12 +742,12 @@ TerraBrick: {
 }
 
 RottedDynastyWood: {
-	DisplayName: Madera de Dinastía Podrida
+	DisplayName: Madera Dinástica Podrida
 	Tooltip: Es blandita
 }
 
 RottedShingles: {
-	DisplayName: Tejas Podridas
+	DisplayName: Tejuelas Podridas
 	Tooltip: ""
 }
 
@@ -777,7 +777,7 @@ StormChest: {
 }
 
 LivingBogtoxinBlock: {
-	DisplayName: Bloque de Bogtoxina Viviente
+	DisplayName: Bloque de Toxina del Lodazal Viviente
 	Tooltip: ""
 }
 
@@ -787,6 +787,6 @@ LivingDragonFireBlock: {
 }
 
 ScorchedDynastyWoodWall: {
-	DisplayName: Pared de Madera de Dinastía Abrasada
+	DisplayName: Pared de Madera Dinástica Abrasada
 	Tooltip: ""
 }

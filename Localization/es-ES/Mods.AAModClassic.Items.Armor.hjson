@@ -2,32 +2,32 @@ ChaosSlayer: {
 	SharedFlavorText: "'El poder de la rabia discordante irradia de esta armadura'"
 
 	ChaosSlayerChestplate: {
-		DisplayName: Placa de Cazacaos
+		DisplayName: Placa del Asesino del Caos
 		Tooltip: "{$Armor.ChaosSlayer.SharedFlavorText}"
 	}
 
 	ChaosSlayerHelmetMage: {
-		DisplayName: Capucha de Cazacaos
+		DisplayName: Capucha del Asesino del Caos
 		Tooltip: "{$Armor.ChaosSlayer.SharedFlavorText}"
 	}
 
 	ChaosSlayerHelmetMelee: {
-		DisplayName: Kabuto de Cazacaos
+		DisplayName: Kabuto del Asesino del Caos
 		Tooltip: "{$Armor.ChaosSlayer.SharedFlavorText}"
 	}
 
 	ChaosSlayerHelmetRanged: {
-		DisplayName: Visor de Cazacaos
+		DisplayName: Visor del Asesino del Caos
 		Tooltip: "{$Armor.ChaosSlayer.SharedFlavorText}"
 	}
 
 	ChaosSlayerHelmetSummoner: {
-		DisplayName: Máscara de Cazacaos
+		DisplayName: Máscara del Asesino del Caos
 		Tooltip: "{$Armor.ChaosSlayer.SharedFlavorText}"
 	}
 
 	ChaosSlayerLeggings: {
-		DisplayName: Grebas de Cazacaos
+		DisplayName: Grebas del Asesino del Caos
 		Tooltip: "{$Armor.ChaosSlayer.SharedFlavorText}"
 	}
 }
@@ -121,7 +121,7 @@ Radium: {
 	SharedFlavorText: "'Brilla con la luz de un cielo nocturno estrellado'"
 
 	RadiumChestplate: {
-		DisplayName: Armadura de Placas de Radio
+		DisplayName: Coraza de Placas de Radio
 		Tooltip: "{$Armor.Radium.SharedFlavorText}"
 	}
 
@@ -172,7 +172,7 @@ Doomsday: {
 	SharedFlavorText: "'El poder para destruir planetas enteros descansa en esta armadura'"
 
 	DoomsdayChestplate: {
-		DisplayName: Armadura de Asalto del Juicio Final
+		DisplayName: Coraza de Asalto del Juicio Final
 		Tooltip: "{$Armor.Doomsday.SharedFlavorText}"
 	}
 
@@ -196,34 +196,34 @@ InfinitySlayer: {
 	SharedFlavorText: "'Poder e inquina infinitos fluyen a través de esta armadura'"
 
 	InfinitySlayerChestplate: {
-		DisplayName: Coraza de Cazainfinito
+		DisplayName: Coraza del Asesino del Infinito
 		Tooltip: "{$Armor.InfinitySlayer.SharedFlavorText}"
 	}
 
 	InfinitySlayerHelmet: {
-		DisplayName: Visor de Cazainfinito
+		DisplayName: Visor del Asesino del Infinito
 		Tooltip: "{$Armor.InfinitySlayer.SharedFlavorText}"
 	}
 
 	InfinitySlayerLeggings: {
-		DisplayName: Grebas de Cazainfinito
+		DisplayName: Grebas del Asesino del Infinito
 		Tooltip: "{$Armor.InfinitySlayer.SharedFlavorText}"
 	}
 }
 
 StripemansLucky: {
 	StripemansLuckyChestplate: {
-		DisplayName: Camisa de la Suerte de Stripeman
+		DisplayName: Camisa de la Suerte del Bufón
 		Tooltip: ""
 	}
 
 	StripemansLuckyHelmet: {
-		DisplayName: Sombrero de la Suerte de Stripeman
+		DisplayName: Sombrero de la Suerte del Bufón
 		Tooltip: ""
 	}
 
 	StripemansLuckyLeggings: {
-		DisplayName: Pantalones de la Suerte de Stripeman
+		DisplayName: Pantalones de la Suerte del Bufón
 		Tooltip: ""
 	}
 }
@@ -249,17 +249,17 @@ HoppingHoodlum: {
 	SharedFlavorText: "'Furioso a más no poder'"
 
 	HoppingHoodlumChestplate: {
-		DisplayName: Camisa de Rufián Saltador
+		DisplayName: Camisa del Rufián Saltador
 		Tooltip: "{$Armor.HoppingHoodlum.SharedFlavorText}"
 	}
 
 	HoppingHoodlumHelmet: {
-		DisplayName: Capucha de Rufián Saltador
+		DisplayName: Capucha del Rufián Saltador
 		Tooltip: "{$Armor.HoppingHoodlum.SharedFlavorText}"
 	}
 
 	HoppingHoodlumLeggings: {
-		DisplayName: Garras de Rufián Saltador
+		DisplayName: Garras del Rufián Saltador
 		Tooltip: "{$Armor.HoppingHoodlum.SharedFlavorText}"
 	}
 }
@@ -268,12 +268,12 @@ Champion: {
 	SharedFlavorText: "'La armadura de un campeón temido por todo el territorio'"
 
 	ChampionChestplate: {
-		DisplayName: Coraza de Campeón
+		DisplayName: Coraza del Campeón
 		Tooltip: "{$Armor.Champion.SharedFlavorText}"
 	}
 
 	ChampionHelmetMage: {
-		DisplayName: Capucha de Campeón
+		DisplayName: Capucha del Campeón
 		Tooltip: "{$Armor.Champion.SharedFlavorText}"
 	}
 
@@ -283,58 +283,58 @@ Champion: {
 	}
 
 	ChampionHelmetRanged: {
-		DisplayName: Máscara de Campeón
+		DisplayName: Máscara del Campeón
 		Tooltip: "{$Armor.Champion.SharedFlavorText}"
 	}
 
 	ChampionHelmetSummoner: {
-		DisplayName: Tocado de Campeón
+		DisplayName: Tocado del Campeón
 		Tooltip: "{$Armor.Champion.SharedFlavorText}"
 	}
 
 	ChampionLeggings: {
-		DisplayName: Grebas de Campeón
+		DisplayName: Grebas del Campeón
 		Tooltip: "{$Armor.Champion.SharedFlavorText}"
 	}
 }
 
 FuryWitchs: {
 	FuryWitchsChestplate: {
-		DisplayName: Coraza de Bruja de la Furia
+		DisplayName: Coraza de la Bruja de la Furia
 		Tooltip: "'Un vestido encantado con el espíritu ardiente de un acólito de dragón supremo'"
 	}
 
 	FuryWitchsHelmet: {
-		DisplayName: Capucha de Bruja de la Furia
+		DisplayName: Capucha de la Bruja de la Furia
 		Tooltip: "'Una capucha encantada con el espíritu ardiente de un acólito de dragón supremo'"
 	}
 
 	FuryWitchsLeggings: {
-		DisplayName: Botas de Bruja de la Furia
+		DisplayName: Botas de la Bruja de la Furia
 		Tooltip: "'Botas encantadas con el espíritu ardiente de un acólito de dragón supremo'"
 	}
 }
 
 MidnightAssassin: {
 	MidnightAssassinChestplate: {
-		DisplayName: Coraza de Asesino de la Medianoche
+		DisplayName: Coraza del Asesino de la Medianoche
 		Tooltip: "'Una coraza oscura infundida con la sombra de la medianoche'"
 	}
 
 	MidnightAssassinHelmet: {
-		DisplayName: Capucha de Asesino de la Medianoche
+		DisplayName: Capucha del Asesino de la Medianoche
 		Tooltip: "'Una capucha oscura infundida con la sombra de la medianoche'"
 	}
 
 	MidnightAssassinLeggings: {
-		DisplayName: Botas de Asesino de la Medianoche
+		DisplayName: Botas del Asesino de la Medianoche
 		Tooltip: "'Botas oscuras infundidas con la sombra de la medianoche'"
 	}
 }
 
 Nights: {
 	NightsChestplate: {
-		DisplayName: Armadura de Placas de la Noche
+		DisplayName: Coraza de Placas de la Noche
 		Tooltip: ""
 	}
 
@@ -419,18 +419,18 @@ GlowingMushium: {
 
 GoblinSlayers: {
 	GoblinSlayersChestplate: {
-		DisplayName: Coraza de Cazagoblins
-		Tooltip: Un odio inmenso hacia los goblins atormenta esta coraza
+		DisplayName: Coraza del Asesino de Duendes
+		Tooltip: Un odio inmenso hacia los duendes atormenta esta coraza
 	}
 
 	GoblinSlayersHelmet: {
-		DisplayName: Casco de Cazagoblins
-		Tooltip: Un odio inmenso hacia los goblins atormenta este casco
+		DisplayName: Casco del Asesino de Duendes
+		Tooltip: Un odio inmenso hacia los duendes atormenta este casco
 	}
 
 	GoblinSlayersLeggings: {
-		DisplayName: Grebas de Cazagoblins
-		Tooltip: Un odio inmenso hacia los goblins atormenta estas grebas
+		DisplayName: Grebas del Asesino de Duendes
+		Tooltip: Un odio inmenso hacia los duendes atormenta estas grebas
 	}
 }
 
@@ -571,7 +571,7 @@ Chlorophyte: {
 	}
 
 	ChlorophyteHelmetSummoner2: {
-		DisplayName: Pintura Facial de Terra
+		DisplayName: Pintura Facial Terra
 		Tooltip: ""
 	}
 }
@@ -597,17 +597,17 @@ Abyssal: {
 
 Bogwood: {
 	BogwoodChestplate: {
-		DisplayName: Coraza de Madera de Pantano
+		DisplayName: Coraza de Madera del Lodazal
 		Tooltip: ""
 	}
 
 	BogwoodHelmet: {
-		DisplayName: Casco de Madera de Pantano
+		DisplayName: Casco de Madera del Lodazal
 		Tooltip: ""
 	}
 
 	BogwoodLeggings: {
-		DisplayName: Botas de Madera de Pantano
+		DisplayName: Botas de Madera del Lodazal
 		Tooltip: ""
 	}
 }
@@ -635,17 +635,17 @@ DreadMoon: {
 	SharedFlavorText: "'La ira abisal del Mire descansa en esta armadura'"
 
 	DreadMoonChestplate: {
-		DisplayName: Gi de la Luna del Pavor
+		DisplayName: Gi de la Luna del Terror
 		Tooltip: "{$Armor.DreadMoon.SharedFlavorText}"
 	}
 
 	DreadMoonHelmet: {
-		DisplayName: Fukumen de la Luna del Pavor
+		DisplayName: Fukumen de la Luna del Terror
 		Tooltip: "{$Armor.DreadMoon.SharedFlavorText}"
 	}
 
 	DreadMoonLeggings: {
-		DisplayName: Hakama de la Luna del Pavor
+		DisplayName: Hakama de la Luna del Terror
 		Tooltip: "{$Armor.DreadMoon.SharedFlavorText}"
 	}
 }
@@ -705,24 +705,24 @@ Mushium: {
 
 Raider: {
 	RaiderChestplate: {
-		DisplayName: Coraza de Invasor
+		DisplayName: Coraza del Invasor
 		Tooltip: ""
 	}
 
 	RaiderHelmet: {
-		DisplayName: Casco de Invasor
+		DisplayName: Casco del Invasor
 		Tooltip: ""
 	}
 
 	RaiderLeggings: {
-		DisplayName: Grebas de Invasor
+		DisplayName: Grebas del Invasor
 		Tooltip: ""
 	}
 }
 
 Viking: {
 	VikingChestplate: {
-		DisplayName: Cota de Mallas Vikinga
+		DisplayName: Cota de Malla Vikinga
 		Tooltip: ""
 	}
 
@@ -739,44 +739,44 @@ Viking: {
 
 Terra: {
 	TerraChestplate: {
-		DisplayName: Coraza de Terra
+		DisplayName: Coraza Terra
 		Tooltip: ""
 	}
 
 	TerraHelmetMage: {
-		DisplayName: Capucha de Terra
+		DisplayName: Capucha Terra
 		Tooltip: ""
 	}
 
 	TerraHelmetMelee: {
-		DisplayName: Yelmo de Terra
+		DisplayName: Yelmo Terra
 		Tooltip: ""
 	}
 
 	TerraHelmetRanged: {
-		DisplayName: Visor de Terra
+		DisplayName: Visor Terra
 		Tooltip: ""
 	}
 
 	TerraHelmetSummoner: {
-		DisplayName: Máscara de Terra
+		DisplayName: Máscara Terra
 		Tooltip: ""
 	}
 
 	TerraLeggings: {
-		DisplayName: Grebas de Terra
+		DisplayName: Grebas Terra
 		Tooltip: ""
 	}
 
 	TerraHelmetMageTest: {
-		DisplayName: Capucha de Terra
+		DisplayName: Capucha Terra
 		Tooltip: ""
 	}
 }
 
 AncientGold: {
 	AncientGoldChestplate: {
-		DisplayName: Cota de Mallas de Oro Antiguo
+		DisplayName: Cota de Malla de Oro Antiguo
 		Tooltip: ""
 	}
 

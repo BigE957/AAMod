@@ -95,7 +95,7 @@ TheBookOfTheLaw_InvokedCaligula: {
 
 ConflagrateScythe_Buff: {
 	DisplayName: Súbdito de Ender EX
-	Description: Invoca un constructo de terra para que luche por ti
+	Description: Invoca un constructo terra para que luche por ti
 }
 
 OmenStaff_Buff: {
@@ -485,7 +485,7 @@ HydraToxin_Buff: {
 }
 
 Moonraze_Buff: {
-	DisplayName: Arrasamiento Lunar
+	DisplayName: Desgarro Lunar
 	Description: Incinerado por rayos lunares
 }
 
@@ -530,22 +530,22 @@ RadiumInferno_Buff: {
 }
 
 TerraHelmetMageSetEffect_TerraRoseCooldown: {
-	DisplayName: Enfriamiento de Rosa de Terra
+	DisplayName: Enfriamiento de Rosa Terra
 	Description: No se pueden plantar rosas en este momento...
 }
 
 TerraHelmetSummonerSetEffect_Buff: {
-	DisplayName: Cristal de Terra
+	DisplayName: Cristal Terra
 	Description: Dispara orbes a los enemigos cercanos, si así lo deseas
 }
 
 TerraStaff_Buff: {
-	DisplayName: Mago de Terra
+	DisplayName: Mago Terra
 	Description: Magia
 }
 
 TerraGauntlet_Buff: {
-	DisplayName: Esbirros de Terra
+	DisplayName: Esbirros Terra
 	Description: Un despliegue de constructos de la unidad a tu disposición
 }
 
@@ -555,7 +555,7 @@ Terrablaze_Buff: {
 }
 
 TerrasGuidance_Buff: {
-	DisplayName: Guía de Terra
+	DisplayName: Guía Terra
 	Description: Tus pies brillan con el poder del terrario, previniendo el daño por caída
 }
 
@@ -615,12 +615,12 @@ ZeroCore_Buff: {
 }
 
 DoomPortal_Buff: {
-	DisplayName: PR0T0C0L0 D00M
+	DisplayName: PR0T0C0L0 PERDICI0N
 	Description: Invoca un bebé PR0T0C0L0 ZER0 para que luche por ti
 }
 
 CyberneticEgg_Buff: {
-	DisplayName: Minirraid
+	DisplayName: Miniasaltante
 	Description: Bot pequeñito
 }
 

@@ -46,7 +46,7 @@ Quests: {
 				Complete: ...¿eso fue todo?
 			}
 
-			Tasks: - Derrota al Monarca de los Champiñones
+			Tasks: - Derrota al Monarca Fúngico
 		}
 
 		FeudalFungus: {
@@ -112,7 +112,7 @@ Quests: {
 				Complete: ¡Espero que no te hayas cogido una "CONGELACIÓN"! *badum-tss*... sí, ya sé que eso fue malo.
 			}
 
-			Tasks: - Derrota a la Serpiente Bajo Cero
+			Tasks: - Derrota a la Serpiente Subcero
 		}
 
 		Sagittarius: {
@@ -134,7 +134,7 @@ Quests: {
 				Complete: ¿Por casualidad recuperaste mi tercera edición de "¡La vida y épicas aventuras de Anubis, el perro maravilla!"?
 			}
 
-			Tasks: - Derrota al Retriever
+			Tasks: - Derrota al Recolector
 		}
 
 		OrthrusX: {
@@ -225,7 +225,7 @@ Quests: {
 				Complete: ¿Eh? ¿Que qué es un Varian, preguntas? Es algo que no he oído en años... hace tanto que apenas recuerdo el nombre. Aunque sí recuerdo algo sobre otro pululando por ahí...
 			}
 
-			Tasks: - Derrota a Atenea la Olímpica
+			Tasks: - Derrota a Atenea Olímpica
 		}
 
 		GreedA: {
@@ -291,7 +291,7 @@ Quests: {
 				Complete: ...Te seré sincero. No me gusta nada de nada lo que dijo esa cosa después de morir.
 			}
 
-			Tasks: - Derrota a Zero
+			Tasks: - Derrota a Cero
 		}
 
 		Shen: {
@@ -309,11 +309,11 @@ Quests: {
 			Name: Malicia Mecánica
 
 			Description: {
-				Incomplete: Oye, ¿te acuerdas de lo que soltaba Zero después de que lo desmontaras? Sí... Bueno, resulta que teníamos razón al preocuparnos. Una máquina enorme se ha teletransportado al vacío a través de la gran brecha que probablemente habrás notado. Iría con cuidado si planeas curiosear por ahí próximamente...
+				Incomplete: Oye, ¿te acuerdas de lo que soltaba Cero después de que lo desmontaras? Sí... Bueno, resulta que teníamos razón al preocuparnos. Una máquina enorme se ha teletransportado al vacío a través de la gran brecha que probablemente habrás notado. Iría con cuidado si planeas curiosear por ahí próximamente...
 				Complete: Vaya... ¿Has derrotado a esa cosa? Había algo viviente dentro, ¿eh? ¿Y dices que solo quería que lo dejaran en paz? No puede ser... No será que... Eh, mejor nos preocupamos de eso más tarde.
 			}
 
-			Tasks: - Derrota a Infinity Zero
+			Tasks: - Derrota a Cero Infinito
 		}
 
 		SoulOfCthulhu: {

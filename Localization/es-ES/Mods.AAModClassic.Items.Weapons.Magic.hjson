@@ -36,18 +36,18 @@ NovaFlare: {
 }
 
 PrismeowSpectrum: {
-	DisplayName: Espectro de Prismeow
+	DisplayName: Espectro de Prismiau
 	Tooltip:
 		'''
 		Invoca a un Gato Arcoíris Legendario en la posición del cursor
 		Dispara Rayos Arcoíris que se mueven en la dirección de tu cursor
 		Advertencia: ¡Usar esto HARÁ que tu juego se ralentice!
-		Prismeow EX
+		Prismiau EX
 		'''
 }
 
 Prismeow: {
-	DisplayName: Prismeow
+	DisplayName: Prismiau
 	Tooltip:
 		'''
 		Dispara gatos arcoíris
@@ -147,7 +147,7 @@ DuckstepLauncher: {
 }
 
 Placeholder: {
-	DisplayName: Marcador de posición
+	DisplayName: Marcador de Posición
 	Tooltip:
 		'''
 		'Morirán SoonTM'
@@ -219,13 +219,13 @@ StarburstWand: {
 	Tooltip:
 		'''
 		Mantén presionado para cargar la vara
-		Vara de Chispa EX
+		Varita de Chispas EX
 		'''
 }
 
 SubzeroStormStaff: {
 	DisplayName: Báculo de Tormenta Subcero
-	Tooltip: Báculo de Ventisca EX
+	Tooltip: Báculo de la Ventisca EX
 }
 
 FlamingGelWand: {
@@ -249,7 +249,7 @@ TrueGong: {
 }
 
 AncientArcanum: {
-	DisplayName: Arcano Ancestral
+	DisplayName: Arcanum Ancestral
 	Tooltip: Libera un quásar miniatura teledirigido que explota al impactar con un enemigo
 }
 
@@ -317,7 +317,7 @@ ForsakenStaff: {
 }
 
 MushrockStaff: {
-	DisplayName: Báculo de Rocahongo
+	DisplayName: Báculo de Fúngiroca
 	Tooltip: ""
 }
 
@@ -463,7 +463,7 @@ NeutronRod: {
 }
 
 DoomStaff: {
-	DisplayName: Báculo del Destino
+	DisplayName: Báculo de la Perdición
 	Tooltip: ""
 }
 

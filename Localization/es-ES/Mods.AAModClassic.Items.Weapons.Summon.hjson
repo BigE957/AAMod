@@ -22,7 +22,7 @@ SolarStaff: {
 	Tooltip:
 		'''
 		Hace llover fuego y furia sobre tus enemigos
-		Inflige Desgarrado
+		Inflige Desgarro Solar
 		'''
 }
 
@@ -71,7 +71,7 @@ BlizzardDragonStaff: {
 	Tooltip:
 		'''
 		Invoca un dragón de ventisca para que luche por ti
-		Báculo de Hidra EX
+		Báculo de la Hidra de Escarcha EX
 		'''
 }
 
@@ -102,7 +102,7 @@ SoccOnAStick: {
 
 CottonCane: {
 	DisplayName: Bastón de Algodón
-	Tooltip: Invoca a un Conejo Soldado en Helicóptero para que luche contigo
+	Tooltip: Invoca a un Conejo Soldado Helicóptero para que luche contigo
 }
 
 RajahsRage: {
@@ -136,13 +136,13 @@ ChaosBaton: {
 }
 
 DemoniteStaff: {
-	DisplayName: Báculo de Demonita
+	DisplayName: Báculo Endemoniado
 	Tooltip: Invoca a un devorador para que luche contigo
 }
 
 CrimeraStaff: {
-	DisplayName: Báculo de Crimera
-	Tooltip: Invoca a una Crimera para que luche contigo
+	DisplayName: Báculo de Carmebicho
+	Tooltip: Invoca a un carmebicho para que luche contigo
 }
 
 SandScepter: {
@@ -162,7 +162,7 @@ HorusCane: {
 
 SkullWand: {
 	DisplayName: Varita de Cráneo
-	Tooltip: Invoca a un cráneo de mazmorra para que luche contigo
+	Tooltip: Invoca a un cráneo de la mazmorra para que luche contigo
 }
 
 HallowStaff: {
@@ -196,8 +196,8 @@ DragonsPike: {
 }
 
 AncientLungStaff: {
-	DisplayName: Báculo de Pulmón Ancestral
-	Tooltip: Invoca a un pulmón ancestral para que luche por ti
+	DisplayName: Báculo de Dragón Antiguo
+	Tooltip: Invoca a un Dragón Antiguo para que luche por ti
 }
 
 HydraStaff: {
@@ -250,8 +250,8 @@ OverloadedDoomiteRadio: {
 }
 
 DoomPortal: {
-	DisplayName: Portal del Destino
-	Tooltip: Invoca un pequeño Protocolo del Destino para que luche por ti
+	DisplayName: Portal de la Perdición
+	Tooltip: Invoca un pequeño Protocolo de la Perdición para que luche por ti
 }
 
 DapperAcorn: {
