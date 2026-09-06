@@ -56,7 +56,7 @@ namespace AAModClassic._Unreleased.Content.Mire.World.Tiles
             }
             else
             {
-                ModernMireGrassTileID = ContentReplacementSystem.NewAA.Find<ModTile>("MireGrassTile").Type;
+                ModernMireGrassTileID = ContentReplacementSystem.NewAA.Find<ModTile>("MireGrass").Type;
 
                 TileObjectData.newTile.AnchorValidTiles = new int[]
                 {
