@@ -1,6 +1,5 @@
 using AAModClassic._Content._Misc.__Hardmode.Items.Materials.Mushrooms;
 using AAModClassic._Content._Misc._PostMoonlord.Items.Consumables;
-using AAModClassic._Content.Inferno._PostMoonlord.Items.Materials;
 using AAModClassic._Content.RedMushroom.___PreHardmode.Items.Consumables;
 using AAModClassic._Content.RedMushroom.___PreHardmode.Items.Quest;
 using AAModClassic._Content.RedMushroom.___PreHardmode.NPCs.__BossMushroomMonarch;
@@ -10,7 +9,6 @@ using AAModClassic.Achievements;
 using AAModClassic.Utilities;
 using AAModClassic.Utilities.AbstractsLikeDigitalCircus.Items;
 using System.Collections.Generic;
-using Terraria;
 using Terraria.Audio;
 using Terraria.GameContent.ItemDropRules;
 using Terraria.GameContent.Personalities;
@@ -121,7 +119,7 @@ namespace AAModClassic._Content.RedMushroom.___PreHardmode.NPCs.Friendly
         {
             MushmanEncountered.Condition.Complete();
 
-            WeightedRandom<string> chat = new WeightedRandom<string>();
+            WeightedRandom<string> chat = new();
 
             int Truffle = NPC.FindFirstNPC(NPCID.Truffle);
             if (Truffle >= 0 && Main.rand.NextBool(4))
@@ -183,7 +181,18 @@ namespace AAModClassic._Content.RedMushroom.___PreHardmode.NPCs.Friendly
                 int DyePink = player.FindItem(ItemID.PinkPricklyPear);
                 int DyeGray = player.FindItem(ItemID.BlackInk);
 
-                string[] lootTable = { "Red", "Orange", "Yellow", "Green", "Blue", "Purple", "Gray", "Pink", "Brown" };
+                int[] lootTable = 
+                { 
+                    ModContent.ItemType<RedAlchemicalMushroom>(),
+                    ModContent.ItemType<OrangeAlchemicalMushroom>(),
+                    ModContent.ItemType<YellowAlchemicalMushroom>(),
+                    ModContent.ItemType<GreenAlchemicalMushroom>(),
+                    ModContent.ItemType<BlueAlchemicalMushroom>(),
+                    ModContent.ItemType<PurpleAlchemicalMushroom>(),
+                    ModContent.ItemType<GrayAlchemicalMushroom>(),
+                    ModContent.ItemType<PinkAlchemicalMushroom>(),
+                    ModContent.ItemType<BrownAlchemicalMushroom>(),
+                };
                 int loot = Main.rand.Next(lootTable.Length);
 
                 if (Special >= 0)
@@ -209,7 +218,7 @@ namespace AAModClassic._Content.RedMushroom.___PreHardmode.NPCs.Friendly
                     }
 
                     Main.npcChatText = MushroomChat();
-                    player.QuickSpawnItem(NPC.GetSource_GiftOrReward(), Mod.Find<ModItem>(lootTable[loot]).Type, 5);
+                    player.QuickSpawnItem(NPC.GetSource_GiftOrReward(), lootTable[loot], 5);
 
                     SoundEngine.PlaySound(SoundID.Chat);
                     return;
@@ -223,7 +232,7 @@ namespace AAModClassic._Content.RedMushroom.___PreHardmode.NPCs.Friendly
                     }
 
                     Main.npcChatText = MushroomChat();
-                    player.QuickSpawnItem(NPC.GetSource_GiftOrReward(), Mod.Find<ModItem>(lootTable[loot]).Type, 5);
+                    player.QuickSpawnItem(NPC.GetSource_GiftOrReward(), lootTable[loot], 5);
 
                     SoundEngine.PlaySound(SoundID.Chat);
                     return;
@@ -237,7 +246,7 @@ namespace AAModClassic._Content.RedMushroom.___PreHardmode.NPCs.Friendly
                     }
 
                     Main.npcChatText = MushroomChat();
-                    player.QuickSpawnItem(NPC.GetSource_GiftOrReward(), Mod.Find<ModItem>(lootTable[loot]).Type, 5);
+                    player.QuickSpawnItem(NPC.GetSource_GiftOrReward(), lootTable[loot], 5);
 
                     SoundEngine.PlaySound(SoundID.Chat);
                     return;
@@ -251,7 +260,7 @@ namespace AAModClassic._Content.RedMushroom.___PreHardmode.NPCs.Friendly
                     }
 
                     Main.npcChatText = MushroomChat();
-                    player.QuickSpawnItem(NPC.GetSource_GiftOrReward(), Mod.Find<ModItem>(lootTable[loot]).Type, 5);
+                    player.QuickSpawnItem(NPC.GetSource_GiftOrReward(), lootTable[loot], 5);
 
                     SoundEngine.PlaySound(SoundID.Chat);
                     return;
@@ -449,7 +458,7 @@ namespace AAModClassic._Content.RedMushroom.___PreHardmode.NPCs.Friendly
 
         public static string NoMushroomChat()
         {
-            WeightedRandom<string> chat = new WeightedRandom<string>();
+            WeightedRandom<string> chat = new();
             chat.Add(Language.GetTextValue("Mods.AAModClassic.NPCs.TownNPCs.Mushman.NoMushroomChat1"));
             chat.Add(Language.GetTextValue("Mods.AAModClassic.NPCs.TownNPCs.Mushman.NoMushroomChat2"));
             chat.Add(Language.GetTextValue("Mods.AAModClassic.NPCs.TownNPCs.Mushman.NoMushroomChat3"));
@@ -458,7 +467,7 @@ namespace AAModClassic._Content.RedMushroom.___PreHardmode.NPCs.Friendly
 
         public static string SpecialChat()
         {
-            WeightedRandom<string> chat = new WeightedRandom<string>();
+            WeightedRandom<string> chat = new();
             chat.Add(Language.GetTextValue("Mods.AAModClassic.NPCs.TownNPCs.Mushman.SpecialChat1"));
             chat.Add(Language.GetTextValue("Mods.AAModClassic.NPCs.TownNPCs.Mushman.SpecialChat2"));
             chat.Add(Language.GetTextValue("Mods.AAModClassic.NPCs.TownNPCs.Mushman.SpecialChat3"));
@@ -467,7 +476,7 @@ namespace AAModClassic._Content.RedMushroom.___PreHardmode.NPCs.Friendly
 
         public static string MushroomChat()
         {
-            WeightedRandom<string> chat = new WeightedRandom<string>();
+            WeightedRandom<string> chat = new();
             chat.Add(Language.GetTextValue("Mods.AAModClassic.NPCs.TownNPCs.Mushman.MushroomChat1"));
             chat.Add(Language.GetTextValue("Mods.AAModClassic.NPCs.TownNPCs.Mushman.MushroomChat2"));
             chat.Add(Language.GetTextValue("Mods.AAModClassic.NPCs.TownNPCs.Mushman.MushroomChat3"));
