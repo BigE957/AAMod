@@ -162,7 +162,7 @@ DivineWindStone_OwlRune.DisplayName: Runa de búho de piedra de viento divino
 GaleOfWings_Tornado.DisplayName: Tornado de vendaval de alas
 RazorwindLongbow_WindArrow.DisplayName: Flecha de viento de arco largo cortavientos
 SkycutterKopis_Skyblade.DisplayName: Hoja celestial de kopis cortacielos
-GoddessHarp_Athena.DisplayName: Athena
+GoddessHarp_Athena.DisplayName: Atenea
 GoddessHarp_RazorGust.DisplayName: Ráfaga cortante
 GoddessHarp_VarianBurst.DisplayName: Ráfaga de Varian
 HurricaneStone_OlympianStorm.DisplayName: Tormenta olímpica
@@ -196,7 +196,7 @@ RajahRabbit_Raboom.DisplayName: Rabum
 RajahRabbit_RajahRocket.DisplayName: Cohete de Rajah
 RajahRabbit_Stomp.DisplayName: Pisotón
 RajahRabbit_ThePunisher.DisplayName: El Castigador
-RajahRabbitBookIt.DisplayName: Conejo Rajah
+RajahRabbitBookIt.DisplayName: Rajah Rabbit
 BaneOfTheSlaughterer_Holdout.DisplayName: Plaga del carnicero
 BaneOfTheSlaughterer_Proj.DisplayName: Plaga del carnicero
 Excalihare_Boom.DisplayName: Excalihare
@@ -223,8 +223,8 @@ RajahRabbitA_GoldenCarrot.DisplayName: Zanahoria
 RajahRabbitA_Raboom.DisplayName: Rabum
 RajahRabbitA_RajahRocket.DisplayName: Cohete de Rajah
 RajahRabbitA_TheAvenger.DisplayName: El Vengador
-RajahRabbitABookIt.DisplayName: Conejo Rajah; Campeón de los inocentes
-RajahRabbitALeave.DisplayName: Conejo Rajah; Campeón de los inocentes
+RajahRabbitABookIt.DisplayName: Rajah Rabbit; Campeón de los inocentes
+RajahRabbitALeave.DisplayName: Rajah Rabbit; Campeón de los inocentes
 RajahCarrot.DisplayName: Zanahoria
 RajahCarrotEX.DisplayName: Zanahoria
 ClawBaton_DragonClaw.DisplayName: Garra de dragón
@@ -284,14 +284,14 @@ ShenDoragonA_DeathBoom.DisplayName: Golpe discordiano
 ShenDoragonA_Deathray.DisplayName: Rayo de la muerte discordiano
 ShenDoragonA_DeathrayVertical.DisplayName: Rayo de la muerte fantasmal
 ShenDoragonA_FireBreath.DisplayName: Aliento de fuego de Shen Doragon A
-AbyssGrip_AbyssalBomb.DisplayName: Agarre del abismo: bomba abisal
-AbyssGrip_Orbiter.DisplayName: Orbitador de agarre del abismo
-AbyssGrip_Orbiter2.DisplayName: Orbitador de agarre del abismo
+AbyssGrip_AbyssalBomb.DisplayName: Garra del abismo: bomba abisal
+AbyssGrip_Orbiter.DisplayName: Orbitador de garra del abismo
+AbyssGrip_Orbiter2.DisplayName: Orbitador de garra del abismo
 AbyssGrip_Soulsplosion.DisplayName: Explosión de almas
 BlazeGrip_Clone.DisplayName: Garra de fuego de Shen
-BlazeGrip_Deathray.DisplayName: Rayo de la muerte de agarre de fuego
+BlazeGrip_Deathray.DisplayName: Rayo de la muerte de garra de fuego
 BlazeGrip_Explosion.DisplayName: Explosión
-BlazeGrip_ScorchBomb.DisplayName: Agarre de fuego: bomba abrasadora
+BlazeGrip_ScorchBomb.DisplayName: Garra de fuego: bomba abrasadora
 ShenDoragon_ChaosFireballAccel.DisplayName: Bola de fuego del caos acelerada de Shen Doragon
 ShenDoragon_ChaosFireballFrag.DisplayName: Fragmento de bola de fuego del caos de Shen Doragon
 ShenDoragon_ChaosFireballHoming.DisplayName: Bola de fuego del caos guiada de Shen Doragon
@@ -326,7 +326,7 @@ CrimsonFlask_Proj.DisplayName: Frasco carmesí
 CrimeraStaff_CrimtaneCrimera.DisplayName: Crimera de carmianita
 IchorSpear_Holdout.DisplayName: Lanza de icor
 TrueFleshClaymore_FleshBeam.DisplayName: Rayo de carne
-Djinnerang_Proj.DisplayName: Djinnerang
+Djinnerang_Proj.DisplayName: Geniorán
 Sandagger_Proj.DisplayName: Daga de arena
 SandLamp_Spray.DisplayName: Rocío
 SandScepter_DesertGust.DisplayName: Ráfaga del desierto
@@ -339,7 +339,7 @@ DesertScimitar_Sand.DisplayName: Arena
 DynaskullJavelin_DynaEnergy.DisplayName: Jabalina de calavera dinástica: energía dinástica
 DynaskullJavelin_Proj.DisplayName: Jabalina de calavera dinástica
 FossilBoneslinger_AmberArrow.DisplayName: Flecha de ámbar
-DesertDjinn_Djinnado.DisplayName: Djinnado
+DesertDjinn_Djinnado.DisplayName: Genionado
 Legendscribe_Judgement.DisplayName: Juicio
 DustDjinn_BurstBlue.DisplayName: Genio de Polvo: Ráfaga Azul
 DustDjinn_BurstRed.DisplayName: Genio de Polvo: Ráfaga Roja
@@ -462,7 +462,7 @@ Incineration_Holdout.DisplayName: Incineración
 Pyrosphere_Holdout.DisplayName: Piroesfera
 Volley_Proj.DisplayName: Volea
 Yogan_Holdout.DisplayName: Yogan
-Broodmother_FireBreath.DisplayName: Madre nodriza: aliento de fuego
+Broodmother_FireBreath.DisplayName: Madre de la Camada: aliento de fuego
 Broodmother_MagmaBall.DisplayName: Bola de magma
 Broodmother_MagmaExplosion.DisplayName: Explosión de magma
 DragonfireArrow_Proj.DisplayName: Flecha de fuego de dragón
@@ -470,7 +470,7 @@ DragonfireBullet_Proj.DisplayName: Bala de fuego de dragón
 DragonfireDart_Proj.DisplayName: Dardo de fuego de dragón
 OrangeSolution_Proj.DisplayName: Solución naranja
 DraconianDawn_DawnRay.DisplayName: Rayo del alba draconiano
-Dracorang_Proj.DisplayName: Dracorang
+Dracorang_Proj.DisplayName: Dracorán
 DragonsPike_DragonBody.DisplayName: Dragón
 DragonsPike_DragonHead.DisplayName: Dragón
 DragonsPike_DragonTail.DisplayName: Dragón
@@ -520,7 +520,7 @@ AkumaAHead_Meteor.DisplayName: Fuego diurno
 AkumaAHead_Rock.DisplayName: Roca volcánica
 AkumaAHead_SolarDeathray.DisplayName: Rayo de la muerte solar
 AkumaAHead_SolarDeathraySmall.DisplayName: Cabeza de Akuma A: rayo de la muerte solar pequeño
-AsheA.DisplayName: Ashe de Akuma
+AsheA.DisplayName: Ashe Akuma
 AkumaExplosion.DisplayName: Explosión de Akuma
 AkumaExplosionBlue.DisplayName: Explosión de Akuma
 DragonfireProj.DisplayName: Aliento de dragón
@@ -547,7 +547,7 @@ Depthwalker_Holdout.DisplayName: Caminante de las profundidades
 GunkWand_Gunk.DisplayName: Mugre
 HydraFang_Proj.DisplayName: Colmillo de hidra
 HydraSpear_Holdout.DisplayName: Lanza de hidra
-HydraStaff_BogBomb.DisplayName: Bomba de ciénaga
+HydraStaff_BogBomb.DisplayName: Bomba del lodazal
 HydraStaff_BogBoom.DisplayName: Ácido
 HydraStaff_StoneHydra.DisplayName: Hidra de piedra
 MurkyGel_Proj.DisplayName: Gel turbio
@@ -564,8 +564,8 @@ IndigoSolution_Proj.DisplayName: Solución índigo
 PerfectShadowDrill_Holdout.DisplayName: Taladro de las sombras perfecto
 AbyssalArc_Proj.DisplayName: Bumerán antimonio
 AbyssalShadowshot_Shadowshot.DisplayName: Disparo sombrío abisal: disparo sombrío
-BogBomb_BogDrop.DisplayName: Bomba de ciénaga: gota de ciénaga
-BogBomb_BogOrb.DisplayName: Bomba de ciénaga: orbe de ciénaga
+BogBomb_BogDrop.DisplayName: Bomba del lodazal: gota del lodazal
+BogBomb_BogOrb.DisplayName: Bomba del lodazal: orbe del lodazal
 Bubbleshot_FuckingBubbles.DisplayName: BURBUJAS DE MIERDA
 DeathDaggers_DeathDagger.DisplayName: Daga de la muerte
 DeathDaggers_DeathDaggerHeal.DisplayName: Cura
@@ -598,7 +598,7 @@ ThrowingCrescent_Proj.DisplayName: Creciente arrojadizo
 EventideBullet_Proj.DisplayName: Bala del anochecer
 EventideBullet_ProjCopy.DisplayName: Copia de bala del anochecer
 YamataAHead_AbyssalBomb.DisplayName: Cabeza de Yamata A: bomba abisal
-YamataAHead_HarukaProj.DisplayName: Haruka de Yamata
+YamataAHead_HarukaProj.DisplayName: Haruka Yamata
 YamataAHead_MireDeathray.DisplayName: Rayo de la muerte del lodazal
 YamataAHead_MireDeathraySmall.DisplayName: Rayo de la muerte del lodazal
 YamataAHead_Soulsplosion.DisplayName: Explosión de almas
@@ -632,7 +632,7 @@ DeepGreenSolution_Proj.DisplayName: Solución verde oscuro
 ElectricityShard_Proj.DisplayName: Fragmento de electricidad
 BrownSolution_Proj.DisplayName: Solución marrón
 SporeBag_Proj.DisplayName: Saco de esporas
-Musharang_Proj.DisplayName: Musharang
+Musharang_Proj.DisplayName: Fungirán
 Mushmace_Holdout.DisplayName: Mazo de champiñones
 MushroomMonarch_FakeMushroom.DisplayName: Monarca Fúngico: champiñón falso
 MushroomMonarch_RUNAWAY.DisplayName: Monarca Fúngico
@@ -662,7 +662,7 @@ VikingPolearm_Holdout.DisplayName: Arma de asta vikinga
 Winterbreak_Proj.DisplayName: Rompeinviernos
 IceCrystal_IceSpike.DisplayName: Púa de hielo
 SubzeroSerpent_IceBall.DisplayName: Bola de hielo
-SubzeroSerpentHead_SerpentBreath.DisplayName: Cabeza de serpiente bajo cero: aliento de serpiente
+SubzeroSerpentHead_SerpentBreath.DisplayName: Cabeza de serpiente subcero: aliento de serpiente
 WhiteSolution_Proj.DisplayName: Solución blanca
 AsgardianLance_Holdout.DisplayName: Lanza asgardiana
 AsgardianLance_Proj.DisplayName: Lanza asgardiana
@@ -762,7 +762,7 @@ SingularityCannon_Singularity.DisplayName: Cañón de singularidad: singularidad
 SingularityCannon_SingularityVortex.DisplayName: Vórtice de singularidad
 SingularityArrow_Proj.DisplayName: Flecha de singularidad
 UnstablePowerCell_Proj.DisplayName: Bala inestable
-ZeroCore_ZeroBab.DisplayName: Núcleo de Zero: Bebé de Zero
+ZeroCore_ZeroBab.DisplayName: Núcleo de Cero: Bebé de Cero
 BlackHoleBlaster_BlackRocket.DisplayName: Cohete negro
 BlackHoleBlaster_RedBullet.DisplayName: Bala roja
 BlackHoleBlaster_Rocket.DisplayName: Cohete
@@ -796,9 +796,9 @@ ZeroA_GlitchBomb.DisplayName: Bomba fallida
 ZeroA_GlitchRocket.DisplayName: C0HETE
 ZeroA_ProtoStarRay.DisplayName: Rayo del vacío
 ZeroA_StaticShock.DisplayName: Descarga estática
-ZeroA_StaticSphere.DisplayName: Esfera estática de Zero A
-ZeroDeath1.DisplayName: Zero
-ZeroDeath2.DisplayName: Zero
+ZeroA_StaticSphere.DisplayName: Esfera estática de Cero A
+ZeroDeath1.DisplayName: Cero
+ZeroDeath2.DisplayName: Cero
 Zero_DoomDeathray.DisplayName: Rayo fatal
 Zero_VoidBeam.DisplayName: Rayo del vacío
 Zero_VoidRay.DisplayName: Rayo del vacío
@@ -808,11 +808,11 @@ ZeroGigataser_TaserShock.DisplayName: Choque de táser
 ZeroNeutralizer_SingularityArrow.DisplayName: Flecha de singularidad
 ZeroNovaFocus_NovaRay.DisplayName: Rayo nova
 ZeroOmegaVolley_OmegaBullet.DisplayName: Bala omega
-ZeroRiftShredder_Rift.DisplayName: Triturador de brechas de Zero: brecha
-ZeroRiftShredder_RiftSlash.DisplayName: Triturador de brechas de Zero: corte de brecha
+ZeroRiftShredder_Rift.DisplayName: Triturador de brechas de Cero: brecha
+ZeroRiftShredder_RiftSlash.DisplayName: Triturador de brechas de Cero: corte de brecha
 ZeroRocket.DisplayName: Cohete del vacío
-ZeroVoidStar_VoidCyclone.DisplayName: Estrella del vacío de Zero: ciclón del vacío
-ZeroVoidStar_VoidStorm.DisplayName: Estrella del vacío de Zero: tormenta del vacío
+ZeroVoidStar_VoidCyclone.DisplayName: Estrella del vacío de Cero: ciclón del vacío
+ZeroVoidStar_VoidStorm.DisplayName: Estrella del vacío de Cero: tormenta del vacío
 Darkray.DisplayName: Rayo oscuro
 DeathBeam.DisplayName: Rayo de la muerte
 DeathLaser.DisplayName: Láser de la muerte
@@ -845,7 +845,7 @@ RaiderUltima_RaiderExplosion.DisplayName: Explosión asaltante
 RaiderUltima_RaidShock.DisplayName: Choque asaltante
 RaiderUltima_RaidSphere.DisplayName: Esfera asaltante
 RaiderUltima_RocketStrike.DisplayName: Ataque de cohetes
-Retriever_Shot.DisplayName: Recuperador
+Retriever_Shot.DisplayName: Recolector
 InfinityBoom.DisplayName: Explosión infinita
 InfinitySphere.DisplayName: Bomba de almas
 DapperAcorn_DapperSquirrel1.DisplayName: Ardilla elegante
@@ -896,13 +896,13 @@ SagittariusA_Proj.DisplayName: Sagitario A
 TotalDestruction_Proj.DisplayName: Destrucción total
 InfinityZero_InfinityBolt.DisplayName: Rayo del infinito
 InfinityZero_InfinityStorm.DisplayName: Tormenta del infinito
-InfinityZero_InfinityZeroShot.DisplayName: Infinito Zero: disparo de infinito Zero
+InfinityZero_InfinityZeroShot.DisplayName: Cero Infinito: disparo de Cero Infinito
 ShockwaveBoom.DisplayName: Explosión de onda expansiva
 DummyExplosionTerra.DisplayName: Explosión de prueba
 SistersTitle.DisplayName: Título de hermanas
 Title.DisplayName: Título
 InfinityGauntletEffect_Snap.DisplayName: Guantelete del infinito: chasquido
-ProtocolR_RaiderRocket.DisplayName: Cohete Incursor
+ProtocolR_RaiderRocket.DisplayName: Cohete del Incursor
 TheGripsOfChaos_HookInferno.DisplayName: Garra del Caos
 TheGripsOfChaos_HookMire.DisplayName: Garra del Caos
 DragonsGrip_Hook.DisplayName: Garra de Dragón

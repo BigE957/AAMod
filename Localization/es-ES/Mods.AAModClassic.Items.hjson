@@ -31,23 +31,23 @@ BossSummon: {
 	}
 
 	DreadMoonRune: {
-		DisplayName: Runa de la Luna de Pavor
+		DisplayName: Runa de la Luna del Terror
 		Tooltip:
 			'''
 			Una tableta encantada que irradia energía caótica oscura
 			Invoca a Yamata no Orochi
-			Solo se puede usar en el lodazal por la noche
+			Solo se puede usar en el Lodazal por la noche
 			No consumible
 			'''
 	}
 
 	DreadMoonSigil: {
-		DisplayName: Sigilo de la Luna de Pavor
+		DisplayName: Sigilo de la Luna deL Terror
 		Tooltip:
 			'''
 			Una vieja tableta harapienta que se dice que contiene la magia oscura de una luna nueva
 			Invoca a Yamata
-			Solo se puede usar por la noche en el lodazal
+			Solo se puede usar por la noche en el Lodazal
 			No consumible
 			'''
 	}
@@ -63,11 +63,11 @@ BossSummon: {
 	}
 
 	DoomsdayTesseract: {
-		DisplayName: Teseracto del Juicio Final
+		DisplayName: Teseracto del Apocalipsis
 		Tooltip:
 			'''
 			DESCRIPCI0NAQUÍ
-			INESTABLE. C0NTIENE EL C0DIG0 PARA ACTIVAR AL TRAED0R DE LA MUERTE
+			INESTABLE. C0NTIENE EL C0DIG0 PARA ACTIVAR AL P0RTAD0R DE LA PERDICI0N
 			SE REC0MIENDA EL ANALISIS DE LA C0NFIGURACI0N DEL M0D: SE TE HA ADVERTID0
 			N0 C0NSUMIBLE
 			'''
@@ -221,7 +221,7 @@ BossSummon: {
 		Tooltip:
 			'''
 			Invoca a Avaricia
-			Solo se puede usar en el Alijo de la Avaricia en el Altar del Deseo
+			Solo se puede usar en el Alijo de Avaricia en el Altar del Deseo
 			'Brilla muchísimo.'
 			'''
 		TooltipAlt1: Solo se puede usar en el Alijo de Avaricia
@@ -302,7 +302,7 @@ BossSummon: {
 		DisplayName: Champiñón Cibernético
 		Tooltip:
 			'''
-			Invoca a Tecnotrufa
+			Invoca a la Tecnotrufa
 			Solo se puede usar por la noche
 			'''
 	}
@@ -444,7 +444,7 @@ Consumables: {
 	}
 
 	OrderSolution: {
-		DisplayName: Solución de Orden
+		DisplayName: Solución del Orden
 		Tooltip:
 			'''
 			Usada por el Clentaminator
@@ -453,7 +453,7 @@ Consumables: {
 	}
 
 	CorruptionFlask: {
-		DisplayName: Frasco de Sombras
+		DisplayName: Frasco de las Sombras
 		Tooltip: Propaga la Corrupción
 	}
 
@@ -507,7 +507,7 @@ Consumables: {
 	}
 
 	KeyOfSmite: {
-		DisplayName: Llave de Azote
+		DisplayName: Llave de Castigo
 		Tooltip: Cargada con energía llameante
 	}
 
@@ -526,7 +526,7 @@ Consumables: {
 	}
 
 	JungleFlask: {
-		DisplayName: Frasco de Selva
+		DisplayName: Frasco de la Selva
 		Tooltip: Convierte el bosque en Selva
 	}
 
@@ -605,7 +605,7 @@ Consumables: {
 
 	FlaskOfHydratoxin: {
 		DisplayName: Frasco de Hidratoxina
-		Tooltip: Los ataques cuerpo a cuerpo infligen hidratoxina
+		Tooltip: Los ataques cuerpo a cuerpo infligen Hidratoxina
 	}
 
 	IndigoSolution: {
@@ -618,7 +618,7 @@ Consumables: {
 	}
 
 	KeyOfSpite: {
-		DisplayName: Llave del Rencor
+		DisplayName: Llave de Rencor
 		Tooltip: Cargada con energía abisal
 	}
 
@@ -628,7 +628,7 @@ Consumables: {
 	}
 
 	ForestFlask: {
-		DisplayName: Frasco de Bosque
+		DisplayName: Frasco del Bosque
 		Tooltip: Convierte la Selva en Bosque
 	}
 
@@ -689,7 +689,7 @@ Consumables: {
 	}
 
 	PurityFlask: {
-		DisplayName: Frasco de Pureza
+		DisplayName: Frasco de la Pureza
 		Tooltip: Propaga el Bosque
 	}
 
@@ -1017,7 +1017,7 @@ Lore: {
 			Lore:
 				'''
 				Qué constructos tan ridículos, estos son sin duda los productos de los Fulgurianos.
-				Alguna vez fueron un solo ser, el Elemental de la Tormenta, aunque se separaron hace mucho tiempo en una organización más grande.
+				Alguna vez fueron un solo ser, la Elemental de la Tormenta, aunque se separaron hace mucho tiempo en una organización más grande.
 				Sus intentos de innovación son lamentables; incluso estas máquinas defectuosas reflejan claramente su inspiración en los propios fracasos de Draedon.
 				La arrogancia será sin duda su perdición.
 				'''
@@ -1076,7 +1076,7 @@ Lore: {
 				'''
 				Una cohorte bastante peculiar, se sabía que los serafines se mezclaban con los chrysadianos antes de la Caída.
 				Ahora se han convertido en ermitaños huraños, confiando en la protección de su Reina.
-				Si esto es todo en lo que se han convertido los Ancestrales, entonces estoy profundamente decepcionado.
+				Si esto es todo en lo que se han convertido los Antiguos, entonces estoy profundamente decepcionado.
 				'''
 		}
 
@@ -1183,7 +1183,7 @@ Lore: {
 			Tooltip: ""
 			Lore:
 				'''
-				La Pesadilla del Pavor...
+				La Pesadilla del Terror...
 				Mis fuerzas no se atrevieron a poner un pie en el Lodazal, sus viles toxinas extinguieron a cualquiera que lo hiciera.
 				Fue él el responsable del Lodazal: nacido de sus toxinas, asfixiando a la civilización que una vez llamó hogar a esa región.
 				Ten cuidado, tu victoria aquí es solo temporal. El alma colérica de Yamata aún persiste.
@@ -1196,7 +1196,7 @@ Lore: {
 			Tooltip: ""
 			Lore:
 				'''
-				El Constructo del Juicio Final...
+				El Constructo del Apocalipsis...
 				Draedon había estado fascinado por esta unidad durante mucho tiempo. Sus escudos repelieron cada uno de sus intentos de romperlos.
 				Parece que solo tú fuiste capaz de activarlo.
 				Ten cautela.

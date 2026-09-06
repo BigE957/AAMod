@@ -1,6 +1,6 @@
 ClassGlobalStats: {
 	DefaultDamageClass: sin clase
-	GenericDamageClass: ""
+	GenericDamageClass: general
 	MeleeDamageClass: cuerpo a cuerpo
 	MeleeNoSpeedDamageClass: "{$EquipStats.ClassGlobalStats.MeleeDamageClass}"
 	RangedDamageClass: a distancia
@@ -8,25 +8,25 @@ ClassGlobalStats: {
 	SummonDamageClass: de invocación
 	SummonMeleeSpeedDamageClass: "{$EquipStats.ClassGlobalStats.SummonDamageClass}"
 	MagicSummonHybridDamageClass: mágico y de invocación
-	ThrowingDamageClass: de arrojables
-	CritChance: "{0}% {1} {2}{3}de probabilidad de golpe crítico"
-	AttackSpeed: "{0}% {1} {2}{3}de velocidad"
-	ArmorPenetration: "{0} {1}{2}de penetración de armadura con {3}"
+	ThrowingDamageClass: arrojadizo
+	CritChance: Probabilidad de impacto crítico {2} {1} en un {0}% {3}
+	AttackSpeed: Velocidad de {2}{3}{1} en un {0}%
+	ArmorPenetration: Penetración de armadura {0} {2}{1} en {3}
 
 	StatModifier: {
 		Adlibs: {
 			EverySingleClassExceptSummoner: {
-				Base: "{0} {1} {2}{3}{4}"
-				Additive: "{0}% {1} {2}{3}{4}{5}"
-				Multiplicative: "{2}{3}{4} multiplicado por {0}%"
-				Flat: "{0} {1} de {2}{3}{4}"
+				Base: "{4} {2} {1} en {0} {3}"
+				Additive: "{4} {2} {1} en un {0}% {3} {5}"
+				Multiplicative: "{4} {2} multiplicado por {0}% {3}"
+				Flat: "{4} {2} {1} en un valor fijo de {0} {3}"
 			}
 
 			Summoner: {
-				Base: "{1} {2}{3}{4} en {0}"
-				Additive: "{1} {2}{3}{4}{5} en un {0}%"
-				Multiplicative: Multiplies {2}{3}{4} por un {0}%
-				Flat: "{1} {2}{3}{4} en un valor fijo de {0}"
+				Base: "{4} {2} {1} en {0} {3}"
+				Additive: "{4} {2} {1} en un {0}% {3} {5}"
+				Multiplicative: "{4} {2} multiplicado por {0}% {3}"
+				Flat: "{4} {2} {1} en un valor fijo de {0} {3}"
 			}
 		}
 
@@ -36,7 +36,7 @@ ClassGlobalStats: {
 		Decreased: disminuido
 		Increase: aumento
 		Decrease: disminución
-		Reduced: reducido
+		Reduced: reduce
 		More: más
 		Less: menos
 		Damage: daño
@@ -52,7 +52,7 @@ Effect: {
 	CrimsonHelmetSetEffect: Regeneración de vida considerablemente aumentada
 	EnduranceEffect: "{0} el daño recibido en un {1}%"
 	MaxLifeEffect: "{0} la vida máxima en {1}"
-	MovementSpeedEffect: "{0}% de {1} velocidad de movimiento"
+	MovementSpeedEffect: Velocidad de movimiento {1} en un {0}%
 	BrokenCodeTeleportEffect:
 		'''
 		Te permite bugearte con un tiempo de recarga de 5 segundos
@@ -97,7 +97,7 @@ Effect: {
 		[c/{3}:Aumento de daño actual: +{4}% de daño {5}]
 		Aumento de velocidad actual: +{6}% de velocidad de movimiento y velocidad máxima de carrera
 		'''
-	MaxRunSpeedEffect: "{0}% de {1} velocidad de carrera"
+	MaxRunSpeedEffect: "Velocidad máxima de carrera {1} en un {0}% "
 	BlackBeltEffect: Otorga una probabilidad de esquivar ataques
 
 	MasterNinjaMobilityEffect: {
@@ -112,7 +112,7 @@ Effect: {
 	NaitokurosuDebuffEffect:
 		'''
 		Los ataques a distancia y los esbirros infligen Veneno
-		Los ataques a distancia y los esbirros infligen Resplandor Lunar en su lugar por la noche
+		Los ataques a distancia y los esbirros infligen Desgarro Lunar en su lugar por la noche
 		'''
 	TaiyangBaoleiImmunityEffect: Otorga inmunidad a casi todos los estados alterados
 	SolarArmorSetDashEffect: Permite al jugador embestir a los enemigos y explotar
@@ -120,31 +120,31 @@ Effect: {
 	TaiyangBaoleiDebuffEffect:
 		'''
 		Los ataques cuerpo a cuerpo y mágicos infligen daño de fuego
-		Los ataques cuerpo a cuerpo y mágicos infligen Desintegración Solar en su lugar durante el día
+		Los ataques cuerpo a cuerpo y mágicos infligen Desgarro Solar en su lugar durante el día
 		'''
 	DualityChaosEffect: Otorga un {0}% de daño adicional mientras estás en el Infierno o en el Lodazal
 	DualityDefenseEffect: Otorga {0} de defensa adicional mientras estás en el Infierno
-	AttacksInflictBuffEffect: "Tus ataques {0}{1} infligen "
+	AttacksInflictBuffEffect: "Tu daño {0}{1}inflige "
 	HeartOfPassionDamageBoostEffect: El daño mágico y de invocación aumenta cuanta menos vida tengas
 	HeartOfPassionManaRegenEffect: Por debajo de los 2/3 de tu vida máxima, tu maná se regenera mucho más rápido
 	HeartOfPassionDebuffEffect:
 		'''
-		El daño mágico y de invocación inflige Fuego de Dragón
-		Por debajo de 1/3 de tu vida máxima, tu daño mágico y de invocación inflige Desintegración Solar en su lugar
+		El daño mágico y de invocación inflige Quemadura de Dragón
+		Por debajo de 1/3 de tu vida máxima, tu daño mágico y de invocación inflige Desgarro Solar en su lugar
 		'''
 	HeartOfSorrowDamageBoostEffect: El daño cuerpo a cuerpo y a distancia aumenta cuanta menos vida tengas
 	HeartOfSorrowMovementSpeedEffect: Por debajo de los 2/3 de tu vida máxima, tu velocidad de movimiento aumenta en un 100%
 	HeartOfSorrowDebuffEffect:
 		'''
-		El daño cuerpo a cuerpo y a distancia inflige Toxina de Hidra
-		Por debajo de 1/3 de tu vida máxima, tu daño cuerpo a cuerpo y a distancia inflige Resplandor Lunar en su lugar
+		El daño cuerpo a cuerpo y a distancia inflige Hidratoxina
+		Por debajo de 1/3 de tu vida máxima, tu daño cuerpo a cuerpo y a distancia inflige Desgarro Lunar en su lugar
 		'''
 	HeartOfAnarchyDamageBoostEffect: Tu daño aumenta cuanta menos vida tengas
 	HeartOfAnarchyBullshitEffect: Por debajo de los 2/3 de tu vida máxima, tu velocidad de movimiento aumenta en un 100% y tu maná se regenera mucho más rápido
 	HeartOfAnarchyDebuffEffect:
 		'''
-		Tus ataques infligen Fuego de Dragón y Toxina de Hidra
-		Por debajo de 1/3 de tu vida máxima, infliges Desintegración Solar y Resplandor Lunar en su lugar
+		Tus ataques infligen Quemadura de Dragón y Hidratoxina
+		Por debajo de 1/3 de tu vida máxima, infliges Desgarro Solar y Desgarro Lunar en su lugar
 		'''
 	FlipperEffect: Otorga la habilidad de nadar
 
@@ -198,14 +198,14 @@ Effect: {
 		'''
 	DragonsGuardEffect: Los enemigos que te golpeen arderán en llamas
 	LanternEffect: Te permite ver a través de la niebla del Lodazal durante el día
-	ManaCostEffect: "{0}% de {1} coste de maná"
+	ManaCostEffect: "{1} el coste de maná en un {0}% "
 	CelestialMagnetEffect: Aumenta el rango de recogida de estrellas de maná
 	BlackLotusEmblemEffect:
 		'''
 		Usa pociones de maná automáticamente cuando es necesario
 		Reduce considerablemente la duración de la Debilidad de Maná
 		'''
-	AshProofVestEffect: Te permite sobrevivir a la tormenta de fuego del Infierno por la noche
+	AshProofVestEffect: Te permite sobrevivir a la tormenta de ceniza del Infierno por la noche
 	MaxSentrySlotEffect: "{0} tu número máximo de centinelas en {1}"
 	OldOneCharmEffect: Mientras el Ejército del Antiguo está en curso, aumenta tu daño de invocación en un {0}%
 	ArcticMedallionEffect: Aumenta tu daño y probabilidad de golpe crítico en un 100% durante una tormenta de nieve
@@ -216,7 +216,7 @@ Effect: {
 			'''
 			Durante el {0}, otorga un gran pero no especialmente excepcional aumento al daño,
 			velocidad cuerpo a cuerpo, probabilidad de golpe crítico, regeneración de vida,
-			defensa, velocidad de minería y retroceso de esbirros
+			defensa, velocidad de minería y retroceso de súbditos
 			'''
 		Day: día
 		Night: noche
@@ -226,7 +226,7 @@ Effect: {
 		'''
 		Gran aumento al daño, velocidad cuerpo a cuerpo,
 		probabilidad de golpe crítico, regeneración de vida,
-		defensa, velocidad de minería y retroceso de esbirros
+		defensa, velocidad de minería y retroceso de súbditos
 		'''
 	EmitLightFromPlayerEffect: Proporciona luz cuando se lleva equipado
 	MoonCharmEffect: Convierte al portador en un hombre lobo por la noche
@@ -241,19 +241,19 @@ Effect: {
 		'''
 	APageOfTheRuneBookEffect:
 		'''
-		Invoca runas por cada espacio de esbirro no utilizado
-		Tener 1 espacio de esbirro libre invoca una Runa de Conejo
-		Tener 2 espacios de esbirro libres invoca una Runa de Discordia adicional
-		Tener 3 espacios de esbirro libres invoca una Runa de Energía adicional
+		Invoca runas por cada espacio de súbditos no utilizado
+		Tener 1 espacio de súbditos libre invoca una Runa de Conejo
+		Tener 2 espacios de súbditos libres invoca una Runa de Discordia adicional
+		Tener 3 espacios de súbditos libres invoca una Runa de Energía adicional
 		'''
 	TheBookOfRunesEffect:
 		'''
-		Invoca runas por cada espacio de esbirro no utilizado
-		Tener 1 espacio de esbirro libre invoca una Runa de Terra
-		Tener 2 espacios de esbirro libres invoca una Runa de Caos adicional
-		Tener 3 espacios de esbirro libres invoca una Runa de Vacío adicional
+		Invoca runas por cada espacio de súbditos no utilizado
+		Tener 1 espacio de súbditos libre invoca una Runa Terra
+		Tener 2 espacios de súbditos libres invoca una Runa de Caos adicional
+		Tener 3 espacios de súbditos libres invoca una Runa de Vacío adicional
 		'''
-	MaxMinionSlotEffect: "{0} tu número máximo de esbirros en {1}"
+	MaxMinionSlotEffect: "{0} tu número máximo de súbditos en {1}"
 	ShieldOfCthulhuDashEffect: Permite embestir a los enemigos, infligiéndoles daño
 	DemonGauntletEffect: ""
 	AggroEffect: Es {0} probable que los enemigos te tengan como objetivo
@@ -325,9 +325,9 @@ Effect: {
 	DynaskullHelmetSetEffect: Tus proyectiles a distancia tienen tanta fuerza que confunden al objetivo debido a la fuerza de impacto
 	ManaRegenEffect: "{0} la velocidad de regeneración de maná en {1}"
 	LifeRegenEffect: "{0} la velocidad de regeneración de vida en {1}"
-	GoblinSlayersHelmetSetDamageEffect: Tus armas de ataque cuerpo a cuerpo infligen 5 veces más daño y tienen un retroceso aumentado contra los goblins
-	GoblinSlayersHelmetSetEnduranceEffect: Los goblins te infligen un 80% menos de daño
-	GoblinSlayersHelmetSetDescEffect: "'Yo cazo goblins, o nada.'"
+	GoblinSlayersHelmetSetDamageEffect: Tus armas de ataque cuerpo a cuerpo infligen 5 veces más daño y tienen un retroceso aumentado contra los duendes
+	GoblinSlayersHelmetSetEnduranceEffect: Los duendes te infligen un 80% menos de daño
+	GoblinSlayersHelmetSetDescEffect: "'Yo cazo duendes, o nada.'"
 	MiningSpeedEffect: "{0} la velocidad de minería en un {1}%"
 	SpelunkerEffect: Muestra la ubicación de tesoros y minerales
 	StoneSoldierHelmetSetEffect: Los enemigos tienen una pequeña probabilidad de generar un portal de monedas al morir
@@ -362,7 +362,7 @@ Effect: {
 		Invoca un portal inestable para protegerte
 		El portal inestable dispara junto a ti, inflige el 30% del daño de tu arma equipada, debilita a los enemigos y los inmoviliza
 		'''
-	DarkmatterHelmetSummonerSetEffect: Los esbirros intentarán ocasionalmente desviar los proyectiles enemigos
+	DarkmatterHelmetSummonerSetEffect: Los súbditos intentarán ocasionalmente desviar los proyectiles enemigos
 	RadiumHelmetMageSetEffect:
 		'''
 		Daña a los enemigos dentro de tu aura positiva
@@ -380,22 +380,22 @@ Effect: {
 		Invoca un portal solar para protegerte
 		El portal solar dispara junto a ti, inflige el 30% del daño de tu arma equipada y prende fuego a los enemigos
 		'''
-	RadiumHelmetSummonerSetEffect: Los esbirros infligirán ocasionalmente {0} de daño a los enemigos cercanos
+	RadiumHelmetSummonerSetEffect: Los súbditos infligirán ocasionalmente {0} de daño a los enemigos cercanos
 	TerraHelmetMageSetEffect:
 		'''
-		Presionar la tecla de habilidad de armadura hace que crezcan 2 tallos de rosa de terra a tu alrededor
+		Presionar la tecla de habilidad de armadura hace que crezcan 2 tallos de rosa terra a tu alrededor
 		Los enemigos golpeados por los tallos sueltan estrellas de maná
 		'''
-	TerraHelmetRangedSetEffect: Golpear a un enemigo con un proyectil a distancia puede hacer que se dispare una bala de terra al objetivo
+	TerraHelmetRangedSetEffect: Golpear a un enemigo con un proyectil a distancia puede hacer que se dispare una bala terra al objetivo
 	TerraHelmetSummonerSetEffect:
 		'''
-		Invoca un poderoso cristal de terra que dispara a los enemigos cercanos
+		Invoca un poderoso cristal terra que dispara a los enemigos cercanos
 		Presionar la tecla de habilidad de armadura cambia el cristal entre los modos de ofensiva, defensiva y apoyo
 		En el modo ofensivo, el cristal perseguirá y derribará rápidamente a los enemigos
 		En el modo defensivo, el cristal permanecerá encima de ti y disparará a los enemigos cercanos
 		En el modo de apoyo, tu defensa y regeneración de vida aumentan significativamente, pero tu daño se reduce a la mitad
 		'''
-	TerraHelmetMeleeSetEffect: Ser golpeado por un enemigo hace que una esfera de terra explosiva se dirija hacia el enemigo que te atacó
+	TerraHelmetMeleeSetEffect: Ser golpeado por un enemigo hace que una esfera terra explosiva se dirija hacia el enemigo que te atacó
 
 	BiomiteHelmetSetEffect: {
 		Default: Proporciona diferentes efectos según los biomas en los que te encuentres

@@ -3,8 +3,8 @@ AleisterBook: {
 	Tooltip:
 		'''
 		Un libro legendario de la Gran Bestia Mega Therion.
-		10% de aumento en el daño de esbirro
-		+2 ranuras de esbirro
+		Aumenta en un 10% el daño de invocación
+		Aumenta en 2 el número máximo de súbditos que puedes tener
 		¿Tal vez podrías hacerlo más fuerte..?
 		Hay una nota escrita en la portada:
 		Necesito almas más poderosas, *****,*********,**********
@@ -16,8 +16,8 @@ TheBookOfTheLaw: {
 	Tooltip:
 		'''
 		Un libro legendario de la Gran Bestia Mega Therion.
-		30% de aumento en el daño de esbirro
-		+2 ranuras de esbirro
+		Aumenta en un 30% el daño de invocación
+		Aumenta en 2 el número máximo de súbditos que puedes tener
 		Incluye los efectos de todas las piezas utilizadas para fabricarlo.
 
 		'''
@@ -154,12 +154,12 @@ RabbitcopterWings: {
 }
 
 RajahRabbitsSashOfVengeance: {
-	DisplayName: Banda de la Venganza del Conejo Rajah
+	DisplayName: Banda de la Venganza de Rajah Rabbit
 	Tooltip: ""
 }
 
 RajahRabbitsCloakOfSupremacy: {
-	DisplayName: Capa de la Supremacía del Conejo Rajah
+	DisplayName: Capa de la Supremacía de Rajah Rabbit
 	Tooltip: "'Has sido considerado un digno sucesor por el Campeón de los Inocentes'"
 }
 
@@ -244,7 +244,7 @@ DragonsGuard: {
 }
 
 MagmancerWings: {
-	DisplayName: Alas de Magomante
+	DisplayName: Alas de Magmante
 	Tooltip: ""
 }
 
@@ -301,7 +301,7 @@ AshProofVest3: {
 }
 
 ShadowBand: {
-	DisplayName: Banda de Sombras
+	DisplayName: Banda de las Sombras
 	Tooltip: ""
 }
 
@@ -321,7 +321,7 @@ BotchedBand: {
 }
 
 DreadMoonWings: {
-	DisplayName: Alas de la Luna del Pavor
+	DisplayName: Alas de la Luna del Terror
 	Tooltip: ""
 }
 
@@ -346,7 +346,7 @@ RadiumWings: {
 }
 
 TerraWings: {
-	DisplayName: Alas de Terra
+	DisplayName: Alas Terra
 	Tooltip: ""
 }
 
@@ -361,7 +361,7 @@ BrokenCode: {
 }
 
 ZeroWings: {
-	DisplayName: Zero Jet
+	DisplayName: Jet de Cero
 	Tooltip: ""
 }
 
@@ -386,17 +386,17 @@ MetallicTruffle: {
 }
 
 AnkhNecklace: {
-	DisplayName: Collar de Ankh
+	DisplayName: Collar de Cruz Ansata
 	Tooltip: ""
 }
 
 AnkhScarf: {
-	DisplayName: Bufanda de Ankh
+	DisplayName: Bufanda de Cruz Ansata
 	Tooltip: ""
 }
 
 AnkhTablet: {
-	DisplayName: Tablilla de Ankh
+	DisplayName: Tablilla de Cruz Ansata
 	Tooltip: ""
 }
 

@@ -154,8 +154,8 @@ DarkmatterKunai: {
 }
 
 TerraBallista: {
-	DisplayName: Ballesta de Terra
-	Tooltip: Reemplaza las flechas con Flechas de Terra
+	DisplayName: Ballesta Terra
+	Tooltip: Reemplaza las flechas con Flechas Terra
 }
 
 BlackHoleBlaster: {
@@ -288,7 +288,7 @@ SharkLauncher: {
 	Tooltip:
 		'''
 		Lanza un tiburón mortal que se engancha
-		Pistola Piraña EX
+		Pistola de Pirañas EX
 		'''
 }
 
@@ -298,7 +298,7 @@ Skystrike: {
 		'''
 		Lanza flechas de Perdición Aérea desde el cielo
 		Las flechas iniciales ignoran los bloques
-		Perdición Aérea EX
+		Muerte Aérea EX
 		'''
 }
 
@@ -314,23 +314,23 @@ UltimateOreCannon: {
 }
 
 UnityBallista: {
-	DisplayName: Unidad de Ballesta
+	DisplayName: Ballesta de Unidad
 	Tooltip:
 		'''
-		Reemplaza las flechas con Flechas de Terra
+		Reemplaza las flechas con Flechas Terra
 		Dispara 3 oleadas de 3 flechas en un solo uso
-		Ballesta de Terra EX
+		Ballesta Terra EX
 		'''
 }
 
 UWAM: {
-	DisplayName: U.W.A.M.
+	DisplayName: AAUB
 	Tooltip:
 		'''
 		Dispara cientos de balas con una dispersión muy baja
 		Tiene una probabilidad de disparar tiburones, causando el doble de daño
 		88% de probabilidad de no consumir munición
-		S.D.M.G. EX
+		ADEE EX
 		'''
 }
 
@@ -384,7 +384,7 @@ Windfury: {
 }
 
 Bunzooka: {
-	DisplayName: Bunzooka
+	DisplayName: Conejozuka
 	Tooltip: Dispara Cohetes de Conejo
 }
 
@@ -392,7 +392,7 @@ FluffyFury: {
 	DisplayName: Furia Esponjosa
 	Tooltip:
 		'''
-		Convierte las flechas en Carrows divisoras
+		Convierte las flechas en Zanaoflechas divisoras
 		Posible advertencia de lag
 		'''
 }
@@ -403,17 +403,17 @@ RPG: {
 		'''
 		`Granada Propulsada por Conejo`
 		Dispara Cohetes de Conejo
-		Bunnyzooka EX
+		Conejozuka EX
 		'''
 }
 
 ChaosBustershot: {
-	DisplayName: Disparo Destructor del Caos
+	DisplayName: Disparo Caótico
 	Tooltip: Dispara un estallido dual perforante además de una dispersión de 6 balas
 }
 
 ChaosJavelin: {
-	DisplayName: Jabalina del Caos
+	DisplayName: Jabalina Caótica
 	Tooltip: Explota al contacto
 }
 
@@ -528,11 +528,11 @@ DeathlyLongbow: {
 }
 
 TrueDeathlyLongbow: {
-	DisplayName: Arco de Ghast Mortal
+	DisplayName: Arco Fantasma Mortal
 	Tooltip:
 		'''
 		Reemplaza las flechas con flechas de segador
-		Dispara un cráneo de ghast explosivo cada dos disparos
+		Dispara un cráneo fantasmal explosivo cada dos disparos
 		'''
 }
 
@@ -626,7 +626,7 @@ Mossket: {
 
 MurkyGel: {
 	DisplayName: Gel Turbio
-	Tooltip: Inflige el efecto negativo Aceitoso al impactar
+	Tooltip: Inflige el efecto negativo Embadurnado al impactar
 }
 
 AbyssalShadowshot: {
@@ -670,7 +670,7 @@ SpookyKnife: {
 }
 
 MushroomBow: {
-	DisplayName: Arco de Champiñón
+	DisplayName: Arco Fúngico
 	Tooltip: ""
 }
 
@@ -715,7 +715,7 @@ DoomiteHolobow: {
 }
 
 DoomPistol: {
-	DisplayName: Pistola del Destino
+	DisplayName: Pistola del Juicio Final
 	Tooltip: ""
 }
 
@@ -744,6 +744,6 @@ CthulhuCannon: {
 }
 
 ProtocolR: {
-	// DisplayName: Protocol-R
-	// Tooltip: fires a barrage of special rockets
+	DisplayName: Protocolo-R
+	Tooltip: Dispara una rafaga de misiles especiales
 }

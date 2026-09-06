@@ -55,6 +55,7 @@ using AAModClassic._Content.Void._PostMoonlord.Items._BossZero.Weapons;
 using AAModClassic._Content.Void._PostMoonlord.Items.Accessories.Vanity;
 using AAModClassic._Content.Void.World.Biomes;
 using AAModClassic._CrossMod;
+using AAModClassic._Removed.Content.Stars;
 using AAModClassic._Unreleased.Content.Void._PostMoonLord.Items._BossInfinityZero.Weapons;
 using AAModClassic.Assets;
 using AAModClassic.Base.BaseMod.Base;
@@ -421,6 +422,8 @@ namespace AAModClassic
 
             Filters.Scene["AAModClassic:AnubisASky"] = new Filter(new AnubisASkyData("FilterMiniTower").UseColor(.2f, .5f, .2f).UseOpacity(0.5f), EffectPriority.VeryHigh);
             SkyManager.Instance["AAModClassic:AnubisASky"] = new AnubisASky();
+
+            SkyManager.Instance["AAModClassic:StarsSky"] = new StarsSky();
 
             ReplaceItemTexture(3460, "AAModClassic/Resprites/Luminite");
             ReplaceItemTexture(512, "AAModClassic/Resprites/SoulOfNight");

@@ -4,7 +4,7 @@ EnergyCell: {
 }
 
 ReaperArrow: {
-	DisplayName: Flecha de Segador
+	DisplayName: Flecha del Segador
 	Tooltip: Esta flecha puede atravesar paredes
 }
 
@@ -18,23 +18,23 @@ DaybreakArrow: {
 	Tooltip:
 		'''
 		Quema a su objetivo con el calor del sol ardiente
-		Inflige Sol deslumbrante
+		Inflige Desgarro Solar
 		No consumible
 		'''
 }
 
 EventideArrow: {
-	DisplayName: Flecha del Atardecer
+	DisplayName: Flecha del Anochecer
 	Tooltip:
 		'''
 		Ciega a su objetivo con la oscuridad de una noche sin luna
-		Inflige Arrasamiento lunar
+		Inflige Desgarro Lunar
 		No consumible
 		'''
 }
 
 TerraArrow: {
-	DisplayName: Flecha de Terra
+	DisplayName: Flecha Terra
 	Tooltip:
 		'''
 		Se dirige automáticamente hacia los enemigos
@@ -72,7 +72,7 @@ ChaosArrow: {
 
 DragonfireArrow: {
 	DisplayName: Flecha de Fuego de Dragón
-	Tooltip: Inflige la debilitación Fuego de dragón al golpear
+	Tooltip: Inflige Fuego de Dragón al golpear
 }
 
 DragonfireBullet: {
@@ -92,7 +92,7 @@ DaybreakBullet: {
 
 HydratoxinArrow: {
 	DisplayName: Flecha de Hidratoxina
-	Tooltip: Inflige la debilitación Hidratoxina al golpear
+	Tooltip: Inflige Hidratoxina al golpear
 }
 
 HydratoxinBullet: {
@@ -106,7 +106,7 @@ HydratoxinDart: {
 }
 
 EventideBullet: {
-	DisplayName: Bala del Atardecer
+	DisplayName: Bala del Anochecer
 	Tooltip: ""
 }
 

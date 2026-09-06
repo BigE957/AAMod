@@ -9,7 +9,7 @@ ChampionPlate: {
 }
 
 ChaosScale: {
-	DisplayName: Escama de Caos
+	DisplayName: Escama del Caos
 	Tooltip: El caos irradia de esta escama ardiente
 }
 
@@ -24,7 +24,7 @@ IncineriteBar: {
 }
 
 IncineriteOre: {
-	DisplayName: Incinerita
+	DisplayName: Mineral de Incinerita
 	Tooltip: Esta cosa está jodidamente caliente. Cuidado.
 }
 
@@ -39,12 +39,12 @@ RadiantIncineriteBar: {
 }
 
 DreadScale: {
-	DisplayName: Escama de Pavor
-	Tooltip: El poder de la luna del pavor está en tus manos
+	DisplayName: Escama del Terror
+	Tooltip: El poder de la luna del terror está en tus manos
 }
 
 EventideAbyssiumOre: {
-	DisplayName: Mineral de Abyssium Anochecer
+	DisplayName: Mineral de Abyssium del Anochecer
 	Tooltip: Es frío y húmedo, como un anochecer en una ciénaga pantanosa
 }
 
@@ -288,12 +288,12 @@ CrucibleScale: {
 }
 
 DaybreakIncineriteBar: {
-	DisplayName: Incinerita del Alba
+	DisplayName: Incinerita del Amanecer
 	Tooltip: Brillante como el sol radiante
 }
 
 DaybreakIncineriteOre: {
-	DisplayName: Mineral de Incinerita del Alba
+	DisplayName: Mineral de Incinerita del Amanecer
 	Tooltip: Es cálido al tacto, como una mañana brillante de verano.
 }
 
@@ -318,7 +318,7 @@ AbyssiumBar: {
 }
 
 AbyssiumOre: {
-	DisplayName: Abyssium
+	DisplayName: Mineral de Abyssium
 	Tooltip: Está todo blando. Desagradable.
 }
 
@@ -348,7 +348,7 @@ MirePod: {
 }
 
 Bogtoxin: {
-	DisplayName: Toxina de Ciénaga
+	DisplayName: Toxina del Lodazal
 	Tooltip: Veneno sumamente corrosivo.
 }
 
@@ -363,12 +363,12 @@ SoulOfSpite: {
 }
 
 EventideAbyssiumBar: {
-	DisplayName: Abyssium del Anochecer
+	DisplayName: Lingote de Abyssium del Anochecer
 	Tooltip: Frío como la luna de la tarde
 }
 
 TerrorSoul: {
-	DisplayName: Alma de Terror
+	DisplayName: Alma de Horror
 	Tooltip: ""
 }
 
@@ -403,7 +403,7 @@ VikingRelic: {
 }
 
 DarkmatterBar: {
-	DisplayName: Materia Oscura
+	DisplayName: Lingote de Materia Oscura
 	Tooltip: Los componentes básicos de la física misma
 }
 
@@ -433,12 +433,12 @@ HeroRelics: {
 }
 
 TerraShard: {
-	DisplayName: Fragmento de Terra
+	DisplayName: Fragmento Terra
 	Tooltip: ""
 }
 
 TerraPrism: {
-	DisplayName: Prisma de Terra
+	DisplayName: Prisma Terra
 	Tooltip: Imbuido con la armonía unificada de las tierras de Terraria
 }
 

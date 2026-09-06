@@ -79,7 +79,7 @@ BlazeClawBanner: {
 }
 
 AncientLungBanner: {
-	DisplayName: Estandarte de Pulmón Ancestral
+	DisplayName: Estandarte de Dragón Antiguo
 	Tooltip: ""
 }
 
@@ -219,42 +219,42 @@ PurityWeaverBanner: {
 }
 
 TerraDeadshotBanner: {
-	DisplayName: Estandarte de Tirador de Terra
+	DisplayName: Estandarte de Tirador Terra
 	Tooltip: ""
 }
 
 TerraKnightBanner: {
-	DisplayName: Estandarte de Caballero de Terra
+	DisplayName: Estandarte de Caballero Terra
 	Tooltip: ""
 }
 
 TerraSquireBanner: {
-	DisplayName: Estandarte de Escudero de Terra
+	DisplayName: Estandarte de Escudero Terra
 	Tooltip: ""
 }
 
 TerraWarlockBanner: {
-	DisplayName: Estandarte de Brujo de Terra
+	DisplayName: Estandarte de Brujo Terra
 	Tooltip: ""
 }
 
 TerraCrawlerBanner: {
-	DisplayName: Estandarte de Reptador de Terra
+	DisplayName: Estandarte de Reptador Terra
 	Tooltip: ""
 }
 
 TerraSphereBanner: {
-	DisplayName: Estandarte de Esfera de Terra
+	DisplayName: Estandarte de Esfera Terra
 	Tooltip: ""
 }
 
 TerraSquidBanner: {
-	DisplayName: Estandarte de Calamar de Terra
+	DisplayName: Estandarte de Calamar Terra
 	Tooltip: ""
 }
 
 TerraWizardBanner: {
-	DisplayName: Estandarte de Mago de Terra
+	DisplayName: Estandarte de Mago Terra
 	Tooltip: ""
 }
 
@@ -314,12 +314,12 @@ TrenchSquidBanner: {
 }
 
 TerraWeaverBanner: {
-	DisplayName: Estandarte de Tejedor de Terra
+	DisplayName: Estandarte de Tejedor Terra
 	Tooltip: ""
 }
 
 TerraSerpentBanner: {
-	DisplayName: Estandarte de Serpiente de Terra
+	DisplayName: Estandarte de Serpiente Terra
 	Tooltip: ""
 }
 

@@ -59,16 +59,16 @@ ShenDoragonDeath.DisplayName: Muerte de Discordia
 ShenDoragonDefeat.DisplayName: Derrota de Discordia
 ShenDoragonSpawn.DisplayName: Discordia
 ShenDoragonTransition.DisplayName: Despertar Discordiano
-FuryAshe.DisplayName: Furia de Ashe
+FuryAshe.DisplayName: Ashe Furiosa
 FuryAsheVanish.DisplayName: Ashe Akuma
 FuryFlameVortex.DisplayName: Vértice de Llamas
 ShenlingBody1.DisplayName: Serpiente Discordiana
 ShenlingBody2.DisplayName: Serpiente Discordiana
 ShenlingHead.DisplayName: Serpiente Discordiana
 ShenlingTail.DisplayName: Serpiente Discordiana
-WrathHaruka.DisplayName: Ira de Haruka
-WrathHarukaClone.DisplayName: Ira de Haruka
-WrathHarukaVanish.DisplayName: Ira de Haruka
+WrathHaruka.DisplayName: Haruka Rencorosa
+WrathHarukaClone.DisplayName: Haruka Rencorosa
+WrathHarukaVanish.DisplayName: Haruka Rencorosa
 AHDeath.DisplayName: Derrota de las Hermanas
 AHSpawn.DisplayName: Hermanas de la Discordia
 Ashe.DisplayName: Ashe Akuma
@@ -129,7 +129,7 @@ GreedABody.DisplayName: Rey Gusano Avaricia
 GreedAHead.DisplayName: Rey Gusano Avaricia
 SingularityOfDesire.DisplayName: Singularidad de Deseo
 Broodmini.DisplayName: Mininido
-Broodmother.DisplayName: La Madre de la Brote
+Broodmother.DisplayName: La Madre de la Camada
 DragonEgg.DisplayName: Huevo de Dragón
 InfernalSlime.DisplayName: Slime Infernal
 DragonClaw_NPC.DisplayName: Garra de Dragón
@@ -155,13 +155,13 @@ AkumaHead.DisplayName: Akuma; Demonio Draconiano
 AkumaTransition.DisplayName: Alma de Furia
 AkumaABody.DisplayName: Oni Akuma
 AkumaAHead.DisplayName: Oni Akuma
-AwakenedLungBody.DisplayName: Pulmón Despertado
-AwakenedLungHead.DisplayName: Pulmón Despertado
-AwakenedLungTail.DisplayName: Pulmón Despertado
+AwakenedLungBody.DisplayName: Dragón Despertado
+AwakenedLungHead.DisplayName: Dragón Despertado
+AwakenedLungTail.DisplayName: Dragón Despertado
 BlazeClaw.DisplayName: Garra de Llamas
-AncientLungBody.DisplayName: Pulmón Ancestral
-AncientLungHead.DisplayName: Pulmón Ancestral
-AncientLungTail.DisplayName: Pulmón Ancestral
+AncientLungBody.DisplayName: Dragón Antiguo
+AncientLungHead.DisplayName: Dragón Antiguo
+AncientLungTail.DisplayName: Dragón Antiguo
 MadnessBat.DisplayName: Murciélago de la Locura
 MadnessSlime.DisplayName: Slime de la Locura
 HarukaShadowPostHydra.DisplayName: ...
@@ -237,17 +237,17 @@ PuritySquid.DisplayName: Calamar de la Pureza
 PurityWeaverBody.DisplayName: Tejedor de la Pureza
 PurityWeaverHead.DisplayName: Tejedor de la Pureza
 PurityWeaverTail.DisplayName: Tejedor de la Pureza
-TerraDeadshot.DisplayName: Tirador de Terra
-TerraKnight.DisplayName: Caballero de Terra
-TerraSquire.DisplayName: Escudero de Terra
-TerraWarlock.DisplayName: Brujo de Terra
-TerraCrawler.DisplayName: Reptador de Terra
-TerraSphere.DisplayName: Esfera de Terra
-TerraSquid.DisplayName: Calamar de Terra
-TerraWeaverBody.DisplayName: Tejedor de Terra
-TerraWeaverHead.DisplayName: Tejedor de Terra
-TerraWeaverTail.DisplayName: Tejedor de Terra
-TerraWizard.DisplayName: Mago de Terra
+TerraDeadshot.DisplayName: Tirador Terra
+TerraKnight.DisplayName: Caballero Terra
+TerraSquire.DisplayName: Escudero Terra
+TerraWarlock.DisplayName: Brujo Terra
+TerraCrawler.DisplayName: Reptador Terra
+TerraSphere.DisplayName: Esfera Terra
+TerraSquid.DisplayName: Calamar Terra
+TerraWeaverBody.DisplayName: Tejedor Terra
+TerraWeaverHead.DisplayName: Tejedor Terra
+TerraWeaverTail.DisplayName: Tejedor Terra
+TerraWizard.DisplayName: Mago Terra
 UnityProbe.DisplayName: Sonda de Unidad
 UnityWatcher.DisplayName: Vigía de Unidad
 Sagittarius.DisplayName: Sagitario

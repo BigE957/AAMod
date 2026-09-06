@@ -224,7 +224,7 @@ VoidPreIZBox: {
 }
 
 SiegeBox: {
-	DisplayName: Caja de Música (Unidad S.I.E.G.E.)
+	DisplayName: Caja de Música (Unidad de A.S.E.D.I.O.)
 	Tooltip: Reproduce 'Controlled Chaos' de ProduceVGM
 }
 

@@ -106,7 +106,7 @@ SiegeMechsKilled: {
 
 SistersOfDiscordKilled: {
 	FriendlyName: Intervención Discordiana
-	Description: Manda a las Hermanas del Caos llorando de vuelta con sus papás.
+	Description: Manda a las Hermanas de la Discordia llorando de vuelta con sus papás.
 }
 
 SoulOfCthulhuKilled: {
@@ -152,7 +152,7 @@ CelestialOreMined: {
 
 TierThreeChaosOreMined: {
 	FriendlyName: Antediluviano
-	Description: Mina Incinerita del Alba o Abyssium del Anochecer, formas primordiales de los minerales anteriores que se encuentran dentro del Infierno y el Lodazal respectivamente.
+	Description: Mina Incinerita del Amanecer o Abyssium del Anochecer, formas primordiales de los minerales anteriores que se encuentran dentro del Infierno y el Lodazal respectivamente.
 }
 
 ApocalyptiteOreMined: {
@@ -178,7 +178,7 @@ ChaosCrafted: {
 
 TerratoolCrafted: {
 	FriendlyName: Omniherramienta
-	Description: Consigue una Herramienta Terra para blandir un pico, un hacha y un martillo, todo en una sola herramienta.
+	Description: Consigue una Terramienta para blandir un pico, un hacha y un martillo, todo en una sola herramienta.
 }
 
 DragonstrideBootsCrafted: {

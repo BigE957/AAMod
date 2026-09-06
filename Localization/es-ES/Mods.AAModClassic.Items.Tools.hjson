@@ -1,5 +1,5 @@
 DarkmatterJackhammer: {
-	DisplayName: Martillo Compresor de Materia Oscura
+	DisplayName: Martillo Neumático de Materia Oscura
 	Tooltip: ""
 }
 
@@ -9,7 +9,7 @@ DarkmatterPitchet: {
 }
 
 Terratool: {
-	DisplayName: Terratool
+	DisplayName: Terramienta
 	Tooltip:
 		'''
 		Haz clic derecho para cambiar los tipos de herramienta
@@ -28,7 +28,7 @@ FulguritePitchet: {
 }
 
 ExtravagantTerratool: {
-	DisplayName: Terratool Extravagante
+	DisplayName: Terramienta Extravagante
 	Tooltip:
 		'''
 		Haz clic derecho para cambiar los tipos de herramienta
@@ -37,7 +37,7 @@ ExtravagantTerratool: {
 }
 
 GroviteTerratool: {
-	DisplayName: Terratool de Grovita
+	DisplayName: Terramienta de Grovita
 	Tooltip:
 		'''
 		Haz clic derecho para cambiar los tipos de herramienta
@@ -56,7 +56,7 @@ Terraformer: {
 }
 
 ChaosTerratool: {
-	DisplayName: Terratool del Caos
+	DisplayName: Terramienta del Caos
 	Tooltip:
 		'''
 		Haz clic derecho para cambiar los tipos de herramienta
@@ -74,7 +74,7 @@ Timecaller: {
 }
 
 DiscordianTerratool: {
-	DisplayName: Terratool Discordiano
+	DisplayName: Terramienta Discordiana
 	Tooltip:
 		'''
 		Haz clic derecho para cambiar los tipos de herramienta
@@ -83,12 +83,12 @@ DiscordianTerratool: {
 }
 
 Nightaxe: {
-	DisplayName: Hacha de Madera Nocturna
+	DisplayName: Pico Nocturno
 	Tooltip: ""
 }
 
 TrueNightaxe: {
-	DisplayName: Hacha de Madera Nocturna Verdadera
+	DisplayName: Pico Nocturno Verdadero
 	Tooltip: ""
 }
 
@@ -113,12 +113,12 @@ Toothpick: {
 }
 
 GlowingMushmallet: {
-	DisplayName: Mazo Champiñón Brillante
+	DisplayName: Mazo de Champiñones Brillantes
 	Tooltip: ""
 }
 
 GlowingMushpick: {
-	DisplayName: Pico Champiñón Brillante
+	DisplayName: Pico de Champiñones Brillantes
 	Tooltip: ""
 }
 
@@ -167,7 +167,7 @@ Suncaller: {
 }
 
 DraconianTerratool: {
-	DisplayName: Terratool Draconiano
+	DisplayName: Terramienta Draconiana
 	Tooltip:
 		'''
 		Haz clic derecho para cambiar los tipos de herramienta
@@ -226,7 +226,7 @@ PerfectShadowDrill: {
 }
 
 DreadTerratool: {
-	DisplayName: Terratool del Terror
+	DisplayName: Terramienta del Terror
 	Tooltip:
 		'''
 		Haz clic derecho para cambiar los tipos de herramienta
@@ -245,12 +245,12 @@ CoralPickaxe: {
 }
 
 Mushmallet: {
-	DisplayName: Mazo Champiñón
+	DisplayName: Mazo de Champiñón
 	Tooltip: ""
 }
 
 Mushpick: {
-	DisplayName: Pico Champiñón
+	DisplayName: Pico de Champiñón
 	Tooltip: ""
 }
 
@@ -260,7 +260,7 @@ DragonPickaxe: {
 }
 
 Icepick: {
-	DisplayName: Piolet
+	DisplayName: Pico de Hielo
 	Tooltip: ""
 }
 
@@ -307,7 +307,7 @@ DoomiteJacksaw: {
 }
 
 DoomsdayTerratool: {
-	DisplayName: Terratool del Juicio Final
+	DisplayName: Terramienta del Juicio Final
 	Tooltip:
 		'''
 		Haz clic derecho para cambiar los tipos de herramienta
@@ -321,7 +321,7 @@ ShatteredMirror: {
 }
 
 GravitronCentrifuge: {
-	DisplayName: entrífuga de Gravitrón
+	DisplayName: Centrífuga de Gravitrón
 	Tooltip:
 		'''
 		Proporciona una gran cantidad de fuerza centrífuga, otorgando gravedad estándar en el espacio
@@ -339,7 +339,7 @@ GravitronCentrifugeOff: {
 }
 
 TheGripsOfChaos: {
-	DisplayName: Agarre del Caos
+	DisplayName: Las Garras del Caos
 	Tooltip:
 		'''
 		Dispara 2 ganchos diferentes dependiendo de cuál esté ya fuera
@@ -349,7 +349,7 @@ TheGripsOfChaos: {
 }
 
 LivingRazeleafWand: {
-	DisplayName: Varita de Hojas de Navaja Vivientes
+	DisplayName: Varita de Hojas Asoladoras Vivientes
 	Tooltip: Coloca hojas de madera asoladora
 }
 
@@ -359,21 +359,21 @@ LivingRazewoodWand: {
 }
 
 LivingBogleafWand: {
-	DisplayName: Varita de Hojas de Pantano Vivientes
-	Tooltip: Coloca hojas de madera de pantano
+	DisplayName: Varita de Hojas del Lodazal Vivientes
+	Tooltip: Coloca hojas de madera del lodazal
 }
 
 LivingBogwoodWand: {
-	DisplayName: Varita de Madera de Pantano Viviente
-	Tooltip: Coloca madera de pantano viviente
+	DisplayName: Varita de Madera del Lodazal Viviente
+	Tooltip: Coloca madera del lodazal viviente
 }
 
 DragonsGrip: {
-	DisplayName: Agarre del Dragón
+	DisplayName: Garra del Dragón
 	Tooltip: ""
 }
 
 HydraBite: {
-	DisplayName: Mordisco de Hidra
+	DisplayName: Mordisco de la Hidra
 	Tooltip: ""
 }

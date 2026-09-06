@@ -35,7 +35,7 @@ Apocalypse: {
 		'''
 		Los Jacks Flamígeros viajan hacia el atardecer, donde
 		las almas viajan para alcanzar el más allá.
-		Hoja del Jinete EX
+		La Espada del Jinete EX
 		'''
 }
 
@@ -44,7 +44,7 @@ DraconianFury: {
 	Tooltip:
 		'''
 		Hace llover fuego y furia sobre tus enemigos
-		Inflige Desgarrado por el día
+		Inflige Desgarro Solar
 		Reinado de Fuego EX
 		'''
 }
@@ -110,7 +110,7 @@ ScytheOfEvil: {
 		'''
 		La guadaña del mismísimo señor de la muerte
 		Inflige Icor e Infierno Maldito
-		Hoz de la Muerte EX
+		Hoz Mortífera EX
 		'''
 }
 
@@ -119,7 +119,7 @@ TheLolkat: {
 	Tooltip:
 		'''
 		¡¡¡¡¡¿¿¿¿¿QUÉ SIGNIFICA?!?!?!111!!11
-		Meowmere EX
+		Filomiau EX
 		'''
 }
 
@@ -127,13 +127,13 @@ TrueTerraBlade: {
 	DisplayName: Espada Terra Verdadera
 	Tooltip:
 		'''
-		Dispara proyectiles teledirigidos que infligen terra-llama
+		Dispara proyectiles teledirigidos que infligen Terrallamarada
 		Espada Terra EX
 		'''
 }
 
 UltimaShortsword: {
-	DisplayName: Espada Corta Ultima
+	DisplayName: Espada Corta Final
 	Tooltip: Espada Corta de Cobre EX
 }
 
@@ -195,7 +195,7 @@ Daycrusher: {
 	Tooltip:
 		'''
 		Golpea a los enemigos con la fuerza de una masa solar
-		Inflige Desgarrado por el día
+		Inflige Desgarro Solar
 		'''
 }
 
@@ -209,7 +209,7 @@ ReignOfFire: {
 	Tooltip:
 		'''
 		Hace llover fuego y furia sobre tus enemigos
-		Inflige Desgarrado por el día
+		Inflige Desgarro Solar
 		'''
 }
 
@@ -218,7 +218,7 @@ Solar: {
 	Tooltip:
 		'''
 		Gira con la velocidad de un planeta orbitando el sol
-		Inflige Desgarrado por el día
+		Inflige Desgarro Solar
 		'''
 }
 
@@ -227,7 +227,7 @@ SunPartisan: {
 	Tooltip:
 		'''
 		Una de las dos lanzas legendarias utilizadas para dividir el tiempo en día y noche
-		Inflige Desgarrado por el día
+		Inflige Desgarro Solar
 		'''
 }
 
@@ -353,7 +353,7 @@ CursedSickle: {
 }
 
 Demise: {
-	DisplayName: Demise
+	DisplayName: Ruina
 	Tooltip:
 		'''
 		Una espada legendaria que alguna vez fue empuñada por el rey demonio
@@ -443,7 +443,7 @@ Catastrophe: {
 		Clic izquierdo para desatar energía demoníaca destructiva
 		Clic derecho para desatar hojas catastróficas que caen del cielo
 		Los golpes cuerpo a cuerpo verdaderos tienen la posibilidad de devorar instantáneamente el alma de un enemigo
-		Demise EX
+		Ruina EX
 		'''
 }
 
@@ -503,11 +503,11 @@ PerfectChaosYari: {
 }
 
 SlapBone: {
-	DisplayName: Hueso Bofetada
+	DisplayName: Hueso de Abofetear
 	Tooltip:
 		'''
 		¡El impacto más pequeño enviará a tus enemigos a la órbita!
-		Mano Bofetada EX
+		Mano de Abofetear EX
 		'''
 }
 
@@ -576,7 +576,7 @@ BloodyMary: {
 }
 
 BaneOfTheBunny: {
-	DisplayName: Perdición del Conejo
+	DisplayName: Azote del Conejo
 	Tooltip:
 		'''
 		Clic derecho para usar como lanza
@@ -591,13 +591,13 @@ ThePunisher: {
 }
 
 BaneOfTheSlaughterer: {
-	DisplayName: Perdición del Carnicero
+	DisplayName: Azote del Asesino
 	Tooltip:
 		'''
 		Clic derecho para usar como lanza
 		Clic izquierdo para usar como jabalina
 		Lanzar jabalinas justo después de una estocada con lanza las lanza más rápido por un momento
-		Perdición del Conejo EX
+		Azote del Conejo EX
 		'''
 }
 
@@ -640,7 +640,7 @@ Timesplitter: {
 	Tooltip:
 		'''
 		Se ha dicho que esta lanza se utilizó para dividir el tiempo en día y noche
-		Inflige Desgarrado por el día y Desgarro Lunar
+		Inflige Desgarro Solar y Desgarro Lunar
 		'''
 }
 
@@ -675,7 +675,7 @@ IchorSpear: {
 }
 
 Djinnerang: {
-	DisplayName: Djinnerang
+	DisplayName: Geniorán
 	Tooltip: ""
 }
 
@@ -757,11 +757,11 @@ ToadTongue: {
 }
 
 GoblinSlayer: {
-	DisplayName: Matagoblins
+	DisplayName: Asesino de Duendes
 	Tooltip:
 		'''
 		Se puede balancear con el clic izquierdo y empujar hacia adelante con un clic derecho
-		'La hoja de un legendario matagoblins'
+		'La hoja de un legendario asesino de duendes'
 		'''
 }
 
@@ -816,7 +816,7 @@ Yogan: {
 }
 
 Dracorang: {
-	DisplayName: Dracorang
+	DisplayName: Dracorán
 	Tooltip: Deja un rastro de llamas de corta duración
 }
 
@@ -840,7 +840,7 @@ DragonShiv: {
 	Tooltip:
 		'''
 		Lenta, pero golpea como un cuerpo celestial
-		Inflige Desgarrado
+		Inflige Desgarro Solar
 		'''
 }
 
@@ -866,7 +866,7 @@ AbyssalTwilight: {
 
 Depthwalker: {
 	DisplayName: Caminante de las Profundidades
-	Tooltip: Camina por la Hidra
+	Tooltip: Pasea la Hidra
 }
 
 ExilesKatana: {
@@ -900,7 +900,7 @@ DeathDaggers: {
 }
 
 DreadTwilight: {
-	DisplayName: Crepúsculo del Pavor
+	DisplayName: Crepúsculo del Terror
 	Tooltip: La encarnación de la luna naciente
 }
 
@@ -944,12 +944,12 @@ SpookySawblade: {
 }
 
 Musharang: {
-	DisplayName: Champiñorang
+	DisplayName: Fungirán
 	Tooltip: ""
 }
 
 Mushmace: {
-	DisplayName: Champi-mazo
+	DisplayName: Fungimazo
 	Tooltip: ""
 }
 
@@ -974,8 +974,8 @@ SerpentSpike: {
 }
 
 SubzeroSlasher: {
-	DisplayName: Cortador Bajo Cero
-	Tooltip: Tiene la probabilidad de disparar un proyectil bajo cero al balancear
+	DisplayName: Cortador Subcero
+	Tooltip: Tiene la probabilidad de disparar un proyectil subcero al balancear
 }
 
 GlacierBreaker: {
@@ -989,7 +989,7 @@ IceLongsword: {
 }
 
 RaiderLance: {
-	DisplayName: Lanza de Incursor
+	DisplayName: Lanza del Incursor
 	Tooltip: ""
 }
 
@@ -1014,7 +1014,7 @@ BreakingDawn: {
 }
 
 TerraBroadsword: {
-	DisplayName: Espada Ancha de Terra
+	DisplayName: Espada Larga Terra
 	Tooltip: ""
 }
 
@@ -1099,7 +1099,7 @@ SagittariusLeg: {
 }
 
 DoomiteSaber: {
-	DisplayName: Sable de Doomite
+	DisplayName: Sable de Doomita
 	Tooltip: ""
 }
 
@@ -1114,7 +1114,7 @@ Voidsaber: {
 }
 
 EventHorizon: {
-	DisplayName: Horizonte de Sucesos
+	DisplayName: Horizonte Final
 	Tooltip: ""
 }
 

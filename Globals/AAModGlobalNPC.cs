@@ -920,33 +920,23 @@ namespace AAModClassic.Globals
         {
             try
             {
-                Dictionary<int, float> keepPool = new Dictionary<int, float>();
+                Dictionary<int, float> keepPool = [];
                 foreach (var kvp in pool)
                 {
                     int npcID = kvp.Key;
                     ModNPC mnpc = NPCLoader.GetNPC(npcID);
-                    if (mnpc != null && mnpc.Mod != null) //splitting so you can add other exceptions if need be
-                    {
-                        if (mnpc.Mod.Name.Equals("GRealm") || mnpc.Mod.Name.Equals("AAMod")) //do not remove GRealm or Modern AA spawns!
-                        {
-                            keepPool.Add(npcID, kvp.Value);
-                        }
-                    }
+                    HashSet<string> modsToKeep = [AAMod.instance.Name, "AAMod", "GRealm"];
+                    if (mnpc != null && mnpc.Mod != null && modsToKeep.Contains(mnpc.Mod.Name)) //splitting so you can add other exceptions if need be
+                        keepPool.Add(npcID, kvp.Value);
                 }
                 pool.Clear();
 
                 foreach (var newkvp in keepPool)
-                {
                     pool.Add(newkvp.Key, newkvp.Value);
-                    ModNPC mnpc = NPCLoader.GetNPC(newkvp.Key);
-                }
             }
             catch (Exception e)
             {
-                if (Main.netMode != NetmodeID.MultiplayerClient)
-                {
-                    BaseUtility.Chat(e.StackTrace);
-                }
+                AAMod.instance.Logger.Error(e.StackTrace);
             }
         }
 
@@ -964,12 +954,18 @@ namespace AAModClassic.Globals
 
             //Nukes vanilla spawns
             if (aaBiomeZone && !pillarZone)
-                pool[0] = 0f;
+                pool.Remove(0);
 
-            if (!NPCUtils.AnyEvents(spawnInfo.Player) && spawnInfo.Player.AAPlayer().ZoneAcropolis)
+            //Nukes all non-AA spawns
+            if (spawnInfo.Player.AAPlayer().ZoneVoid)
+                ClearPoolWithExceptions(pool);
+
+            bool anyEvents = NPCUtils.AnyEvents(spawnInfo.Player);
+
+            if (!anyEvents && spawnInfo.Player.AAPlayer().ZoneAcropolis)
                 pool[NPCID.Harpy] = 0.06f;
 
-            if (!NPCUtils.AnyEvents(spawnInfo.Player) && spawnInfo.Player.AAPlayer().ZoneHoard)
+            if (!anyEvents && spawnInfo.Player.AAPlayer().ZoneHoard)
             {
                 pool[NPCID.GiantWormHead] = 0.005f;
                 pool[NPCID.GoldWorm] = 0.001f;
