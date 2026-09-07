@@ -1,3 +1,4 @@
+﻿using AAModClassic._Content.Mire.___PreHardmode.NPCs.__BossHydra;
 using AAModClassic._Content.Void.___PreHardmode.Items._BossSagittarius.Weapons;
 using AAModClassic._Content.Void.___PreHardmode.NPCs;
 using AAModClassic._Content.Void._PostMoonlord.Items._BossZero.Ammo;
@@ -29,6 +30,7 @@ using Terraria.Audio;
 using Terraria.GameContent;
 using Terraria.GameContent.Bestiary;
 using Terraria.GameContent.ItemDropRules;
+using Terraria.GameContent.UI.BigProgressBar;
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
@@ -99,6 +101,7 @@ namespace AAModClassic._Content.Void._PostMoonlord.NPCs.__BossZero
             NPC.netAlways = true;
             SceneEffectPriority = SceneEffectPriority.BossHigh;
             SpawnModBiomes = [ModContent.GetInstance<VoidBiome>().Type];
+            NPC.BossBar = new ZeroBossBar();
         }
 
         public override void SetBestiary(BestiaryDatabase database, BestiaryEntry bestiaryEntry)
@@ -855,5 +858,68 @@ namespace AAModClassic._Content.Void._PostMoonlord.NPCs.__BossZero
                 }
             }
         }
+    }
+
+    public class ZeroBossBar : ModBossBar
+    {
+        private float _shieldMax = 0f;
+        private Asset<Texture2D> _icon = ModContent.Request<Texture2D>("AAModClassic/_Content/Void/_PostMoonlord/NPCs/__BossZero/Zero_Head_Boss");
+
+        // combine all arm's life as shield
+        public override bool? ModifyInfo(ref BigProgressBarInfo info, ref float life, ref float lifeMax, ref float shield, ref float shieldMax)
+        {
+            if (Main.npc.Length < info.npcIndexToAimAt)
+                return false;
+
+            NPC npc = Main.npc[info.npcIndexToAimAt];
+
+            if (npc == null || !npc.active)
+                return false;
+
+            if (npc.ModNPC is not Zero zero)
+                return false;
+
+            life = npc.life;
+            lifeMax = npc.lifeMax;
+
+            if (!npc.dontTakeDamage)
+            {
+                _shieldMax = 0;
+                return true;
+            }
+
+            shield = 0;
+            shieldMax = 0;
+
+            foreach (NPC arm in Main.npc)
+            {
+                if (
+                    arm.active && 
+                        (
+                            arm.type == ModContent.NPCType<ZeroVoidStar>() ||
+                            arm.type == ModContent.NPCType<ZeroGigataser>() ||
+                            arm.type == ModContent.NPCType<ZeroRealityCannon>() ||
+                            arm.type == ModContent.NPCType<ZeroRiftShredder>() ||
+                            arm.type == ModContent.NPCType<ZeroNeutralizer>() ||
+                            arm.type == ModContent.NPCType<ZeroOmegaVolley>() ||
+                            arm.type == ModContent.NPCType<ZeroNovaFocus>() ||
+                            arm.type == ModContent.NPCType<ZeroGenocideCannon>()
+                        )
+                    )
+                {
+                    shieldMax += arm.lifeMax;
+                    shield += arm.life;
+                }
+            }
+
+            if (shieldMax > _shieldMax)
+                _shieldMax = shieldMax;
+            else
+                shieldMax = _shieldMax;
+
+            return true;
+        }
+
+        public override Asset<Texture2D> GetIconTexture(ref Rectangle? iconFrame) => _icon;
     }
 }

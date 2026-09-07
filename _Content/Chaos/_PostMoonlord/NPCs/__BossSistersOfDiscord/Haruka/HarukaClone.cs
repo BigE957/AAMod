@@ -1,4 +1,4 @@
-using Terraria;
+﻿using Terraria;
 using Terraria.GameContent;
 using Terraria.ID;
 using Microsoft.Xna.Framework;
@@ -40,6 +40,7 @@ namespace AAModClassic._Content.Chaos._PostMoonlord.NPCs.__BossSistersOfDiscord.
             NPC.netAlways = true;
             NPC.noGravity = true;
             NPC.noTileCollide = true;
+            NPC.BossBar = Main.BigBossProgressBar.NeverValid;
         }
 
         public override void ApplyDifficultyAndPlayerScaling(int numPlayers, float balance, float bossAdjustment)/* tModPorter Note: bossLifeScale -> balance (bossAdjustment is different, see the docs for details) */
