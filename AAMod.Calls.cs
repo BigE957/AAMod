@@ -3,6 +3,7 @@ using AAModClassic._Content.Chaos._PostMoonlord.NPCs.__BossShenDoragon.Awakened;
 using AAModClassic._Content.Hoard._PostMoonlord.Items._BossGreedA.Weapons;
 using AAModClassic._Unreleased.Content.Void._PostMoonLord.NPCs.InfinityZero;
 using AAModClassic.Music;
+using AAModClassic.UI.World;
 using AAModClassic.Utilities;
 using Microsoft.Xna.Framework;
 using System;
@@ -265,6 +266,12 @@ namespace AAModClassic
 
                         OreCannonSystem.OreData.Add(oreID, new OreProjectileData(dustType, oreEffect, extraAI, onHit, onKill, extraDraw, onSpawn));
                         return true;
+                    case "WorldType.Unreleased":
+                        return WorldTypeSystem.IsWorldOptionEnabled(AAWorldOption.Unreleased);
+                    case "WorldType.Removed":
+                        return WorldTypeSystem.IsWorldOptionEnabled(AAWorldOption.Removed);
+                    case "WorldType.Unofficial":
+                        return WorldTypeSystem.IsWorldOptionEnabled(AAWorldOption.Unofficial);
                     default:
                         Logger.Error($"Ancients Awakened Call Error: {methodName} does not exist.");
                         return null;
