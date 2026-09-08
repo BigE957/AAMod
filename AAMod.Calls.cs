@@ -30,7 +30,7 @@ namespace AAModClassic
             {
                 if (CallMethods.Count == 0) //Initialize local methods attributed by [ModCall]
                 {
-                    foreach (MethodInfo methodInfo in GetType().GetMethods(BindingFlags.NonPublic))
+                    foreach (MethodInfo methodInfo in GetType().GetMethods(BindingFlags.Static | BindingFlags.NonPublic))
                     {
                         if (methodInfo.GetCustomAttribute<ModCallAttribute>() != null)
                             CallMethods.Add(methodInfo.Name, methodInfo);
@@ -90,13 +90,13 @@ namespace AAModClassic
 
         //Calls
         [ModCall]
-        private bool? Downed(string name)
+        private static bool? Downed(string name)
         {
-            if (this.TryFind<ModNPC>(name, out var npc))
+            if (ModContent.GetInstance<AAMod>().TryFind<ModNPC>(name, out var npc))
                 return npc.BeenKilled();
             else
             {
-                Logger.Error($"Ancients Awakened Call Error: An NPC named {name} could not be found.");
+                ModContent.GetInstance<AAMod>().Logger.Error($"Ancients Awakened Call Error: An NPC named {name} could not be found.");
                 return null;
             }
         }
@@ -134,11 +134,11 @@ namespace AAModClassic
         private static void AddAltarBlockingTile(int tileType) => AAWorld.DontSpawnAltarsOn.Add(tileType);
 
         [ModCall]
-        private bool AddOreProjectileData(int oreID, int dustType, Action<Projectile> oreEffect = null, Action<Projectile> extraAI = null, OnHitDelegate onHit = null, Action<Projectile> onKill = null, Action<Projectile, Color> extraDraw = null, Action<Projectile> onSpawn = null)
+        private static bool AddOreProjectileData(int oreID, int dustType, Action<Projectile> oreEffect = null, Action<Projectile> extraAI = null, OnHitDelegate onHit = null, Action<Projectile> onKill = null, Action<Projectile, Color> extraDraw = null, Action<Projectile> onSpawn = null)
         {
             if (OreCannonSystem.OreData.ContainsKey(oreID))
             {
-                Logger.Error($"Ore ID {oreID} already registered.");
+                ModContent.GetInstance<AAMod>().Logger.Error($"Ore ID {oreID} already registered.");
                 return false;
             }
 
