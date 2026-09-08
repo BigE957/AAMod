@@ -1,4 +1,4 @@
-using AAModClassic._Content.Inferno.World.Biomes;
+﻿using AAModClassic._Content.Inferno.World.Biomes;
 using AAModClassic.Base.BaseMod.Base;
 using AAModClassic.Utilities;
 using Microsoft.Xna.Framework;
@@ -35,6 +35,7 @@ namespace AAModClassic._Content.Inferno.___PreHardmode.NPCs.__BossBroodmother
             NPC.knockBackResist = .2f;
             NPC.npcSlots = 0f;
             SpawnModBiomes = new int[1] { ModContent.GetInstance<InfernoBiome>().Type };
+            NPC.BossBar = Main.BigBossProgressBar.NeverValid;
         }
 
         public override void HitEffect(NPC.HitInfo hit)

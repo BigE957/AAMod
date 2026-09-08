@@ -1,3 +1,4 @@
+﻿using AAModClassic._Content.Void._PostMoonlord.NPCs.__BossZero;
 using AAModClassic._Unreleased.Content.Parthenan.__Hardmode.Items._BossTechnoTruffle.BossStandard;
 using AAModClassic._Unreleased.Content.Parthenan.World.Biomes;
 using AAModClassic.Base.BaseMod.Base;
@@ -11,6 +12,7 @@ using System.IO;
 using Terraria;
 using Terraria.GameContent;
 using Terraria.GameContent.ItemDropRules;
+using Terraria.GameContent.UI.BigProgressBar;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -82,6 +84,7 @@ namespace AAModClassic._Unreleased.Content.Parthenan.__Hardmode.NPCs.__BossTechn
             NPC.DeathSound = SoundID.NPCDeath14;
             Music = MusicManagementSystem.MusicSlots["TechnoTruffle"];
             SpawnModBiomes = [ModContent.GetInstance<ParthenanBiome>().Type];
+            NPC.BossBar = new TechnoTruffleBossBar();
         }
 
         public override bool? DrawHealthBar(byte hbPosition, ref float scale, ref Vector2 position)
@@ -548,6 +551,59 @@ namespace AAModClassic._Unreleased.Content.Parthenan.__Hardmode.NPCs.__BossTechn
             spriteBatch.Draw(glowTex1, NPC.Center - screenPos, NPC.frame, Color.White, NPC.rotation, NPC.frame.Size() * 0.5f, NPC.scale, NPC.direction == -1 ? SpriteEffects.FlipHorizontally : SpriteEffects.None, 0);
             return false;
         }
+    }
+
+    public class TechnoTruffleBossBar : ModBossBar
+    {
+        private float _shieldMax = 0f;
+        private Asset<Texture2D> _icon = ModContent.Request<Texture2D>("AAModClassic/_Unreleased/Content/Parthenan/__Hardmode/NPCs/__BossTechnoTruffle/TechnoTruffle_Head_Boss");
+
+        public override bool? ModifyInfo(ref BigProgressBarInfo info, ref float life, ref float lifeMax, ref float shield, ref float shieldMax)
+        {
+            if (Main.npc.Length < info.npcIndexToAimAt)
+                return false;
+
+            NPC target = Main.npc[info.npcIndexToAimAt];
+
+            if (target == null || !target.active)
+                return false;
+
+            if (target.ModNPC is not TechnoTruffle technoTruffle)
+                return false;
+
+            life = target.life;
+            lifeMax = target.lifeMax;
+
+            if (!target.dontTakeDamage)
+            {
+                _shieldMax = 0;
+                return true;
+            }
+
+            shield = 0;
+            shieldMax = 0;
+
+            int probeType = ModContent.NPCType<TruffleProbe>();
+            for (int i = 0; i < Main.maxNPCs; i++)
+            {
+                NPC npc = Main.npc[i];
+                if (npc.active && npc.life > 0 && npc.type == probeType
+                    && npc.ModNPC is TruffleProbe probe && (probe.body == -1 || probe.body == technoTruffle.NPC.whoAmI))
+                {
+                    shield += npc.life;
+                    shieldMax += npc.lifeMax;
+                }
+            }
+
+            if (shieldMax > _shieldMax)
+                _shieldMax = shieldMax;
+            else
+                shieldMax = _shieldMax;
+
+            return true; 
+        }
+
+        public override Asset<Texture2D> GetIconTexture(ref Rectangle? iconFrame) => _icon;
     }
 }
 

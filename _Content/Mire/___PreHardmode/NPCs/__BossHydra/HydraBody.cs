@@ -1,4 +1,4 @@
-using AAModClassic._Content.Mire.___PreHardmode.Items._BossHydra.BossStandard;
+﻿using AAModClassic._Content.Mire.___PreHardmode.Items._BossHydra.BossStandard;
 using AAModClassic._Content.Mire.___PreHardmode.Items.Accessories;
 using AAModClassic._Content.Mire.___PreHardmode.Items.Materials;
 using AAModClassic._Content.Mire.___PreHardmode.Items.Pets;
@@ -14,12 +14,15 @@ using AAModClassic.Utilities.AbstractsLikeDigitalCircus.Items;
 using AAModClassic.Utilities.AbstractsLikeDigitalCircus.NPCs;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using ReLogic.Content;
+using SteelSeries.GameSense.DeviceZone;
 using System;
 using System.IO;
 using Terraria;
 using Terraria.GameContent;
 using Terraria.GameContent.Bestiary;
 using Terraria.GameContent.ItemDropRules;
+using Terraria.GameContent.UI.BigProgressBar;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -74,6 +77,7 @@ namespace AAModClassic._Content.Mire.___PreHardmode.NPCs.__BossHydra
             Music = MusicManagementSystem.MusicSlots["Hydra"];
             NPC.buffImmune[BuffID.Poisoned] = true;
             SpawnModBiomes = [ModContent.GetInstance<MireBiome>().Type];
+            NPC.BossBar = new HydraBossBar();
         }
 
         public override void SetBestiary(BestiaryDatabase database, BestiaryEntry bestiaryEntry)
@@ -540,5 +544,53 @@ namespace AAModClassic._Content.Mire.___PreHardmode.NPCs.__BossHydra
                 DrawHead(sb, headTex + "9", headTex + "6_Glow", Head9.Center - Main.screenPosition, Head9.frame, Head9.rotation, drawColor);
             }
         }
+    }
+
+    public class HydraBossBar : ModBossBar
+    {
+        private Asset<Texture2D> _icon = ModContent.Request<Texture2D>("AAModClassic/_Content/Mire/___PreHardmode/NPCs/__BossHydra/HydraHead1_Head_Boss");
+        public override bool? ModifyInfo(ref BigProgressBarInfo info, ref float life, ref float lifeMax, ref float shield, ref float shieldMax)
+        {
+
+            if (Main.npc.Length < info.npcIndexToAimAt)
+                return false;
+
+            NPC npc = Main.npc[info.npcIndexToAimAt];
+
+            if (npc == null || !npc.active)
+                return false;
+
+            if (npc.ModNPC is not HydraBody Body)
+                return false;
+
+            // set value to default value
+            life = 0;
+            lifeMax = 0;
+
+            if (Body.Head1 == null)
+                return false;
+
+            // lifemax will be calculate here
+            lifeMax = Body.Head1.lifeMax * 9;
+
+            // combine all head's life
+            NPC[] heads = [Body.Head1, Body.Head2, Body.Head3, Body.Head4, Body.Head5, Body.Head6, Body.Head7, Body.Head8, Body.Head9];
+
+            foreach (var head in heads)
+            {
+                if (head == null)
+                {
+                    life += Body.Head1.lifeMax;
+                    continue;
+                }
+
+                if (head.life >= 0)
+                    life += head.life;
+            }
+
+            return true;
+        }
+
+        public override Asset<Texture2D> GetIconTexture(ref Rectangle? iconFrame) => _icon;
     }
 }
