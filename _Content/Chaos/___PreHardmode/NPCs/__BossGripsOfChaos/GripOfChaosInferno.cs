@@ -8,7 +8,6 @@ using AAModClassic.Utilities;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using ReLogic.Content;
-using Terraria;
 using Terraria.GameContent;
 using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
@@ -64,7 +63,7 @@ namespace AAModClassic._Content.Chaos.___PreHardmode.NPCs.__BossGripsOfChaos
             int blueGripExists = NPC.CountNPCS(ModContent.NPCType<GripOfChaosMire>());
             if (blueGripExists == 0)
             {
-                AAWorld.downedGrips = true;
+                NPC.SetEventFlagCleared(ref AAWorld.downedGrips, -1);
                 if (NPC.playerInteraction[Main.myPlayer])
                     GripsOfChaosKilled.Condition.Complete();
             }

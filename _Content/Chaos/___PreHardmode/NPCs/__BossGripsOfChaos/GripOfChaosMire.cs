@@ -44,7 +44,7 @@ namespace AAModClassic._Content.Chaos.___PreHardmode.NPCs.__BossGripsOfChaos
             int redGripExists = NPC.CountNPCS(ModContent.NPCType<GripOfChaosInferno>());
             if (redGripExists == 0)
             {
-                AAWorld.downedGrips = true;
+                NPC.SetEventFlagCleared(ref AAWorld.downedGrips, -1);
                 if (NPC.playerInteraction[Main.myPlayer])
                     GripsOfChaosKilled.Condition.Complete();
             }
