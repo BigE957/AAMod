@@ -72,7 +72,7 @@ Every ten shots, it can shoot two extra bullets.
                 {
                     value9 -= vector7;
                 }
-                int num121 = Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), vector2.X + 0.5f * value9.X, vector2.Y + 0.5f * value9.Y, velocity.X, velocity.Y, type, damage, knockback, player.whoAmI, 0.0f, 0.0f);
+                int num121 = Projectile.NewProjectile(player.GetSource_ItemUse(Item), vector2.X + 0.5f * value9.X, vector2.Y + 0.5f * value9.Y, velocity.X, velocity.Y, type, damage, knockback, player.whoAmI, 0.0f, 0.0f);
                 Main.projectile[num121].noDropItem = true;
             }
 
@@ -90,7 +90,7 @@ Every ten shots, it can shoot two extra bullets.
 					{
 						value9 -= vector7;
 					}
-					int num121 = Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), vector2.X + value9.X, vector2.Y + value9.Y, velocity.X, velocity.Y, ModContent.ProjectileType<OmegaVolley_OmegaBlast>(), damage, knockback, player.whoAmI, 0.0f, 0.0f);
+					int num121 = Projectile.NewProjectile(player.GetSource_ItemUse(Item), vector2.X + value9.X, vector2.Y + value9.Y, velocity.X, velocity.Y, ModContent.ProjectileType<OmegaVolley_OmegaBlast>(), damage, knockback, player.whoAmI, 0.0f, 0.0f);
 					Main.projectile[num121].noDropItem = true;
 				}
 				extraammocount = 0;

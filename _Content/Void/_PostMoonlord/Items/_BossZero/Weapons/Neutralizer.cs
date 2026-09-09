@@ -76,7 +76,7 @@ Right click to fire normal arrows"); */
         {
             if (player.altFunctionUse != 2)
             {
-                Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position, velocity, ModContent.ProjectileType<DeathBeam>(), damage, knockback, Main.myPlayer);
+                Projectile.NewProjectile(player.GetSource_ItemUse(Item), position, velocity, ModContent.ProjectileType<DeathBeam>(), damage, knockback, Main.myPlayer);
                 
                 return false;
             }
@@ -95,7 +95,7 @@ Right click to fire normal arrows"); */
                 {
                     value9 -= vector7;
                 }
-                int num121 = Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), vector2.X + value9.X, vector2.Y + value9.Y, velocity.X, velocity.Y, type, damage, knockback, player.whoAmI, 0.0f, 0.0f);
+                int num121 = Projectile.NewProjectile(player.GetSource_ItemUse(Item), vector2.X + value9.X, vector2.Y + value9.Y, velocity.X, velocity.Y, type, damage, knockback, player.whoAmI, 0.0f, 0.0f);
                 Main.projectile[num121].noDropItem = true;
             }
             return false;

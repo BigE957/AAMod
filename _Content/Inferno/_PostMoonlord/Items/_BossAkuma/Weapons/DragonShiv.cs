@@ -58,7 +58,7 @@ Inflicts Daybroken"); */
         public override void OnHitNPC(Player player, NPC target, NPC.HitInfo hit, int damageDone)
         { 
             target.AddBuff(BuffID.Daybreak, 200);
-            Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), (int)target.position.X, (int)target.position.Y, 0, 0, ModContent.ProjectileType<AkumaExplosionBlue>(), Item.damage, 20, Main.myPlayer);
+            Projectile.NewProjectile(player.GetSource_ItemUse(Item), (int)target.position.X, (int)target.position.Y, 0, 0, ModContent.ProjectileType<AkumaExplosionBlue>(), Item.damage, 20, Main.myPlayer);
         }
         
         public override void AddRecipes()  //How to craft this sword

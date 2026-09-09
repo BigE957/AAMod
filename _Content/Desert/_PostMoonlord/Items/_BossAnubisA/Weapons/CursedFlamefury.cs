@@ -49,7 +49,7 @@ namespace AAModClassic._Content.Desert._PostMoonlord.Items._BossAnubisA.Weapons
 	        {
 	            float SpeedX = velocity.X + Main.rand.Next(-25, 26) * 0.05f;
 	            float SpeedY = velocity.Y + Main.rand.Next(-25, 26) * 0.05f;
-                Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position, velocity, type, damage, knockback, player.whoAmI, 0.0f, 0.0f);
+                Projectile.NewProjectile(player.GetSource_ItemUse(Item), position, velocity, type, damage, knockback, player.whoAmI, 0.0f, 0.0f);
             }
 	    	return false;
 		}

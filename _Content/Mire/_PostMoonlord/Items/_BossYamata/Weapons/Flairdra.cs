@@ -53,7 +53,7 @@ Inflicts Moonraze"); */
         {           
             for (int i = 0; i < 7; i++)
             {
-                int proj = Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position, velocity, type, damage, knockback, Main.myPlayer, ai2: i - 3);
+                int proj = Projectile.NewProjectile(player.GetSource_ItemUse(Item), position, velocity, type, damage, knockback, Main.myPlayer, ai2: i - 3);
                 Main.projectile[proj].DamageType = DamageClass.Melee;
                 Main.projectile[proj].localAI[1] = i * 60f / 35f; //* 60 / 5 / 7
             }

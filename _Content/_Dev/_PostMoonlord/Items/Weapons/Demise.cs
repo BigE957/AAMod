@@ -86,7 +86,7 @@ Right Click to unleash demon blades that fall from the sky"); */
                     float num83 = vector13.Y;
                     float speedX5 = num82;
                     float speedY6 = num83 + Main.rand.Next(-40, 41) * 0.02f;
-                    Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), vector2.X, vector2.Y, speedX5, speedY6, ModContent.ProjectileType<Demise_DemiseBlade>(), damage * 3 / 2, knockback, Main.myPlayer);
+                    Projectile.NewProjectile(player.GetSource_ItemUse(Item), vector2.X, vector2.Y, speedX5, speedY6, ModContent.ProjectileType<Demise_DemiseBlade>(), damage * 3 / 2, knockback, Main.myPlayer);
                 }
             }
             else
@@ -94,7 +94,7 @@ Right Click to unleash demon blades that fall from the sky"); */
                 for (int i = 0; i < 3; i++)
                 {
                     Vector2 perturbedSpeed = velocity.RotatedByRandom(MathHelper.ToRadians(15));
-                    Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position.X, position.Y, perturbedSpeed.X, perturbedSpeed.Y, ModContent.ProjectileType<Demise_DemiseSphere>(), damage, knockback, player.whoAmI);
+                    Projectile.NewProjectile(player.GetSource_ItemUse(Item), position.X, position.Y, perturbedSpeed.X, perturbedSpeed.Y, ModContent.ProjectileType<Demise_DemiseSphere>(), damage, knockback, player.whoAmI);
                 }
             }
             return false;

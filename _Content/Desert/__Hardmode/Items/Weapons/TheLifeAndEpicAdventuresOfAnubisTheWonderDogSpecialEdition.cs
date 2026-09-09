@@ -66,8 +66,8 @@ Right click for vertical blocks instead"); */
 
             if (player.altFunctionUse != 2)
             {
-                int l = Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), new Vector2(X - 600, Y), Vector2.Zero, ModContent.ProjectileType<TheLifeAndEpicAdventuresOfAnubisTheWonderDogSpecialEdition_BlockHorizontal>(), damage, knockback, Main.myPlayer, 0, 0);
-                int r = Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), new Vector2(X + 600, Y), Vector2.Zero, ModContent.ProjectileType<TheLifeAndEpicAdventuresOfAnubisTheWonderDogSpecialEdition_BlockHorizontal>(), damage, knockback, Main.myPlayer, 1, 0);
+                int l = Projectile.NewProjectile(player.GetSource_ItemUse(Item), new Vector2(X - 600, Y), Vector2.Zero, ModContent.ProjectileType<TheLifeAndEpicAdventuresOfAnubisTheWonderDogSpecialEdition_BlockHorizontal>(), damage, knockback, Main.myPlayer, 0, 0);
+                int r = Projectile.NewProjectile(player.GetSource_ItemUse(Item), new Vector2(X + 600, Y), Vector2.Zero, ModContent.ProjectileType<TheLifeAndEpicAdventuresOfAnubisTheWonderDogSpecialEdition_BlockHorizontal>(), damage, knockback, Main.myPlayer, 1, 0);
                 Main.projectile[l].ai[1] = r;
                 Main.projectile[l].Center = new Vector2(X - 600, Y);
                 Main.projectile[r].ai[1] = l;
@@ -75,8 +75,8 @@ Right click for vertical blocks instead"); */
             }
             else
             {
-                int u = Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), new Vector2(X, Y - 600), Vector2.Zero, ModContent.ProjectileType<TheLifeAndEpicAdventuresOfAnubisTheWonderDogSpecialEdition_BlockVertical>(), damage, knockback, Main.myPlayer, 0, 0);
-                int d = Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), new Vector2(X, Y + 600), Vector2.Zero, ModContent.ProjectileType<TheLifeAndEpicAdventuresOfAnubisTheWonderDogSpecialEdition_BlockVertical>(), damage, knockback, Main.myPlayer, 1, 0);
+                int u = Projectile.NewProjectile(player.GetSource_ItemUse(Item), new Vector2(X, Y - 600), Vector2.Zero, ModContent.ProjectileType<TheLifeAndEpicAdventuresOfAnubisTheWonderDogSpecialEdition_BlockVertical>(), damage, knockback, Main.myPlayer, 0, 0);
+                int d = Projectile.NewProjectile(player.GetSource_ItemUse(Item), new Vector2(X, Y + 600), Vector2.Zero, ModContent.ProjectileType<TheLifeAndEpicAdventuresOfAnubisTheWonderDogSpecialEdition_BlockVertical>(), damage, knockback, Main.myPlayer, 1, 0);
                 Main.projectile[u].ai[1] = d;
                 Main.projectile[u].Center = new Vector2(X, Y - 600);
                 Main.projectile[d].ai[1] = u;

@@ -52,7 +52,7 @@ Small chance to fire an awakened bomb that explodes into abyss souls"); */
         {
             if (Main.rand.NextBool(3) && WorldTypeSystem.IsWorldOptionEnabled(AAWorldOption.Unofficial))
                 type = ModContent.ProjectileType<AbyssalBomb_SoulBomb>();
-            Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position.X, position.Y, velocity.X, velocity.Y, type, damage, knockback, player.whoAmI);
+            Projectile.NewProjectile(player.GetSource_ItemUse(Item), position.X, position.Y, velocity.X, velocity.Y, type, damage, knockback, player.whoAmI);
             return false;
         }
 

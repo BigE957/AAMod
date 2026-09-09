@@ -76,7 +76,7 @@ Cursed Sickle EX"); */
             }
             for (int k = 0; k < 2; k++)
 			{
-				Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), player.Center.X, player.Center.Y, 0f, 0f, ModContent.ProjectileType<CursedSickleEffect>(), damage, knockback, player.whoAmI, k, 0f);
+				Projectile.NewProjectile(player.GetSource_ItemUse(Item), player.Center.X, player.Center.Y, 0f, 0f, ModContent.ProjectileType<CursedSickleEffect>(), damage, knockback, player.whoAmI, k, 0f);
 			}
 			return true;
 		}

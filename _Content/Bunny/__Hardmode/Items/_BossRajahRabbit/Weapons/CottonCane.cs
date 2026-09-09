@@ -64,7 +64,7 @@ namespace AAModClassic._Content.Bunny.__Hardmode.Items._BossRajahRabbit.Weapons
             num79 = 0f;
             vector2.X = Main.mouseX + Main.screenPosition.X;
             vector2.Y = Main.mouseY + Main.screenPosition.Y;
-            Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), vector2.X, vector2.Y, num78, num79, Item.shoot, num73, num74, i, 0f, 0f);
+            Projectile.NewProjectile(player.GetSource_ItemUse(Item), vector2.X, vector2.Y, num78, num79, Item.shoot, num73, num74, i, 0f, 0f);
             return false;
         }
     }

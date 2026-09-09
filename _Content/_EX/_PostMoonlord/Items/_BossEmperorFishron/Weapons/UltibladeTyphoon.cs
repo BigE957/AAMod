@@ -49,7 +49,7 @@ Razorblade Typhoon EX"); */
 			for (int i = 0; i < numberProjectiles; i++)
 			{
 				Vector2 perturbedSpeed = (velocity * 5).RotatedBy(MathHelper.Lerp(-rotation, rotation, i / (numberProjectiles - 1))) * .2f;
-				int proj = Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position.X, position.Y, perturbedSpeed.X, perturbedSpeed.Y, type, damage*2, knockback, player.whoAmI);
+				int proj = Projectile.NewProjectile(player.GetSource_ItemUse(Item), position.X, position.Y, perturbedSpeed.X, perturbedSpeed.Y, type, damage*2, knockback, player.whoAmI);
 				Main.projectile[proj].penetrate = 10;
 				Main.projectile[proj].usesLocalNPCImmunity = true;
 				Main.projectile[proj].localNPCHitCooldown = 1;

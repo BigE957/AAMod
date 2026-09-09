@@ -53,11 +53,11 @@ Sock Puppet Staff EX"); */
             vector2.Y = Main.mouseY + Main.screenPosition.Y;
             if (player.ownedProjectileCounts[ModContent.ProjectileType<SoccOnAStick_SockDudeFromBaldis>()] > 0)
             {
-                Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), vector2.X, vector2.Y, 0, 0, ModContent.ProjectileType<SoccOnAStick_SockPuppet>(), damage, num74, i, 0f, 0f);
+                Projectile.NewProjectile(player.GetSource_ItemUse(Item), vector2.X, vector2.Y, 0, 0, ModContent.ProjectileType<SoccOnAStick_SockPuppet>(), damage, num74, i, 0f, 0f);
             }
             else
             {
-                Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), vector2.X, vector2.Y, 0, 0, ModContent.ProjectileType<SoccOnAStick_SockDudeFromBaldis>(), (int)(damage * 1.5f), num74, i, 0f, 0f);
+                Projectile.NewProjectile(player.GetSource_ItemUse(Item), vector2.X, vector2.Y, 0, 0, ModContent.ProjectileType<SoccOnAStick_SockDudeFromBaldis>(), (int)(damage * 1.5f), num74, i, 0f, 0f);
             }
             return false;
         }

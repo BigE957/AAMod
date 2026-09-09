@@ -40,7 +40,7 @@ namespace AAModClassic._Content.Acropolis.__Hardmode.Items._BossAthena.Weapons
 
         public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
         {
-            Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), player.Center, velocity, Item.shoot, Item.damage, Item.knockBack, Main.myPlayer);
+            Projectile.NewProjectile(player.GetSource_ItemUse(Item), player.Center, velocity, Item.shoot, Item.damage, Item.knockBack, Main.myPlayer);
             return false;
         }
 

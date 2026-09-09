@@ -48,7 +48,7 @@ namespace AAModClassic._Content.Bunny.__Hardmode.Items._BossRajahRabbit.Weapons
             {
                 position += muzzleOffset;
             }
-            Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position, velocity, ModContent.ProjectileType<Bunzooka_RajahRocket>(), damage, knockback, player.whoAmI, 0.0f, 0.0f);
+            Projectile.NewProjectile(player.GetSource_ItemUse(Item), position, velocity, ModContent.ProjectileType<Bunzooka_RajahRocket>(), damage, knockback, player.whoAmI, 0.0f, 0.0f);
             return false;
         }
     }
