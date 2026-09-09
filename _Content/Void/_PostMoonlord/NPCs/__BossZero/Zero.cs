@@ -245,6 +245,7 @@ namespace AAModClassic._Content.Void._PostMoonlord.NPCs.__BossZero
             {
                 if (!NPC.BeenKilled(true))
                 {
+                    NPC.OnGameEventClearedForTheFirstTime(-1);
                     if (Main.netMode != NetmodeID.MultiplayerClient) 
                         BaseUtility.Chat(Language.GetTextValue("Mods.AAModClassic.NPCs.BossDialogue.Zero.Defeat.Status"), Color.PaleVioletRed);
                     VoidSky.Alpha = 0f;

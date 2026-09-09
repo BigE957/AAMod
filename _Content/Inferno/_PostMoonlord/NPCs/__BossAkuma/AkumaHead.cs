@@ -593,6 +593,7 @@ namespace AAModClassic._Content.Inferno._PostMoonlord.NPCs.__BossAkuma
             {
                 if (!NPC.BeenKilled(true))
                 {
+                    NPC.OnGameEventClearedForTheFirstTime(-1);
                     if (Main.netMode != NetmodeID.MultiplayerClient)
                         BaseUtility.Chat(Language.GetTextValue("Mods.AAModClassic.NPCs.BossDialogue.Akuma.Defeat.Status"), Color.DarkOrange.R, Color.DarkOrange.G, Color.DarkOrange.B, false);
                 }
