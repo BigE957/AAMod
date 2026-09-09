@@ -31,7 +31,8 @@ namespace AAModClassic.Globals
                         t.TileType == ModContent.TileType<BogwoodPalmTreeSapling_Tile>() ||
                         t.TileType == ModContent.TileType<OuroborosSapling_Tile>())
                     {
-                        WorldGen.GrowTree(x, y);
+                        if(WorldGen.GrowTree(x, y) && WorldGen.PlayerLOS(x, y))
+                            WorldGen.TreeGrowFXCheck(x, y);
                     }
                 }
             }
