@@ -1,4 +1,5 @@
 ﻿using AAModClassic._Content.Inferno.___PreHardmode.Items.Tiles.Decoration;
+using AAModClassic.Gores.Leaf;
 using Microsoft.Xna.Framework.Graphics;
 using ReLogic.Content;
 using Terraria.GameContent;
@@ -34,5 +35,7 @@ namespace AAModClassic._Content.Inferno.World.Tiles.Trees
             style = 0;
             return ModContent.TileType<RazewoodPalmSapling_Tile>();
         }
+
+        public override int TreeLeaf() => ModContent.GoreType<RazewoodPalmLeafGore>();
     }
 }

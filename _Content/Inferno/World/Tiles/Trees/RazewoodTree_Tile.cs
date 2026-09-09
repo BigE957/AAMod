@@ -1,5 +1,6 @@
 ﻿using AAModClassic._Content.Inferno.___PreHardmode.Items.Tiles.Decoration;
 using AAModClassic._Unreleased.Content.Inferno.___PreHardmode.Items;
+using AAModClassic.Gores.Leaf;
 using AAModClassic.UI.World;
 using AAModClassic.Utilities;
 using Microsoft.Xna.Framework;
@@ -53,6 +54,8 @@ namespace AAModClassic._Content.Inferno.World.Tiles.Trees
             style = 0;
             return ModContent.TileType<RazewoodSapling_Tile>();
         }
+
+        public override int TreeLeaf() => ModContent.GoreType<RazewoodLeafGore>();
 
         public override bool Shake(int x, int y, ref bool createLeaves)
         {
