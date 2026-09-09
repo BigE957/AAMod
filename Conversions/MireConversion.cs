@@ -28,7 +28,13 @@ namespace AAModClassic.Conversions
             TileLoader.RegisterConversion(TileID.Grass, Type, ModContent.TileType<MireGrass_Tile>());
             TileLoader.RegisterConversion(TileID.JungleGrass, Type, ModContent.TileType<MireGrass_Tile>());
             WallLoader.RegisterConversion(WallID.Grass, Type, ModContent.WallType<MireGrassWall_Wall>());
+            
             TileLoader.RegisterConversion(TileID.Dirt, Type, TileID.Mud); //Unofficial: This just makes sense to me
+            WallLoader.RegisterConversion(WallID.DirtUnsafe, Type, WallID.MudUnsafe);
+            WallLoader.RegisterConversion(WallID.DirtUnsafe1, Type, WallID.MudUnsafe);
+            WallLoader.RegisterConversion(WallID.DirtUnsafe2, Type, WallID.MudUnsafe);
+            WallLoader.RegisterConversion(WallID.DirtUnsafe3, Type, WallID.MudUnsafe);
+            WallLoader.RegisterConversion(WallID.DirtUnsafe4, Type, WallID.MudUnsafe);
 
             WallLoader.RegisterConversion(WallID.GrassUnsafe, Type, ModContent.WallType<MireGrassWall_Wall>());
             WallLoader.RegisterConversion(WallID.JungleUnsafe, Type, ModContent.WallType<MireGrassWall_Wall>());
@@ -36,7 +42,13 @@ namespace AAModClassic.Conversions
             WallLoader.RegisterConversion(WallID.JungleUnsafe2, Type, ModContent.WallType<MireGrassWall_Wall>());
             WallLoader.RegisterConversion(WallID.JungleUnsafe3, Type, ModContent.WallType<MireGrassWall_Wall>());
             WallLoader.RegisterConversion(WallID.JungleUnsafe4, Type, ModContent.WallType<MireGrassWall_Wall>());
-            
+
+            TileLoader.RegisterConversion(TileID.Vines, Type, ModContent.TileType<MireVines_Tile>());
+            //TileLoader.RegisterConversion(TileID.CorruptVines, Type, ModContent.TileType<MireVines_Tile>());
+            //TileLoader.RegisterConversion(TileID.CrimsonVines, Type, ModContent.TileType<MireVines_Tile>());
+            //TileLoader.RegisterConversion(TileID.HallowedVines, Type, ModContent.TileType<MireVines_Tile>());
+            TileLoader.RegisterConversion(TileID.JungleVines, Type, ModContent.TileType<MireVines_Tile>());
+
             TileLoader.RegisterConversion(TileID.Stone, Type, ModContent.TileType<Depthstone_Tile>());
             WallLoader.RegisterConversion(WallID.Stone, Type, ModContent.WallType<DepthstoneWall_Wall>());
             
@@ -65,7 +77,7 @@ namespace AAModClassic.Conversions
                 TileLoader.RegisterConversion(spirit.Find<ModTile>("SavannaGrassHallow").Type, Type, ModContent.TileType<MireGrass_Tile>());
                 TileLoader.RegisterConversion(spirit.Find<ModTile>("SavannaDirt").Type, Type, TileID.Mud);
 
-                WallLoader.RegisterConversion(spirit.Find<ModWall>("SavannaDirtWall").Type, Type, WallID.Dirt);
+                WallLoader.RegisterConversion(spirit.Find<ModWall>("SavannaDirtWall").Type, Type, WallID.MudWallEcho);
                 WallLoader.RegisterConversion(spirit.Find<ModWall>("SavannaDirtWallUnsafe").Type, Type, WallID.MudUnsafe);
 
                 TileLoader.RegisterConversion(spirit.Find<ModTile>("LivingBaobab").Type, Type, ModContent.TileType<LivingBogwood_Tile>());
