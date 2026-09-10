@@ -41,11 +41,5 @@ namespace AAModClassic._Content.RedMushroom.World.Tiles.Trees
         {
             return ModContent.Request<Texture2D>("AAModClassic/_Content/RedMushroom/World/Tiles/Trees/MushroomTree_Tile_Top");
         }
-
-        public override int SaplingGrowthType(ref int style)
-        {
-            style = 0;
-            return TileID.MushroomPlants; //TODO: This was formerly trying to find "MushroomTree"...
-        }
     }
 }

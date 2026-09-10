@@ -34,7 +34,9 @@ namespace AAModClassic._Content.RedMushroom.World.Tiles
             if (TileUtils.TrySpread(i, j, Type, 4, TileID.Dirt) && Main.netMode != NetmodeID.SinglePlayer)
                 NetMessage.SendTileSquare(-1, i, j, 3, TileChangeType.None);
 
-            if (!Framing.GetTileSafely(i, j - 1).HasTile && Main.rand.NextBool(30))
+            Tile tileAbove = Framing.GetTileSafely(i, j - 1);
+
+            if (!tileAbove.HasTile && Main.rand.NextBool(30))
             {
                 int style = Main.rand.Next(5);
                 if (!WorldTypeSystem.IsWorldOptionEnabled(AAWorldOption.Unreleased))
@@ -44,7 +46,7 @@ namespace AAModClassic._Content.RedMushroom.World.Tiles
                     NetMessage.SendObjectPlacement(-1, i, j - 1, ModContent.TileType<Mushroom_Tile>(), style, 0, -1, -1);
             }
 
-            if (!Framing.GetTileSafely(i, j - 1).HasTile && Main.rand.NextBool(1000))
+            if (!tileAbove.HasTile && Main.rand.NextBool(1000))
             {
                 int style = Main.rand.Next(5);
                 if (PlaceObject(i, j - 1, ModContent.TileType<MadnessMushroom_Tile>(), false, style))

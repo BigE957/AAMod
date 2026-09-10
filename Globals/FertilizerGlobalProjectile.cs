@@ -1,5 +1,7 @@
 ﻿using AAModClassic._Content.Inferno.World.Tiles.Trees;
 using AAModClassic._Content.Mire.World.Tiles.Trees;
+using AAModClassic._Content.RedMushroom.World.Tiles;
+using AAModClassic._Content.RedMushroom.World.Tiles.Trees;
 using AAModClassic._Content.Void.World.Tiles.Trees;
 using Microsoft.Xna.Framework;
 using Terraria.ID;
@@ -34,6 +36,15 @@ namespace AAModClassic.Globals
                         if(WorldGen.GrowTree(x, y) && WorldGen.PlayerLOS(x, y))
                             WorldGen.TreeGrowFXCheck(x, y);
                     }
+                    // Fertilizer doesnt work on glowing mushrooms so it wont work on these
+                    // Useful for testing tho
+                    /*
+                    else if(t.TileType == ModContent.TileType<Mushroom_Tile>())
+                    {
+                        if (Mushroom_Tile.GrowMushroomTree(x, y) && WorldGen.PlayerLOS(x, y))
+                            WorldGen.TreeGrowFXCheck(x, y);
+                    }
+                    */
                 }
             }
         }
