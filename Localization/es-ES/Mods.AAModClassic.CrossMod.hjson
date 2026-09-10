@@ -511,4 +511,78 @@ CalamityMod: {
 		Contempla mis obras, tal como están... Arruinadas. Nadie se atrevería a buscarme; a recorrer mi camino.
 		Nada les espera en este cruel mundo.
 		'''
+
+	DraeTalk: {
+		ChaosBiomes: {
+			// Prompt: The Chaos
+			/* Dialogue:
+				'''
+				Those lands were not always in the state you've seen them in. As I first began surveying these lands I encountered the two civilizations that once called those regions their home. One was built around a mountain, and their primary trade was in blacksmithery. The other surrounded a lake and was a fishing village.
+
+				Both were unique as they worshiped not gods as you and I know them, but the Ancients of Fury and Wrath respectively. They had never met these Ancients, as the two were in a deep slumber after a great battle from quite before my time. However, upon their awakening, the two Ancients destroyed their worshippers. Their Fury and Wrath birthed the lands as you know them, teeming with chaotic influence.
+
+				I witnessed all of this unfold from the lens of one of my survey drones. It was this event that convinced me to remaining in hiding for some time longer. Had I made my presence known then, I am uncertain if I would have had the defenses to fend of those raging beasts.
+
+				Yharim's narrow focus on the Gods during his Crusade only let the forces of chaos grow in number and power. You no doubt have met the Ashe and Haruka. The two of them made quite a habit of pestering both Yharim's forces and my own laboratories. An irritable variable I have continued to need to account for.
+
+				Your efforts in quelling the influence chaos has upon this world have not gone unnoticed. It is through these efforts of yours that I have gorwn to view you as a catalyst. It is my hope you continue onward and put an end to their kind once and for all.
+				''' */
+		}
+
+		Ancients: {
+			// Prompt: The Ancients
+			/* Dialogue:
+				'''
+				They are a unique caste to say the very least. Unlike the Gods, their titles are not self appointed. The first of their order were appointed long ago, before even the Draconic Era, by the Equinox.
+
+				The titles they bear have been passed on through their bloodlines for generations. It is their eternal duty to govern over the Ecosystems in which they reside, and through this, a balance is maintained across the entire planet.
+
+				However, in more recent times, I am uncertain who among their caste can be considered true Ancients and who merely are given the title due to their strength. I've heard even the machine which resides in the Void referred to as an Ancient. It is truly perplexing.
+
+				Additionally, it would seem that some among them hold the ability to temper the powers they wield. It is possible this was an intentional process, or merely their abilities waning as they were passed on through the generations.
+
+				However, in your battles against them, one thing has become clear. The power is still held within them, and is capable of awakening in the most dire moments.
+
+				Yharim battled against the gods, and toppled their order. Now, it would seem you intend to do the same to the Ancients. The similarities between you two are truly fascinating to observe.
+				''' */
+		}
+
+		Fungus: {
+			// Prompt: Fungal Influence
+			/* Dialogue:
+				'''
+				What? Are you truly concerned about the capabilties of this world's fungi? What a peculiar notion. Whilst it can be observed that they are capable of exerting influence over simple-minded organics, there is little reason to believe they are capable of amounting to anything more.
+
+				The most substantial hostiles they've managed to produce are larger creatures inhabited by their spores, and those two mushroom... creatures? You refer to them as the "Mushroom Monarch" and "Feudal Fungus". 
+
+				I'll admit, I have given the mushrooms of this world very little attention in my research due to their pitiful results in the wild.
+
+				Regardless, as I said, there is little reason for concern. From what I've observed their attempts to spread yield little in the way of results. Perhaps if their efforts were combined they could amount to something greater than the sum of their parts.
+				''' */
+		}
+
+		Void: {
+			// Prompt: The Void
+			/* Dialogue:
+				'''
+				There is much to say about the spacial anomaly often referred to as "The Void". Carbon dating from geological samples recovered place it as having existed long before the formation of this planet. The lone machine that sat at its epicenter was my primary subject of research. In all my attempts, I could never coax it to activate, and not even my Exo Artillery could get past its shields.
+
+				You, however, managed to succeed where I failed. You activated it, and even managed to defeat it. I observed your battle from multiple survey drones, and it was fascinating to see the Zero Unit activated. Its weaponry was particularly notable. It seems clear to me it was designed for combat which begs the question of why it sat silent all this time. Why activate now?
+
+				Regardless, I hope you continue to impress. If my scanners are operating correctly, something truly frightening has arrived through the Void. You've familiarized yourself with the apex of my research. Equip yourself as needed for whatever lies within that rift.
+				''' */
+		}
+
+		Equinox: {
+			// Prompt: The Equinox
+			/* Dialogue:
+				'''
+				The Equinox are a particularly old duo that have accompanied this world for centuries; since before life had even formed on it. It was they who appointed the first of the Ancients long ago, and blessed them with a substantial portion of their powers.
+
+				I have heard a great deal of myths surrounding the Equinox. One which I know was of particular interest to Yharim tells that they once aided a great hero in banishing a mighty wizard who wielded the fullest power of chaos. Yharim has sited the hero in this legend as an inspiration many a time to his troops.
+
+				Whilst it is true they are responsible for the passage of day and night on our planet, may unverstand the process completely wrong. The Sun and Moon do not orbit the our planet. Any serious examination would reveal that the Equinox have the ability to emit a strong gravitational aura. With this, they are able to pull the planet around the sun, and the moon around the planet.
+				''' */
+		}
+	}
 }
