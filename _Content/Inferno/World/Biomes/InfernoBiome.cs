@@ -3,8 +3,8 @@ using AAModClassic._Content.Inferno._PostMoonlord.NPCs.__BossAkuma;
 using AAModClassic._Content.Inferno._PostMoonlord.NPCs.__BossAkuma.Awakened;
 using AAModClassic._Content.Inferno._PostMoonlord.NPCs.__BossAkuma.Awakened.Skies;
 using AAModClassic._Content.Inferno.World.Biomes.Waters;
-using AAModClassic._Content.Mire.World.Biomes;
 using AAModClassic._CrossMod;
+using AAModClassic._CrossMod.WrathOfTheGods;
 using AAModClassic.Base.BaseMod.Base;
 using AAModClassic.Music;
 using Microsoft.Xna.Framework;
@@ -12,9 +12,6 @@ using Microsoft.Xna.Framework.Graphics;
 using ReLogic.Content;
 using System;
 using System.Reflection;
-using System.Reflection.PortableExecutable;
-using System.Threading.Channels;
-using Terraria;
 using Terraria.GameContent;
 using Terraria.GameContent.Events;
 using Terraria.GameInput;
@@ -22,7 +19,6 @@ using Terraria.Graphics.Effects;
 using Terraria.Graphics.Shaders;
 using Terraria.ModLoader;
 using Terraria.Utilities;
-using static Terraria.ModLoader.PlayerDrawLayer;
 
 namespace AAModClassic._Content.Inferno.World.Biomes
 {
@@ -158,11 +154,17 @@ namespace AAModClassic._Content.Inferno.World.Biomes
             {
                 if (Main.gameMenu || Main.dayTime || Main.LocalPlayer.GetModPlayer<ZAAPlayer>().SunAltar)
                 {
-                    spriteBatch.Draw(TextureAssets.BlackTile.Value, new Rectangle(0, 0, Main.screenWidth, Main.screenHeight), Color.Black * Intensity);
+                    if(!WrathOfTheGods.IsEnabled || !(bool)WrathOfTheGods.Call("GetRiftEclipseActive"))
+                        spriteBatch.Draw(TextureAssets.BlackTile.Value, new Rectangle(0, 0, Main.screenWidth, Main.screenHeight), Color.Black * Intensity);
+                    
                     if (Main.gameMenu)
                         spriteBatch.Draw(SkyTexture, new Rectangle(0, 0, Main.screenWidth, Main.screenHeight), Color.OrangeRed * Intensity);
                     else
                         spriteBatch.Draw(SkyTexture, new Rectangle(0, Math.Max(0, (int)((Main.worldSurface * 16.0 - Main.screenPosition.Y - 2400.0) * 0.10000000149011612)), Main.screenWidth, Main.screenHeight), Color.OrangeRed * Math.Min(1f, (Main.screenPosition.Y - 800f) / 1000f * Intensity));
+
+                    if (WrathOfTheGods.IsEnabled && (bool)WrathOfTheGods.Call("GetRiftEclipseActive"))
+                        return;
+
                     float sunOpacity = 1f;
                     sunOpacity -= Main.cloudAlpha * 1.5f;
                     if (sunOpacity < 0f)

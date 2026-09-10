@@ -1,5 +1,4 @@
 ﻿using AAModClassic.Music;
-using Terraria;
 using Terraria.ModLoader;
 
 namespace AAModClassic._Content.Mire.World.Biomes
@@ -12,6 +11,8 @@ namespace AAModClassic._Content.Mire.World.Biomes
             (AAWorld.downedAllAncients && !AAWorld.downedShen) ? MusicManagementSystem.MusicSlots["Chaos_PreShen"] :
             (NPC.downedMoonlord && !Main.dayTime) ? MusicManagementSystem.MusicSlots["Mire_Lake"] : -1;
 
-        public override SceneEffectPriority Priority => AAWorld.downedAllAncients ? SceneEffectPriority.Event : (NPC.downedMoonlord && !Main.dayTime) ? SceneEffectPriority.Environment : SceneEffectPriority.None;
+        public override SceneEffectPriority Priority => AAWorld.downedAllAncients ? SceneEffectPriority.Environment : SceneEffectPriority.None;
+
+        public override float GetWeight(Player player) => 0f;
     }
 }
