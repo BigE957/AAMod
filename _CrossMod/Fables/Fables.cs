@@ -17,7 +17,7 @@ namespace AAModClassic._CrossMod.Fables
         internal static Mod CalamityFables = null;
         public static bool IsEnabled => CalamityFables != null;
 
-        private static Type _dialogueType, _textboxInfoType, _buttonInfoType, _sentenceType;
+        private static Type _dialogueType, _textboxInfoType, _sentenceType;
         private static FieldInfo _plainTextField, _boxClickField;
         private static dynamic _theUI;
         private static readonly Dictionary<string, dynamic> _newNautilusDialogue = [];
@@ -132,9 +132,9 @@ namespace AAModClassic._CrossMod.Fables
                 return orig();
 
             var tracker = Main.LocalPlayer.GetModPlayer<NautilusDialogueTracker>();
+            bool killedDjinn = NPCExtensions.BeenKilled<DesertDjinn>();
 
             // Slots between doppelganger and desert scourge in terms of priority
-            bool killedDjinn = NPCExtensions.BeenKilled<DesertDjinn>();
             if (killedDjinn && !tracker.HasSpokenAboutDesertDjinn)
             {
                 tracker.HasSpokenAboutDesertDjinn = true;
@@ -144,7 +144,7 @@ namespace AAModClassic._CrossMod.Fables
             object result = orig();
 
             // Has a chance to replace generic repeatable dialogue with dialogue abt Djinn
-            if (true && (!killedDjinn || tracker.HasSpokenAboutDesertDjinn) && Main.rand.NextBool(4) && _postDefeatTextboxSet.Contains(result))
+            if (NPC.downedBoss3 && (!killedDjinn || tracker.HasSpokenAboutDesertDjinn) && Main.rand.NextBool(4) && _postDefeatTextboxSet.Contains(result))
             {
                 if(killedDjinn)
                     return _newNautilusDialogue["DesertDjinnDefeated.Repeat"];
