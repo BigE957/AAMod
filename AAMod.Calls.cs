@@ -14,17 +14,21 @@ using Terraria.ModLoader;
 
 namespace AAModClassic
 {
+    #nullable enable
     public partial class AAMod : Mod
     {
         //Credit to QuestionMark on Team Spirit for the autoloaded mod call system
 
         [AttributeUsage(AttributeTargets.Method, AllowMultiple = false, Inherited = false)]
-        private class ModCallAttribute : Attribute;
+        private class ModCallAttribute(params string[] aliases) : Attribute
+        {
+            public readonly string[] Aliases = aliases;
+        }
 
         /// <summary> All mod call methods registered by name. </summary>
         private static readonly Dictionary<string, MethodInfo> CallMethods = [];
 
-        public override object Call(params object[] arguments)
+        public override object? Call(params object[] arguments)
         {
             try
             {
@@ -32,8 +36,16 @@ namespace AAModClassic
                 {
                     foreach (MethodInfo methodInfo in GetType().GetMethods(BindingFlags.Static | BindingFlags.NonPublic))
                     {
-                        if (methodInfo.GetCustomAttribute<ModCallAttribute>() != null)
+                        if (methodInfo.GetCustomAttribute<ModCallAttribute>() is ModCallAttribute attr)
+                        {
                             CallMethods.Add(methodInfo.Name, methodInfo);
+
+                            if (attr.Aliases is null)
+                                continue;
+
+                            foreach (string alias in attr.Aliases)
+                                CallMethods.Add(alias, methodInfo);
+                        }
                     }
                 }
 
@@ -43,7 +55,7 @@ namespace AAModClassic
                 if (arguments[0] is not string name)
                     throw new ArgumentException($"The leading argument must be a {typeof(string).Name} corresponding to a call.");
 
-                if (CallMethods.TryGetValue(name, out MethodInfo info))
+                if (CallMethods.TryGetValue(name, out MethodInfo? info))
                 {
                     arguments = arguments[1..];
 
@@ -59,7 +71,7 @@ namespace AAModClassic
                     for (int c = 0; c < arguments.Length; c++)
                     {
                         object argument = arguments[c];
-                        Type argumentType = parameters[c].GetType();
+                        Type argumentType = argument.GetType();
 
                         if (argument.GetType() == argumentType)
                         {
@@ -73,7 +85,8 @@ namespace AAModClassic
                         }
                     }
 
-                    return info.Invoke(null, namedObjects);
+                    object? value = info.Invoke(null, namedObjects);
+                    return value;
                 }
                 else
                 {
