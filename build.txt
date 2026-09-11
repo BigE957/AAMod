@@ -2,4 +2,5 @@ author = Big E
 version = 1.0.23
 displayName = Ancients Awakened: Classic
 loadAfter = AAMod, CalamityMod
+sortAfter = CalamityFables
 buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, *.sln

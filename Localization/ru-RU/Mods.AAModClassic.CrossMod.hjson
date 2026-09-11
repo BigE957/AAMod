@@ -512,3 +512,14 @@ CalamityMod: {
 		Их ничто не ждёт в этом жестоком мире.
 		'''
 }
+
+Fables: {
+	Nautilus: {
+		DesertDjinnDefeated: {
+			// Dialogue: That Desert Djinn <m:SmallShake>punk</m> moved in after the kingdom fell to ruin.<d:0.6> </d>Thanks for giving him the old one-two for me!
+			// Button: I beat a genie.
+		}
+	}
+
+	// Squilium: Hi I'm squilium!
+}
