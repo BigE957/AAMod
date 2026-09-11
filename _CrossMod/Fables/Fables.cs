@@ -1,4 +1,5 @@
 ﻿using AAModClassic._Content.Desert.___PreHardmode.NPCs.__BossDesertDjinn;
+using AAModClassic.UI.World;
 using AAModClassic.Utilities;
 using MonoMod.RuntimeDetour;
 using System;
@@ -121,6 +122,9 @@ namespace AAModClassic._CrossMod.Fables
 
         private static object Hook_GetRandomMainTextbox(orig_GetRandomMainTextbox orig)
         {
+            if(WorldTypeSystem.IsWorldOptionEnabled(AAWorldOption.Unofficial))
+                return orig();
+
             if (!(bool)CalamityFables.Call("progression.defeatednautilus"))
                 return orig();
 
