@@ -2,6 +2,8 @@
 using AAModClassic.Utilities;
 using MonoMod.RuntimeDetour;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 using Terraria.Localization;
 using Terraria.ModLoader;
@@ -17,12 +19,17 @@ namespace AAModClassic._CrossMod.Fables
         private static Type _dialogueType, _textboxInfoType, _buttonInfoType, _sentenceType;
         private static FieldInfo _plainTextField, _boxClickField;
         private static dynamic _theUI;
-        private static dynamic _desertDjinnTextbox;
+        private static readonly Dictionary<string, dynamic> _newNautilusDialogue = [];
         private static Action _returnToNautilusMain;
 
         delegate object orig_GetRandomMainTextbox();
         delegate object hook_GetRandomMainTextbox(orig_GetRandomMainTextbox orig);
         private static Hook _mainTextboxHook;
+
+        private static PropertyInfo _readDoppelgangerProp;
+        private static int _maskSlot, _bodySlot, _legsSlot;
+
+        private static HashSet<object> _postDefeatTextboxSet;
 
         public override void Load()
         {
@@ -45,6 +52,8 @@ namespace AAModClassic._CrossMod.Fables
                 Mod.Logger.Warn($"CalamityFables cross-mod dialogue hook failed: {e}"); 
             }
         }
+
+        public static object Call(params object[] args) => CalamityFables?.Call(args);
 
         //Nautilus Portraits
         /*
@@ -71,23 +80,40 @@ namespace AAModClassic._CrossMod.Fables
             MethodInfo switchToMain = _dialogueType.GetMethod("SwitchToMainTextbox", BindingFlags.Public | BindingFlags.Static);
             _returnToNautilusMain = (Action)Delegate.CreateDelegate(typeof(Action), switchToMain);
 
+            _readDoppelgangerProp = _dialogueType.GetProperty("ReadThroughDoppelgangerEasterEgg", BindingFlags.Public | BindingFlags.Static);
+
+            _maskSlot = EquipLoader.GetEquipSlot(CalamityFables, "SirNautilusBossMask", EquipType.Head);
+            _bodySlot = EquipLoader.GetEquipSlot(CalamityFables, "SeaRiderTunic", EquipType.Body);
+            _legsSlot = EquipLoader.GetEquipSlot(CalamityFables, "SeaRiderGreaves", EquipType.Legs);
+
             dynamic regularSpeechVoice = asm.GetType("CalamityFables.Content.Boss.SeaKnightMiniboss.SirNautilus").GetField("RegularSpeech", BindingFlags.Public | BindingFlags.Static).GetValue(null);
 
             dynamic portraits = _dialogueType.GetField("portraits", BindingFlags.Public | BindingFlags.Static).GetValue(null);
-            dynamic myPortrait = portraits["pog"];
 
-            const string locKey = "Mods.AAModClassic.CrossMod.Fables.Nautilus.DesertDjinnDefeated.Dialogue";
+            const string locPath = "Mods.AAModClassic.CrossMod.Fables.Nautilus.";
 
-            dynamic mySentence = Activator.CreateInstance(_sentenceType, [480f, regularSpeechVoice, "placeholder"]);
-            _plainTextField.SetValue(mySentence, Language.GetText(locKey));
-            mySentence.UpdateLocalization();
+            string[] newTopics = ["DesertDjinnActive.1", "DesertDjinnActive.2", "DesertDjinnDefeated.First", "DesertDjinnDefeated.Repeat"];
+            string[] topicPortraits = ["angryhands", "enraged", "shocked", "laughing"];
 
-            _desertDjinnTextbox = Activator.CreateInstance(_textboxInfoType, [mySentence, myPortrait, (Action)null, true, null]);
-            _boxClickField.SetValue(_desertDjinnTextbox, _returnToNautilusMain);
+            for(int i = 0; i < newTopics.Length; i++)
+            {
+                string topic = newTopics[i];
+                string portrait = topicPortraits[i];
+                dynamic mySentence = Activator.CreateInstance(_sentenceType, [480f, regularSpeechVoice, "placeholder"]);
+                _plainTextField.SetValue(mySentence, Language.GetText(locPath + topic));
+                mySentence.UpdateLocalization();
+
+                _newNautilusDialogue.Add(topic, Activator.CreateInstance(_textboxInfoType, [mySentence, portraits[portrait], (Action)null, true, null]));
+                _boxClickField.SetValue(_newNautilusDialogue[topic], _returnToNautilusMain);
+            }
 
             dynamic startFightBtn = _dialogueType.GetField("StartFightButton", BindingFlags.Public | BindingFlags.Static).GetValue(null);
             dynamic loreBtn = _dialogueType.GetField("LoreButton", BindingFlags.Public | BindingFlags.Static).GetValue(null);
-            _desertDjinnTextbox.AddButton(startFightBtn).AddButton(loreBtn);
+            foreach(var value in _newNautilusDialogue.Values)
+                value.AddButton(startFightBtn).AddButton(loreBtn);
+
+            Array postDefeatArr = (Array)_dialogueType.GetField("Main_PostDefeatTextboxes", BindingFlags.Public | BindingFlags.Static).GetValue(null);
+            _postDefeatTextboxSet = new HashSet<object>(postDefeatArr.Cast<object>());
 
             MethodInfo original = _dialogueType.GetMethod("GetRandomMainTextbox", BindingFlags.Public | BindingFlags.Static);
             _mainTextboxHook = new Hook(original, new hook_GetRandomMainTextbox(Hook_GetRandomMainTextbox));
@@ -95,13 +121,41 @@ namespace AAModClassic._CrossMod.Fables
 
         private static object Hook_GetRandomMainTextbox(orig_GetRandomMainTextbox orig)
         {
+            if (!(bool)CalamityFables.Call("progression.defeatednautilus"))
+                return orig();
+
+            if (IsDoppelganger())
+                return orig();
+
             var tracker = Main.LocalPlayer.GetModPlayer<NautilusDialogueTracker>();
-            if (NPCExtensions.BeenKilled<DesertDjinn>() && !tracker.HasSpokenAboutDesertDjinn)
+
+            // Slots between doppelganger and desert scourge in terms of priority
+            bool killedDjinn = NPCExtensions.BeenKilled<DesertDjinn>();
+            if (killedDjinn && !tracker.HasSpokenAboutDesertDjinn)
             {
                 tracker.HasSpokenAboutDesertDjinn = true;
-                return _desertDjinnTextbox;
+                return _newNautilusDialogue["DesertDjinnDefeated.First"];
             }
-            return orig();
+
+            object result = orig();
+
+            // Has a chance to replace generic repeatable dialogue with dialogue abt Djinn
+            if (true && (!killedDjinn || tracker.HasSpokenAboutDesertDjinn) && Main.rand.NextBool(4) && _postDefeatTextboxSet.Contains(result))
+            {
+                if(killedDjinn)
+                    return _newNautilusDialogue["DesertDjinnDefeated.Repeat"];
+                else
+                    return _newNautilusDialogue["DesertDjinnActive." + (Main.rand.Next(2) + 1)];
+            }
+
+            return result;
+        }
+
+        private static bool IsDoppelganger()
+        {
+            Player p = Main.LocalPlayer;
+            bool notYetRead = !(bool)_readDoppelgangerProp.GetValue(null);
+            return notYetRead && p.head == _maskSlot && p.body == _bodySlot && p.legs == _legsSlot;
         }
     }
 
