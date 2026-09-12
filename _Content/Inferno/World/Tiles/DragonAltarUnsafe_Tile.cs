@@ -1,11 +1,14 @@
+using AAModClassic._Content.Chaos.__Hardmode.NPCs;
+using AAModClassic.Base.BaseMod.Base;
+using AAModClassic.UI.World;
 using Microsoft.Xna.Framework;
-using Terraria.DataStructures;
+using System.Collections.Generic;
 using Terraria;
+using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
-using AAModClassic.Base.BaseMod.Base;
 
 namespace AAModClassic._Content.Inferno.World.Tiles
 {
@@ -57,7 +60,21 @@ namespace AAModClassic._Content.Inferno.World.Tiles
 
         public override void KillMultiTile(int i, int j, int frameX, int frameY)
         {
+            HashSet<int> wraithIndexes = [];
+            bool nonMPClient = Main.netMode != NetmodeID.MultiplayerClient;
+            bool unofficial = WorldTypeSystem.IsWorldOptionEnabled(AAWorldOption.Unofficial);
+
+            if (nonMPClient && unofficial)
+                foreach (NPC n in Main.ActiveNPCs)
+                    if (n.type == NPCID.Wraith)
+                        wraithIndexes.Add(n.whoAmI);
+
             WorldGen.SmashAltar(i, j);
+
+            if (nonMPClient && unofficial)
+                foreach (NPC n in Main.ActiveNPCs)
+                    if (n.type == NPCID.Wraith && !wraithIndexes.Contains(n.whoAmI))
+                        n.Transform(ModContent.NPCType<ChaosDragon>());
         }
 
         public static void DamagePlayer (Player player)
