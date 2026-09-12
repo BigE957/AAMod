@@ -1,8 +1,7 @@
 using AAModClassic._Content.Stars.Projectiles;
-using AAModClassic._Content.Stars.World.Biomes;
 using AAModClassic.Base.BaseMod.Base;
+using AAModClassic.Utilities;
 using Microsoft.Xna.Framework;
-using Terraria;
 using Terraria.GameContent.Bestiary;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -15,6 +14,7 @@ namespace AAModClassic._Content.Stars._PostMoonlord.NPCs.__BossEquinoxWorms
 		{
 			// DisplayName.SetDefault("Equiprobe");
             Main.npcFrameCount[NPC.type] = 1;
+			this.HideFromBestiary();
 		}
 
 		public override void SetDefaults()
