@@ -3,4 +3,5 @@ version = 1.0.23
 displayName = Ancients Awakened: Classic
 loadAfter = AAMod, CalamityMod
 sortAfter = CalamityFables, SpiritReforged
+weakReferences = SpiritReforged
 buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, *.sln

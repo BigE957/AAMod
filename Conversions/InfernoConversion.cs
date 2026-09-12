@@ -1,4 +1,5 @@
 ﻿using AAModClassic._Content.Inferno.World.Tiles;
+using AAModClassic._Unreleased.Content.Inferno.World.Tiles;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -32,10 +33,16 @@ namespace AAModClassic.Conversions
             TileLoader.RegisterConversion(TileID.LivingMahoganyLeaves, Type, ModContent.TileType<LivingRazeleaves_Tile>());
 
             TileLoader.RegisterConversion(TileID.Vines, Type, ModContent.TileType<InfernoVines_Tile>());
+            TileLoader.RegisterConversion(TileID.JungleVines, Type, ModContent.TileType<InfernoVines_Tile>());
             //TileLoader.RegisterConversion(TileID.CorruptVines, Type, ModContent.TileType<InfernoVines_Tile>());
             //TileLoader.RegisterConversion(TileID.CrimsonVines, Type, ModContent.TileType<InfernoVines_Tile>());
             //TileLoader.RegisterConversion(TileID.HallowedVines, Type, ModContent.TileType<InfernoVines_Tile>());
-            TileLoader.RegisterConversion(TileID.JungleVines, Type, ModContent.TileType<InfernoVines_Tile>());
+
+            TileLoader.RegisterConversion(TileID.Plants, Type, ModContent.TileType<InfernoFoliage_Tile>());
+            TileLoader.RegisterConversion(TileID.JunglePlants, Type, ModContent.TileType<InfernoFoliage_Tile>());
+            //TileLoader.RegisterConversion(TileID.CorruptPlants, Type, ModContent.TileType<MireFoliage_Tile>());
+            //TileLoader.RegisterConversion(TileID.CrimsonPlants, Type, ModContent.TileType<MireFoliage_Tile>());
+            //TileLoader.RegisterConversion(TileID.HallowedPlants, Type, ModContent.TileType<MireFoliage_Tile>());
         }
     }
 }

@@ -4,6 +4,7 @@ using AAModClassic._Content.Inferno._PostMoonlord.NPCs.__BossAkuma.Awakened;
 using AAModClassic._Content.Inferno._PostMoonlord.NPCs.__BossAkuma.Awakened.Skies;
 using AAModClassic._Content.Inferno.World.Biomes.Waters;
 using AAModClassic._CrossMod;
+using AAModClassic._CrossMod.SpiritReforged;
 using AAModClassic._CrossMod.WrathOfTheGods;
 using AAModClassic.Base.BaseMod.Base;
 using AAModClassic.Music;
@@ -58,7 +59,7 @@ namespace AAModClassic._Content.Inferno.World.Biomes
         {
             get
             {
-                if ((Main.LocalPlayer.ZoneDesert && Main.LocalPlayer.ZoneSnow) && ModLoader.TryGetMod("SpiritReforged", out var spirit))
+                if ((Main.LocalPlayer.ZoneDesert && Main.LocalPlayer.ZoneSnow) && SpiritReforgedManager.IsEnabled)
                 {
                     //Rectangle saltFlatsArea = (Rectangle)spirit.Call("GetSaltFlatsArea");
                     //bool playerInSaltFlats = saltFlatsArea.Contains(Main.LocalPlayer.Center.ToTileCoordinates());

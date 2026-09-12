@@ -12,10 +12,10 @@ using Terraria.ModLoader.IO;
 
 namespace AAModClassic._CrossMod.Fables
 {
-    public class Fables : ModSystem
+    public class CalamityFables : ModSystem
     {
-        internal static Mod CalamityFables = null;
-        public static bool IsEnabled => CalamityFables != null;
+        internal static Mod calamityFables = null;
+        public static bool IsEnabled => calamityFables != null;
 
         private static Type _dialogueType, _textboxInfoType, _sentenceType;
         private static FieldInfo _plainTextField, _boxClickField;
@@ -34,7 +34,7 @@ namespace AAModClassic._CrossMod.Fables
 
         public override void Load()
         {
-            ModLoader.TryGetMod("CalamityFables", out CalamityFables);
+            ModLoader.TryGetMod("CalamityFables", out calamityFables);
         }
 
         public override void Unload() => _mainTextboxHook?.Dispose();
@@ -54,7 +54,7 @@ namespace AAModClassic._CrossMod.Fables
             }
         }
 
-        public static object Call(params object[] args) => CalamityFables?.Call(args);
+        public static object Call(params object[] args) => calamityFables?.Call(args);
 
         //Nautilus Portraits
         /*
@@ -67,7 +67,7 @@ namespace AAModClassic._CrossMod.Fables
 
         private static void SetupCrossModDialogue()
         {
-            Assembly asm = CalamityFables.Code;
+            Assembly asm = calamityFables.Code;
 
             _dialogueType = asm.GetType("CalamityFables.Content.Boss.SeaKnightMiniboss.SirNautilusDialogue");
             _textboxInfoType = asm.GetType("CalamityFables.Content.UI.TextboxInfo");
@@ -83,9 +83,9 @@ namespace AAModClassic._CrossMod.Fables
 
             _readDoppelgangerProp = _dialogueType.GetProperty("ReadThroughDoppelgangerEasterEgg", BindingFlags.Public | BindingFlags.Static);
 
-            _maskSlot = EquipLoader.GetEquipSlot(CalamityFables, "SirNautilusBossMask", EquipType.Head);
-            _bodySlot = EquipLoader.GetEquipSlot(CalamityFables, "SeaRiderTunic", EquipType.Body);
-            _legsSlot = EquipLoader.GetEquipSlot(CalamityFables, "SeaRiderGreaves", EquipType.Legs);
+            _maskSlot = EquipLoader.GetEquipSlot(calamityFables, "SirNautilusBossMask", EquipType.Head);
+            _bodySlot = EquipLoader.GetEquipSlot(calamityFables, "SeaRiderTunic", EquipType.Body);
+            _legsSlot = EquipLoader.GetEquipSlot(calamityFables, "SeaRiderGreaves", EquipType.Legs);
 
             dynamic regularSpeechVoice = asm.GetType("CalamityFables.Content.Boss.SeaKnightMiniboss.SirNautilus").GetField("RegularSpeech", BindingFlags.Public | BindingFlags.Static).GetValue(null);
 
@@ -125,7 +125,7 @@ namespace AAModClassic._CrossMod.Fables
             if(!WorldTypeSystem.IsWorldOptionEnabled(AAWorldOption.Unofficial))
                 return orig();
 
-            if (!(bool)CalamityFables.Call("progression.defeatednautilus"))
+            if (!(bool)calamityFables.Call("progression.defeatednautilus"))
                 return orig();
 
             if (IsDoppelganger())

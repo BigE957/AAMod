@@ -1,3 +1,4 @@
+using AAModClassic.Dusts;
 using AAModClassic.UI.World;
 using AAModClassic.Utilities;
 using Microsoft.Xna.Framework;
@@ -23,7 +24,7 @@ namespace AAModClassic._Content.Mire.World.Tiles
             Main.tileMergeDirt[Type] = true;        
             TileID.Sets.NeedsGrassFraming[Type] = true;
             
-            DustType = ModContent.DustType<Dusts.AbyssiumDust>();
+            DustType = ModContent.DustType<MireDust>();
             AddMapEntry(new Color(0, 50, 140));
             RegisterItemDrop(ItemID.MudBlock);
 
