@@ -1,4 +1,6 @@
 ﻿using AAModClassic._Content._Misc.__Hardmode.Items.Consumables;
+using Microsoft.Xna.Framework;
+using Terraria.Audio;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
@@ -42,10 +44,41 @@ namespace AAModClassic._Unofficial.Bunny.Items
 
     public class CrimsonCarrot_Proj : ModProjectile
     {
+        public override void SetDefaults()
+        {
+            Projectile.CloneDefaults(ProjectileID.ThrowingKnife);
+            Projectile.width = 14;
+            Projectile.height = 32;
+            Projectile.friendly = true;
+            Projectile.timeLeft = 600;
+            Projectile.DamageType = DamageClass.Ranged;
+            Projectile.friendly = true;
+            AIType = ProjectileID.ThrowingKnife;
+        }
+
+        public override bool TileCollideStyle(ref int width, ref int height, ref bool fallThrough, ref Vector2 hitboxCenterFrac)
+        {
+            width = height = 10;
+            return true;
+        }
+
+        public override void OnKill(int timeLeft)
+        {
+            for (int k = 0; k < 5; k++)
+                Dust.NewDust(Projectile.position + Projectile.velocity, Projectile.width, Projectile.height, DustID.Worm, Projectile.oldVelocity.X * 0.1f, Projectile.oldVelocity.Y * 0.1f);
+
+            SoundEngine.PlaySound(SoundID.Dig, Projectile.position);
+        }
     }
 
     public class CrimsonGastroenteritis_Buff : ModBuff
     {
+        public override void SetStaticDefaults()
+        {
+            Main.debuff[Type] = true;
+            Main.pvpBuff[Type] = true;
+            BuffID.Sets.LongerExpertDebuff[Type] = true;
+        }
     }
 
     public class CrimsonCarrot_Tile : ModTile

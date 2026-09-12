@@ -8,7 +8,12 @@ namespace AAModClassic._Content.Madness.___PreHardmode.Items.Weapons
 {
 	public class MadnessKnife_Proj : ModProjectile
 	{
-		public override void SetDefaults()
+        public override void SetStaticDefaults()
+        {
+            // DisplayName.SetDefault("Madness Knife");
+        }
+
+        public override void SetDefaults()
 		{
 			Projectile.CloneDefaults(ProjectileID.ThrowingKnife);
 			Projectile.width = 14;
@@ -27,11 +32,6 @@ namespace AAModClassic._Content.Madness.___PreHardmode.Items.Weapons
 			return true;
 		}
 
-		public override void SetStaticDefaults()
-		{
-			// DisplayName.SetDefault("Madness Knife");
-		}
-
 		public override void OnKill(int timeLeft)
 		{
 			for (int k = 0; k < 5; k++)
@@ -40,7 +40,5 @@ namespace AAModClassic._Content.Madness.___PreHardmode.Items.Weapons
 			}
 			SoundEngine.PlaySound(SoundID.Dig, Projectile.position);
 		}
-		private const int alphaReduction = 25;
-        private const float maxTicks = 35f;
 	}
 }
