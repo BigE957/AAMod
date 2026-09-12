@@ -21,7 +21,7 @@ namespace AAModClassic._Content.Stars.World.Biomes
 
         public override void SpecialVisuals(Player player, bool isActive)
         {
-            bool rllyActive = isActive && WorldTypeSystem.IsWorldOptionEnabled(AAWorldOption.Removed);
+            bool rllyActive = isActive && AAWorld.downedEquinox && WorldTypeSystem.IsWorldOptionEnabled(AAWorldOption.Removed);
 
             if (SkyManager.Instance["AAModClassic:StarsSky"] != null && rllyActive != SkyManager.Instance["AAModClassic:StarsSky"].IsActive())
             {
