@@ -1,3 +1,4 @@
+using AAModClassic._Unofficial.Bunny.Items;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -34,6 +35,13 @@ namespace AAModClassic._Content._Misc.__Hardmode.Items.Consumables
         {
             num = 10;
         }
-    }
 
+        public override void Convert(int i, int j, int conversionType)
+        {
+            if (conversionType == BiomeConversionID.Corruption)
+                WorldGen.ConvertTile(i, j, ModContent.TileType<CorruptCarrot_Tile>());
+            else if (conversionType == BiomeConversionID.Crimson)
+                WorldGen.ConvertTile(i, j, ModContent.TileType<CrimsonCarrot_Tile>());
+        }
+    }
 }
