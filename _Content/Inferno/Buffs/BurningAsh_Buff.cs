@@ -18,7 +18,7 @@ namespace AAModClassic._Content.Inferno.Buffs
 		{
             if (player.GetModPlayer<ZAAPlayer>().ZoneInferno && !Main.dayTime && !AAWorld.downedAkuma && Main.LocalPlayer.position.Y < Main.worldSurface * 16)
             {
-                player.buffTime[buffIndex] = 5;
+                //player.buffTime[buffIndex] = 5;
                 player.lifeRegenTime = 1;
                 player.lifeRegen -= 7;
             }

@@ -1249,7 +1249,7 @@ namespace AAModClassic
             
             if ((player.GetModPlayer<ZAAPlayer>().ZoneInferno || player.GetModPlayer<ZAAPlayer>().ZoneRisingSunPagoda) && player.GetModPlayer<ZAAPlayer>().AshCurse)
             {
-                if (Main.LocalPlayer.position.Y < Main.worldSurface * 16 && (!WorldTypeSystem.IsWorldOptionEnabled(AAWorldOption.Unofficial) || Framing.GetTileSafely(player.Center.ToTileCoordinates()).WallType != WallID.None))
+                if (Main.LocalPlayer.position.Y < Main.worldSurface * 16 && (!WorldTypeSystem.IsWorldOptionEnabled(AAWorldOption.Unofficial) || Framing.GetTileSafely(player.Center.ToTileCoordinates()).WallType == WallID.None))
                 {
                     player.AddBuff(ModContent.BuffType<BurningAsh_Buff>(), 5);
                 }
