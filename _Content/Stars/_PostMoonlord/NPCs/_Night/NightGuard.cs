@@ -48,7 +48,7 @@ namespace AAModClassic._Content.Stars._PostMoonlord.NPCs._Night
 
         public override float SpawnChance(NPCSpawnInfo spawnInfo)
         {
-            if (Main.dayTime && spawnInfo.Player.AAPlayer().ZoneStars && !NPCUtils.AnyEvents(spawnInfo.Player))
+            if (Main.dayTime && AAWorld.downedEquinox && spawnInfo.Player.AAPlayer().ZoneStars && !NPCUtils.AnyEvents(spawnInfo.Player))
                 return 0.2f;
 
             return 0f;
