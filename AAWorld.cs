@@ -55,6 +55,7 @@ using AAModClassic._Content.Void.World.Biomes;
 using AAModClassic._Content.Void.World.Tiles;
 using AAModClassic._Content.Void.World.Tiles.Trees;
 using AAModClassic._CrossMod;
+using AAModClassic._CrossMod.SpiritReforged;
 using AAModClassic._Removed.Content.Parthenan.__Hardmode.Items.Materials;
 using AAModClassic._Removed.Content.Parthenan.__Hardmode.NPCs.__BossOrthrusX;
 using AAModClassic._Removed.Content.Parthenan.__Hardmode.NPCs.__BossRaiderUltima;
@@ -563,7 +564,7 @@ namespace AAModClassic
                 }));
             }
 
-            int ChaosIndex = tasks.FindIndex(genpass => genpass.Name.Equals("Micro Biomes"));
+            int ChaosIndex = SpiritReforgedManager.IsEnabled ? tasks.Count - 2 : tasks.FindIndex(genpass => genpass.Name.Equals("Micro Biomes"));
             if(ChaosIndex > -1)
             {
                 tasks.Insert(ChaosIndex + 1, new PassLegacy("Mire and Inferno", delegate (GenerationProgress progress, GameConfiguration config)
