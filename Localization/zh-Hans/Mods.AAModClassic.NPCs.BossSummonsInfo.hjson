@@ -25,17 +25,17 @@ CyberneticClawTrue: 捕猎者还在试图抓住你！
 CyberneticShroomFalse: 别像个神经病一样在那挥舞金属蘑菇。
 CyberneticShroomTrue: 机械松露怪依然存在。
 DiamondCarrotRajahText: 致 命 错 误，泰 拉 人！
-DiamondCarrotRajahText2: 让我 看 看 你有什么本事，
+DiamondCarrotRajahText2: 让我看看你有什么本事，
 DjinnLampDayTimeFalse: 神灯在月光下微微闪烁，然后什么也没发生
 DjinnLampDesertFalse: 你擦灯的时候，它吐着沙子
 DjinnLampTrue: 再怎么擦也没用
 DraconianDayTimeFalse: 臭小子，龙不睡觉吗？早上再来。
-DraconianRuneFalse1: 一幅燎狱顶端焦塔的图像在你脑海一闪而过。
+DraconianRuneFalse1: 一幅燎狱顶端焦塔的图像在你脑海一闪而过
 DraconianRuneFalse2: 嘿，小子，你应该知道，那符文只需要用一次就行。
 DraconianRuneInfernoFalse: 你只能在燎狱使用那个符文，小子。
 DraconianRuneInfernoFalse2: 那印迹得在祭坛上使用，小子。就在燎狱正中央。
 DraconianRuneTrue1: 你周围的空气开始升温！
-DraconianRuneTrue2: 不浪费时间直奔主题…?懂了，那好，准备下地狱吧…！
+DraconianRuneTrue2: 不浪费时间直奔主题…？懂了，那好，准备下地狱吧…！
 DraconianSigilFalse: 嘿，小子，你应该知道，那印迹只需要用一次就行。
 DraconianSigilInfernoFalse: 你只能在燎狱使用那个印迹，小子。
 DraconianSignalTrue1: 嘿，小子，我希望你准备好感受灼日的愤怒了。
@@ -71,13 +71,13 @@ SubzeroCrystalSnowZoneFalse: 水晶中显露出临近冰原之景
 SubzeroCrystalTrue: 绝零冰蛇继续发起攻势
 ToadstoolFalse: 蟾蜍臭菇呱呱叫..？
 ToadstoolTrue: 松露蟾蜍呱呱叫
-ZeroFalse: 错 误。零 单 元 已 经 激 活。请 稍 后 重 新 尝 试。
-ZeroVoidZoneFalse: 错 误。读 取 代 码 PLAYER.GETM0DPLAYER<AAPLAYER>(M0D).Z0NEV0ID == FALSE。请 稍 后 重 新 尝 试。
-ZeroRuneTrue: 末 日 协 议 手 动 激 活。终 结 系 统 全 功 率 充 能。
-ZeroTesseractTrue: 零 单 元 启 动。加 载 末 日 执 行 层 协 议。
-ZeroTesseractDownedTrue: 目 标 锁 定。本 次 终 结 你 失 败 的 几 率 为 零，泰 拉 人。
+ZeroFalse: 错 误. 零 单 元 已 经 激 活. 请 稍 后 重 新 尝 试.
+ZeroVoidZoneFalse: 错 误. 读 取 代 码 PLAYER.GETM0DPLAYER<AAPLAYER>(M0D).Z0NEV0ID == FALSE. 请 稍 后 重 新 尝 试.
+ZeroRuneTrue: 末 日 协 议 手 动 激 活. 终 结 系 统 全 功 率 充 能.
+ZeroTesseractTrue: 零 单 元 启 动. 加 载 末 日 执 行 层 协 议.
+ZeroTesseractDownedTrue: 目 标 锁 定. 本 次 终 结 你 失 败 的 几 率 为 零，泰 拉 人.
 RajahGlobalInfo1: 杀害无辜者必须受到惩罚！
 RajahGlobalInfo2: 你 犯 了 不 可 饶 恕 的 罪 孽！我 要 把 你 从 这 个 凡 人 的 国 度 里 抹 去！准 备 好 接 受 真 正 的 痛 苦 和 惩 罚 吧，
-RajahGlobalInfo3: 一个愤怒的生物的眼睛注视着你…
+RajahGlobalInfo3: 一个愤怒的生物注视着你…
 RoyalRabbit1: 残害无辜者必须受到惩罚！
 RoyalRabbit2: 你 要 为 你 的 罪 过 付 出 代 价，

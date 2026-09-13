@@ -500,8 +500,8 @@ MusicDisplay: {
 CalamityMod: {
 	LoreItemTooltip:
 		'''
-		[c/E3AF40:苍穹之上的喁喁细语，在你耳中轻盈回荡……]
-		[c/BEBEBE:按住Shift以仔细聆听]
+		[c/E3AF40:寄宿其上的低语流入你的耳中……]
+		[c/BEBEBE:按住Shift键以仔细聆听]
 		'''
 	AwakeningReplacement:
 		'''
@@ -514,75 +514,75 @@ CalamityMod: {
 
 	DraeTalk: {
 		ChaosBiomes: {
-			// Prompt: The Chaos
-			/* Dialogue:
+			Prompt: 混沌
+			Dialogue:
 				'''
-				Those lands were not always in the state you've seen them in. As I first began surveying these lands I encountered the two civilizations that once called those regions their home. One was built around a mountain, and their primary trade was in blacksmithery. The other surrounded a lake and was a fishing village.
+				那些土地并非一直是你所见的模样。当我最初开始勘测这些土地时，我遇到了两个曾把那些地方称为家园的文明。一个依山而建，靠锻造营生；另一个环绕湖泊，是一座渔村。
 
-				Both were unique as they worshiped not gods as you and I know them, but the Ancients of Fury and Wrath respectively. They had never met these Ancients, as the two were in a deep slumber after a great battle from quite before my time. However, upon their awakening, the two Ancients destroyed their worshippers. Their Fury and Wrath birthed the lands as you know them, teeming with chaotic influence.
+				这两个文明都很独特，因为他们崇拜的并非你我认知中的神明，而是分别崇拜狂怒之古者与怨怒之古者。他们从未见过这些远古者，因为在一场远在我出生之前的大战过后，这两位远古者便陷入了沉眠。然而，当这两位远古者苏醒时，他们屠杀了各自的崇拜者。他们的狂怒与怨怒催生了你如今所知的土地，使混沌的影响充斥其间。
 
-				I witnessed all of this unfold from the lens of one of my survey drones. It was this event that convinced me to remaining in hiding for some time longer. Had I made my presence known then, I am uncertain if I would have had the defenses to fend of those raging beasts.
+				我通过我的一架侦察无人机的镜头，目睹了这一切的发生。正是这件事让我决定继续躲藏一段时间。倘若我当时暴露了自己的存在，我不确定自己是否有足够的能力来击退那些暴怒的巨兽。
 
-				Yharim's narrow focus on the Gods during his Crusade only let the forces of chaos grow in number and power. You no doubt have met the Ashe and Haruka. The two of them made quite a habit of pestering both Yharim's forces and my own laboratories. An irritable variable I have continued to need to account for.
+				亚利姆在圣战期间只把目光狭隘地盯在众神身上，致使混沌势力数量不断增加、力量不断壮大。你无疑已经见过艾希和遥香。她们俩没少找亚利姆军队和我实验室的麻烦，简直成了家常便饭——这是一个我一直不得不纳入考量的恼人变数。
 
-				Your efforts in quelling the influence chaos has upon this world have not gone unnoticed. It is through these efforts of yours that I have gorwn to view you as a catalyst. It is my hope you continue onward and put an end to their kind once and for all.
-				''' */
+				你在遏制混沌对这个世界的影响方面所做的努力并未被忽视。正是通过这些努力，我才逐渐将你视为促成变局的关键。我希望你能继续前进，彻底终结他们这类存在，一劳永逸。
+				'''
 		}
 
 		Ancients: {
-			// Prompt: The Ancients
-			/* Dialogue:
+			Prompt: 远古者
+			Dialogue:
 				'''
-				They are a unique caste to say the very least. Unlike the Gods, their titles are not self appointed. The first of their order were appointed long ago, before even the Draconic Era, by the Equinox.
+				至少可以说，他们是一个独特的阶层。与诸神不同，他们的头衔并非自封。他们中最初的成员，早在巨龙时代之前，就已被昼夜双虫任命。
 
-				The titles they bear have been passed on through their bloodlines for generations. It is their eternal duty to govern over the Ecosystems in which they reside, and through this, a balance is maintained across the entire planet.
+				他们所拥有的头衔，经由血脉世代相传。他们永恒的职责，是统辖各自栖居的生态群系；也正因如此，整个星球的平衡才得以维系。
 
-				However, in more recent times, I am uncertain who among their caste can be considered true Ancients and who merely are given the title due to their strength. I've heard even the machine which resides in the Void referred to as an Ancient. It is truly perplexing.
+				然而，近些年来，我已不确定他们这一阶层中，谁还能算作真正的远古者，谁又仅仅是因实力而被授予了这个头衔。我听说，甚至连那台栖身于虚空中的机器也被冠以远古者之名。这实在令人费解。
 
-				Additionally, it would seem that some among them hold the ability to temper the powers they wield. It is possible this was an intentional process, or merely their abilities waning as they were passed on through the generations.
+				此外，他们当中的一些成员似乎能压制自身所拥有的力量。这可能是有意为之，也可能仅仅是他们的能力在代代相传中逐渐衰退。
 
-				However, in your battles against them, one thing has become clear. The power is still held within them, and is capable of awakening in the most dire moments.
+				然而，在你与他们的一次次交战中，有一点变得清晰：那股力量仍留存于他们体内，并且能够在最危急的时刻觉醒。
 
-				Yharim battled against the gods, and toppled their order. Now, it would seem you intend to do the same to the Ancients. The similarities between you two are truly fascinating to observe.
-				''' */
+				亚利姆曾与诸神交战，并推翻了他们的秩序。如今看来，你也打算对远古者们做同样的事。你们二人何其相似，实在令人着迷。
+				'''
 		}
 
 		Fungus: {
-			// Prompt: Fungal Influence
-			/* Dialogue:
+			Prompt: 真菌的影响
+			Dialogue:
 				'''
-				What? Are you truly concerned about the capabilties of this world's fungi? What a peculiar notion. Whilst it can be observed that they are capable of exerting influence over simple-minded organics, there is little reason to believe they are capable of amounting to anything more.
+				什么？你竟然真的在担忧这个世界真菌的能力？这想法可真够奇怪的。虽说可以观察到它们能对头脑简单的有机体施加影响，但几乎没有理由相信它们还能掀起什么更大的风浪。
 
-				The most substantial hostiles they've managed to produce are larger creatures inhabited by their spores, and those two mushroom... creatures? You refer to them as the "Mushroom Monarch" and "Feudal Fungus". 
+				它们所能产生的最像样的敌对存在，也不过是被其孢子寄生的大型生物，以及那两个蘑菇……生物？你称它们为“赤孢皇”和“真菌帝”。
 
-				I'll admit, I have given the mushrooms of this world very little attention in my research due to their pitiful results in the wild.
+				我承认，由于它们在野外的表现实在可悲，我在研究中很少关注这个世界的菌类。
 
-				Regardless, as I said, there is little reason for concern. From what I've observed their attempts to spread yield little in the way of results. Perhaps if their efforts were combined they could amount to something greater than the sum of their parts.
-				''' */
+				无论如何，正如我所说，没什么可担心的。据我观察，它们传播与扩张的尝试收效甚微。也许，倘若它们能联合起来，倒能创造出某种大于各部分之和的东西。
+				'''
 		}
 
 		Void: {
-			// Prompt: The Void
-			/* Dialogue:
+			Prompt: 虚空
+			Dialogue:
 				'''
-				There is much to say about the spacial anomaly often referred to as "The Void". Carbon dating from geological samples recovered place it as having existed long before the formation of this planet. The lone machine that sat at its epicenter was my primary subject of research. In all my attempts, I could never coax it to activate, and not even my Exo Artillery could get past its shields.
+				关于那个常被称作“虚空”的空间异常，可说的很多。对回收的地质样本进行的碳定年法测定表明，它远在这颗行星形成之前就已存在。位于其中心的那台孤零零的机器，是我主要的研究对象。无论我如何尝试，始终无法诱使它启动，就连我的星流火炮也无法击穿它的护盾。
 
-				You, however, managed to succeed where I failed. You activated it, and even managed to defeat it. I observed your battle from multiple survey drones, and it was fascinating to see the Zero Unit activated. Its weaponry was particularly notable. It seems clear to me it was designed for combat which begs the question of why it sat silent all this time. Why activate now?
+				然而，我失败了，你却成功了。你启动了它，甚至设法击败了它。我通过多架侦察无人机观察了你的战斗，能目睹零械单元启动，实在令人称奇。它的武器尤其引人注目。在我看来，它无疑是为战斗而设计的，这让人不禁要问：它为何一直沉寂至今？为什么现在才启动？
 
-				Regardless, I hope you continue to impress. If my scanners are operating correctly, something truly frightening has arrived through the Void. You've familiarized yourself with the apex of my research. Equip yourself as needed for whatever lies within that rift.
-				''' */
+				无论如何，我希望你能继续让我刮目相看。如果我的扫描仪无误，某种真正骇人的存在已借由虚空降临。你已熟悉我所研究的巅峰之作。按需装备自己，为那裂隙中的潜藏之物做好准备。
+				'''
 		}
 
 		Equinox: {
-			// Prompt: The Equinox
-			/* Dialogue:
+			Prompt: 昼夜双虫
+			Dialogue:
 				'''
-				The Equinox are a particularly old duo that have accompanied this world for centuries; since before life had even formed on it. It was they who appointed the first of the Ancients long ago, and blessed them with a substantial portion of their powers.
+				昼夜双虫是一对格外古老的存在，与这个世界相伴已有漫长岁月；甚至早在生命于这颗星球上形成之前，他们便已存在。很久以前，正是他们任命了最初的远古者们，并将自身力量的相当一部分赐予了他们。
 
-				I have heard a great deal of myths surrounding the Equinox. One which I know was of particular interest to Yharim tells that they once aided a great hero in banishing a mighty wizard who wielded the fullest power of chaos. Yharim has sited the hero in this legend as an inspiration many a time to his troops.
+				我听过许多关于昼夜双虫的神话。我知道亚利姆对其中一则尤为感兴趣，它讲述他们曾协助一位伟大的英雄，驱逐了一位掌握混沌至高力量的强大巫师。亚利姆曾多次向部下提起这位传说中的英雄，将其作为榜样。
 
-				Whilst it is true they are responsible for the passage of day and night on our planet, may unverstand the process completely wrong. The Sun and Moon do not orbit the our planet. Any serious examination would reveal that the Equinox have the ability to emit a strong gravitational aura. With this, they are able to pull the planet around the sun, and the moon around the planet.
-				''' */
+				虽然我们星球上的昼夜更替的确由他们造成，但许多人对其中原理的理解可能完全错误。太阳和月亮并非自行围绕我们的星球运行。只要认真考察就会发现，昼夜双虫能释放强大的引力场。借此，他们能够牵引这颗星球绕太阳运行，并牵引月亮绕这颗星球运行。
+				'''
 		}
 	}
 }
@@ -590,15 +590,15 @@ CalamityMod: {
 Fables: {
 	Nautilus: {
 		DesertDjinnActive: {
-			// 1: <m:SmallShake>Oh, such a raucous commotion day in and out!</m><d:0.6> </d>Were I still a little more able, I would have long driven these <c:F4A460>Djinn</c> out of these ruins myself!
-			// 2: <m:Shake>That <c:F4A460>Djinn...!</c></m><d:0.8> </d>Even his underlings are a disgrace, coming and going as they please to torment me!<d:0.6> </d>He must be a terrible influence on them - nothing like how I'd grown up with <d:0.05><s:1.1><c:28dcdc>Signathion!</d></s></c>
+			1: <m:SmallShake>唉，日日夜夜都这般喧闹嘈杂！</m><d:0.6> </d>若我尚有余力，早就把这些<c:F4A460>沙漠巨灵</c>赶出这片废墟了！
+			2: <m:Shake>那个<c:F4A460>沙漠巨灵……!</c></m><d:0.8> </d>就连他手底下那帮喽啰都如此不像话，想来就来，想走就走，专门跑来折腾我！<d:0.6> </d>肯定是他把他们带坏了——哪比得上与我从小一起长大的<d:0.05><s:1.1><c:28dcdc>辛伽锡恩！</d></s></c>
 		}
 
 		DesertDjinnDefeated: {
-			// First: Goodness, what a favor you've done me, driving those <c:F4A460>Djinn</c> out of these ruins!<d:0.4> </d>As much as I appreciate a distraction, <m:Empathis>they were simply too much!
-			// Repeat: I certainly find it easier to pass on, knowing the <c:F4A460>Djinn</c> and his hooligans no longer maraud my old home. <m:Empathis><s:1.1><d:0.03>You have my utmost thanks!
+			First: 老天，你可算帮了我大忙了，终于把那些<c:F4A460>沙漠巨灵</c> 赶出了这片废墟！<d:0.4> </d>虽然我确实觉得有点消遣也不错，<m:Empathis>但他们实在是太过分了！
+			Repeat: 如今得知那<c:F4A460>沙漠巨灵</c>和他的喽啰不再劫掠我的故园，我确实觉得心里宽慰了许多，也能更安心地离去了。<m:Empathis><s:1.1><d:0.03>我对你感激不尽！
 		}
 	}
 
-	// Squilium: Hi I'm squilium!
+	Squilium: 嗨，我是Squilium！
 }

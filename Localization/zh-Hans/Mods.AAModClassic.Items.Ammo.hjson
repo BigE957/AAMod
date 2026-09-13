@@ -67,12 +67,12 @@ M79Round: {
 
 ChaosArrow: {
 	DisplayName: 混沌箭
-	Tooltip: 击中后随机施加一种减益
+	Tooltip: 命中时随机造成一种特定减益
 }
 
 DragonfireArrow: {
 	DisplayName: 燎狱龙炎箭
-	Tooltip: 击中后造成燎狱龙炎减益
+	Tooltip: 命中时造成燎狱龙炎减益
 }
 
 DragonfireBullet: {
@@ -92,7 +92,7 @@ DaybreakBullet: {
 
 HydratoxinArrow: {
 	DisplayName: 九头蛇毒箭
-	Tooltip: 击中后造成九头蛇毒减益
+	Tooltip: 命中时造成九头蛇毒减益
 }
 
 HydratoxinBullet: {

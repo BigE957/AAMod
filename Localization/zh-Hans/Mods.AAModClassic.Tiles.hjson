@@ -1,7 +1,7 @@
 TilesInfo: {
 	Spawnpointremoved: 生成点已移除！
 	Spawnpointset: 生成点已设置！
-	EnderMemoryInfo: 用于纪念我们心中的一位早已逝去的朋友。
+	EnderMemoryInfo: 用于纪念我们心中的一位早已逝去的朋友
 	DragonEgg1: 龙蛋破碎的声音在火山中回荡…
 	DragonEgg2: 你听到远处传来一声咆哮…
 	DragonEgg3: 你听到一声疲惫而轻微的嘶吼，然后…呼噜声..？
@@ -19,34 +19,34 @@ GreedChest: {
 
 AvesInABox_Tile.MapEntry: 盒中爱维斯
 DevStatue_Tile.MapEntry: 雕像
-AleisterBook_Tile.MapEntry: 亚雷斯塔之书
+AleisterBook_Tile.MapEntry: 阿莱斯特之书
 CCBag_Tile.MapEntry: 纸板箱
-CerberusBag_Tile.MapEntry: 刻耳泊洛斯犬舍
+CerberusBag_Tile.MapEntry: 刻尔伯洛斯的狗屋
 CrystalChandelier_Tile.MapEntry: 水晶吊灯
 EnderMemory_Tile.MapEntry: 永恒追忆
 FurnitureDynamo_Tile.MapEntry: 家居集铸点
 SkyCrystal_Tile.MapEntry: 天晶
-AcropolisAltar_Tile.MapEntry: 枭纹祭坛
+AcropolisAltar_Tile.MapEntry: 天鸮祭坛
 RoyalRabbitCage_Tile.MapEntry: 皇家兔笼
 RitualAltar_Tile.MapEntry: 仪式祭坛
 DiscordianTorch_Tile.MapEntry: 冥昧火把
 AnyAncientCraftingStation_Tile.MapEntry: 任意远古制作站
 ChaosCrucible_Tile.MapEntry: 混沌坩埚
 ChaosAltarSafe_Tile.MapEntry: 混沌祭坛
-DynaskullFossil_Tile.MapEntry: 恐龙王化石
+DynaskullFossil_Tile.MapEntry: 王骨化石
 EvilAltarSafe_Tile.MapEntry: 邪恶祭坛
 HallowedOre_Tile.MapEntry: 神圣矿
-ThixxieBanner_Tile.MapEntry: 胖精灵旗
+ThixxieBanner_Tile.MapEntry: 非常大的胖精灵旗
 HallowedAnvil_Tile.MapEntry: 神圣砧
 HallowedForge_Tile.MapEntry: 神圣熔炉
 PaladinsSmeltery_Tile.MapEntry: 圣骑士冶炼炉
 TruePaladinsSmeltery_Tile.MapEntry: 真·圣骑士冶炼炉
-FatPixie_Banner_Tile.MapEntry: 胖精灵旗
-HaphestusForge_Tile.MapEntry: 赫费斯特铁匠神熔炉
+FatPixie_Banner_Tile.MapEntry: 小胖精灵旗
+HaphestusForge_Tile.MapEntry: 赫菲斯托斯铁匠神熔炉
 HellstoneAnvil_Tile.MapEntry: 狱石砧
-Throne_Tile.MapEntry: 邪恶王座
+Throne_Tile.MapEntry: 罪恶王座
 CovetiteOre_Tile.MapEntry: 欲晶矿
-GreedAltar_Tile.MapEntry: 欲望祭坛
+GreedAltar_Tile.MapEntry: 原欲祭坛
 GreedChest_Tile.MapEntry: 贪婪宝箱
 GreedLantern_Tile.MapEntry: 石灯笼
 IncineriteOre_Tile.MapEntry: 燎烬矿
@@ -110,7 +110,7 @@ EventideAbyssiumOre_Tile.MapEntry: 渊宵矿
 EventideTorch_Tile.MapEntry: 渊宵火把
 MireChest_Tile.MapEntry: 潭渊宝箱
 AbyssAltarUnsafe_Tile.MapEntry: 深渊祭坛
-HydraPod_Tile.MapEntry: 九头蛇卵囊
+HydraPod_Tile.MapEntry: 九头蛇荚果
 BogwoodPalmTreeSapling_Tile.MapEntry: 污泽木棕榈树苗
 BogwoodSapling_Tile.MapEntry: 污泽木树苗
 VikingRelic_Tile.MapEntry: 维京遗物
@@ -119,7 +119,7 @@ QuantumFusionAccelerator_Tile.MapEntry: 量子融合加速器
 RadiantArcanum_Tile.MapEntry: 射线之奥秘
 GravAltar_Tile.MapEntry: 重力祭坛
 StarAltar_Tile.MapEntry: 星辰祭坛
-WormAltar_Tile.MapEntry: 均衡祭坛
+WormAltar_Tile.MapEntry: 平衡祭坛
 TerraCore_Tile.MapEntry: 泰拉核心
 TerraPrismStation_Tile.MapEntry: 无限核心
 PrismOre_Tile.MapEntry: 棱彩宝石
@@ -169,11 +169,11 @@ DoomWorkbench_Tile.MapEntry: 厄劫工作台
 BinaryReassembler_Tile.MapEntry: 二进制碎片重组机
 DoomsdayChest_Tile.MapEntry: 末日宝箱
 OuroborosSapling_Tile.MapEntry: 衔尾木树苗
-AncientDataBank_Tile.MapEntry: 古代数据库
+AncientDataBank_Tile.MapEntry: 远古数据库
 DataBank_Tile.MapEntry: 数据库
 StormChest_Tile.MapEntry: 风暴宝箱
 Core_Tile.MapEntry: 源态细胞
-CoreActivator_Tile.MapEntry: 核心引擎
+CoreActivator_Tile.MapEntry: 原核引擎
 CoreDoor_Tile.MapEntry: 密封门
 KeepBath_Tile.MapEntry: 要塞浴缸
 KeepBed_Tile.MapEntry: 要塞床
@@ -220,7 +220,7 @@ KeepDoor3_Tile.MapEntry: 要塞门
 
 TerraStatue_Tile: {
 	MapEntry: 失落英雄雕像
-	// FlavorText: The Hero who saved us all from the brink of chaos
+	FlavorText: 将众生从混沌边缘拯救出来的英雄
 }
 
 SunkenChest_Tile.MapEntry: 沉船宝箱

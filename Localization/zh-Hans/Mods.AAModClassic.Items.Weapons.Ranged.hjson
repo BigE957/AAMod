@@ -39,7 +39,7 @@ PerfectChaosJavelin: {
 	Tooltip:
 		'''
 		命中时爆炸
-		冥昧标枪 EX
+		混沌标枪 EX
 		'''
 }
 
@@ -106,7 +106,7 @@ BurningGel: {
 }
 
 Dawnstrike: {
-	DisplayName: 曙光突击
+	DisplayName: 破晓一击
 	Tooltip: 蓄力以发射更大的火焰爆弹
 }
 
@@ -116,7 +116,7 @@ AlienRifle: {
 }
 
 Darksprayer: {
-	DisplayName: 黑暗喷射枪
+	DisplayName: 黯灭之息
 	Tooltip:
 		'''
 		"黑暗之喷涌，留痕于其身"
@@ -159,7 +159,7 @@ TerraBallista: {
 }
 
 BlackHoleBlaster: {
-	DisplayName: 黑洞爆破枪
+	DisplayName: 黑洞爆裂枪
 	Tooltip: 偶尔发射一枚火箭弹，命中物块时爆炸形成漩涡
 }
 
@@ -298,7 +298,7 @@ Skystrike: {
 		'''
 		从空中降下空界之箭
 		初始箭矢无视物块
-		空界之弓 EX
+		空中祸害 EX
 		'''
 }
 
@@ -324,13 +324,13 @@ UnityBallista: {
 }
 
 UWAM: {
-	DisplayName: U.W.A.M.
+	DisplayName: 超级鲸鱼突击机枪
 	Tooltip:
 		'''
 		以极低散布发射数百发子弹
 		有几率射出鲨鱼，造成2倍伤害
 		88%几率不消耗弹药
-		S.D.M.G. EX
+		太空海豚机枪 EX
 		'''
 }
 
@@ -393,7 +393,7 @@ FluffyFury: {
 	Tooltip:
 		'''
 		将箭矢转化为分裂兔兔箭
-		可能导致卡顿的警告
+		警告：可能导致游戏卡顿
 		'''
 }
 
@@ -413,7 +413,7 @@ ChaosBustershot: {
 }
 
 ChaosJavelin: {
-	DisplayName: 冥昧标枪
+	DisplayName: 混沌标枪
 	Tooltip: 命中时爆炸
 }
 
@@ -428,7 +428,7 @@ DraconicRipper: {
 }
 
 FlamingTwilight: {
-	DisplayName: 焰霞的黄昏
+	DisplayName: 焰霞之暮
 	Tooltip:
 		'''
 		左键向敌人发射冥昧火球
@@ -463,7 +463,7 @@ Scourge: {
 }
 
 Sandagger: {
-	DisplayName: 沙之投刀
+	DisplayName: 沙漠投刀
 	Tooltip: ""
 }
 
@@ -473,12 +473,12 @@ SandstormCrossbow: {
 }
 
 DynaskullJavelin: {
-	DisplayName: 恐龙王标枪
+	DisplayName: 王骨标枪
 	Tooltip: 若刺入敌人体内且该敌人死亡，释放一道追踪的王骨能量弹
 }
 
 FossilBoneslinger: {
-	DisplayName: 化石掷骨器
+	DisplayName: 化石掷骨者
 	Tooltip: ""
 }
 
@@ -493,17 +493,17 @@ NeithsString: {
 }
 
 Sandthrower: {
-	DisplayName: 投沙器
+	DisplayName: 喷沙枪
 	Tooltip: 30%几率不消耗凝胶
 }
 
 PrimevalJavelin: {
-	DisplayName: 原初之枪
+	DisplayName: 原初标枪
 	Tooltip: 若刺入敌人体内且该敌人死亡，释放4道追踪的王骨能量弹
 }
 
 CursedFlamefury: {
-	DisplayName: 诅咒焰怒
+	DisplayName: 咒焰之怒
 	Tooltip: 50%几率不消耗凝胶
 }
 
@@ -581,7 +581,7 @@ Blastshot: {
 }
 
 RadiantDawn: {
-	DisplayName: 曜光破晓弓
+	DisplayName: 辉曙曦光
 	Tooltip: 按住以发射更多箭矢
 }
 
@@ -595,12 +595,12 @@ YearOfTheDragon: {
 }
 
 MadnessBow: {
-	DisplayName: 狂乱之弓
+	DisplayName: 癫狂弓
 	Tooltip: ""
 }
 
 MadnessKnife: {
-	DisplayName: 狂乱飞刀
+	DisplayName: 癫狂投刀
 	Tooltip: ""
 }
 
@@ -675,12 +675,12 @@ MushroomBow: {
 }
 
 SerpentsSting: {
-	DisplayName: 冰蛇之刺
+	DisplayName: 绝零冰刺
 	Tooltip: 将子弹转化为雪弹
 }
 
 Sickleshot: {
-	DisplayName: 冰镰射击
+	DisplayName: 冰镰弓
 	Tooltip: 高速射出2支寒冰箭
 }
 
@@ -700,7 +700,7 @@ OdinsBlade: {
 }
 
 ShootingStar: {
-	DisplayName: 流星
+	DisplayName: 星驰
 	Tooltip: ""
 }
 

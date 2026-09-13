@@ -31,7 +31,7 @@ NovaFlare: {
 	Tooltip:
 		'''
 		从天空降下追踪飞焰
-		月之耀斑 EX
+		月耀 EX
 		'''
 }
 
@@ -124,7 +124,7 @@ VoidStar: {
 }
 
 TotalDestruction: {
-	DisplayName: 全面毁灭
+	DisplayName: 万象归墟
 	Tooltip: 以毁灭性的激光摧毁你面前的一切
 }
 
@@ -206,7 +206,7 @@ PoniumUltiscepter: {
 }
 
 Spectrum: {
-	DisplayName: 最终光谱棱镜
+	DisplayName: 光谱
 	Tooltip:
 		'''
 		聚焦一道毁灭性的光束
@@ -219,7 +219,7 @@ StarburstWand: {
 	Tooltip:
 		'''
 		按住以蓄力
-		火花魔杖 EX
+		火花魔棒 EX
 		'''
 }
 
@@ -297,7 +297,7 @@ FuryFlame: {
 }
 
 SandLamp: {
-	DisplayName: 沙之神灯
+	DisplayName: 流沙灯
 	Tooltip: ""
 }
 
@@ -341,7 +341,7 @@ OreStaff: {
 }
 
 BlazePike: {
-	DisplayName: 怒焰法矛
+	DisplayName: 炽焰法矛
 	Tooltip: 摸上去非常烫手
 }
 
@@ -438,12 +438,12 @@ ElectricityShard: {
 }
 
 DragonStaff: {
-	DisplayName: 原龙法杖
+	DisplayName: 龙吟之杖
 	Tooltip: 发射龙鳞。
 }
 
 Icicle: {
-	DisplayName: 冰柱
+	DisplayName: 冰锥
 	Tooltip: 抛射魔力冰晶，碎裂为更小的碎片。
 }
 

@@ -39,8 +39,8 @@ VoidBiome: {
 }
 
 LostKeepBiome: {
-	DisplayName: 失落要塞
-	TownNPCDialogueName: 失落要塞
+	DisplayName: 失落心堡
+	TownNPCDialogueName: 失落心堡
 }
 
 ParthenanBiome: {

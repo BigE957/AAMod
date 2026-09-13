@@ -18,7 +18,7 @@ HurricaneStone: {
 }
 
 SolarStaff: {
-	DisplayName: 日炎权杖
+	DisplayName: 日炎法杖
 	Tooltip:
 		'''
 		对你的敌人降下烈火与狂怒
@@ -32,7 +32,7 @@ CyberBaton: {
 }
 
 AleisterStaff: {
-	DisplayName: 亚雷斯塔法杖
+	DisplayName: 阿莱斯特之杖
 	Tooltip: ""
 }
 

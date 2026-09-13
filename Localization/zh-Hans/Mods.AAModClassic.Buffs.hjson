@@ -635,7 +635,7 @@ DapperAcorn_Buff: {
 }
 
 RealityBent_Buff: {
-	DisplayName: 弯曲裂位
+	DisplayName: 折隙之殇
 	Description: 你周围的空间被扭曲了
 }
 
@@ -670,8 +670,8 @@ SpearStuck_Buff: {
 }
 
 InfinityGauntletEffect_InfinityBurnout: {
-	DisplayName: 无限残烬
-	Description: 它们应该冲着我的头砍
+	DisplayName: 无尽灼烧
+	Description: 他们没有冲着头砍
 }
 
 PortaProbe_Buff: {

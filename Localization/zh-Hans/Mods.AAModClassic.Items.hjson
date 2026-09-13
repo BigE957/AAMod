@@ -347,7 +347,7 @@ BossSummon: {
 Consumables: {
 	InfernoKey: {
 		DisplayName: 燎狱钥匙
-		Tooltip: 解锁灼日之力
+		Tooltip: 解锁灼烧之日的力量
 	}
 
 	VoidKey: {
@@ -508,8 +508,8 @@ Consumables: {
 	}
 
 	KeyOfSmite: {
-		DisplayName: 惩戒之钥
-		Tooltip: 充满了烈焰能量
+		DisplayName: 惩戒钥匙
+		Tooltip: 汇聚了燎狱的能量精华
 	}
 
 	OrangeSolution: {
@@ -619,8 +619,8 @@ Consumables: {
 	}
 
 	KeyOfSpite: {
-		DisplayName: 怨恨之钥
-		Tooltip: 充满了渊狱能量
+		DisplayName: 怨恨钥匙
+		Tooltip: 汇聚了潭渊的能量精华
 	}
 
 	MireKey: {

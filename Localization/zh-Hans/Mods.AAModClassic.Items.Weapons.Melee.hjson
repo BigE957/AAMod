@@ -26,7 +26,7 @@ GentlemansRapier: {
 
 Aerodrake: {
 	DisplayName: 腾天龙兽
-	Tooltip: 天龙之怒 EX
+	Tooltip: 飞龙 EX
 }
 
 Apocalypse: {
@@ -45,7 +45,7 @@ DraconianFury: {
 		'''
 		对你的敌人降下烈火与狂怒
 		造成破晓
-		火焰之治 EX
+		烈焰之治 EX
 		'''
 }
 
@@ -54,7 +54,7 @@ DraculaKnives: {
 	Tooltip:
 		'''
 		快速投掷窃取生命的飞刀
-		吸血鬼飞刀 EX
+		吸血鬼刀 EX
 		'''
 }
 
@@ -63,7 +63,7 @@ FuryGreatforger: {
 	Tooltip:
 		'''
 		击中敌人时产生爆炸并迸出火花
-		熔火之怒 EX
+		铸怒者 EX
 		'''
 }
 
@@ -191,7 +191,7 @@ Dragonkite: {
 }
 
 Daycrusher: {
-	DisplayName: 破晓者链球
+	DisplayName: 日陨
 	Tooltip:
 		'''
 		以太阳质量的力道砸向敌人
@@ -200,12 +200,12 @@ Daycrusher: {
 }
 
 MorningGlory: {
-	DisplayName: 晨曦荣光
+	DisplayName: 旭日威光
 	Tooltip: 投掷时分裂为4支额外的穿透幻影矛
 }
 
 ReignOfFire: {
-	DisplayName: 火焰之治
+	DisplayName: 烈焰之治
 	Tooltip:
 		'''
 		对你的敌人降下烈火与狂怒
@@ -269,7 +269,7 @@ ThrowingCrescent: {
 }
 
 DragonBlade: {
-	DisplayName: 原龙之刃
+	DisplayName: 龙渊之刃
 	Tooltip: 射出小剑！
 }
 
@@ -339,7 +339,7 @@ SagittariusA: {
 }
 
 FuryForger: {
-	DisplayName: 熔火之怒
+	DisplayName: 铸怒者
 	Tooltip: 击中敌人时迸出火花
 }
 
@@ -378,7 +378,7 @@ ScytheOfTheGrimReaper: {
 		'''
 		左键挥砍并释放追踪飞镰
 		右键发动冲刺斩击
-		冲刺期间免疫伤害，真实近战造成10倍伤害
+		冲刺期间免疫伤害，真近战造成10倍伤害
 		冲刺能力冷却时间10秒
 		"话说，哥们儿，你见过几个死神啊？"
 		—— Gregg
@@ -409,8 +409,8 @@ TitanAxe: {
 	DisplayName: 泰坦斧
 	Tooltip:
 		'''
-		右键投掷战斧。
-		左键挥砍战斧。
+		右键投掷战斧
+		左键挥动战斧
 		"哎哟！这可不是谷歌"
 		—— Welox
 		'''
@@ -422,7 +422,7 @@ NoodleSword: {
 }
 
 EmperorFlairon: {
-	DisplayName: 帝王泡泡枪
+	DisplayName: 帝王猪鲨链球
 	Tooltip: 释放一大群追踪泡泡
 }
 
@@ -431,7 +431,7 @@ Axis: {
 	Tooltip:
 		'''
 		被这根矛击中的敌人将被雪花环绕
-		北极矛 EX
+		北极 EX
 		'''
 }
 
@@ -493,13 +493,13 @@ PerfectChaosChain: {
 	Tooltip:
 		'''
 		发射旋转刀刃，撕裂敌人
-		冥昧链球 EX
+		混沌链球 EX
 		'''
 }
 
 PerfectChaosYari: {
 	DisplayName: 太初贯冥
-	Tooltip: 冥昧之戟 EX
+	Tooltip: 混沌之戟 EX
 }
 
 SlapBone: {
@@ -517,7 +517,7 @@ SoulShredder: {
 		'''
 		左键挥砍并释放追踪飞镰
 		右键发动冲刺斩击
-		冲刺期间免疫伤害，真实近战造成15倍伤害
+		冲刺期间免疫伤害，真近战造成15倍伤害
 		冲刺能力冷却时间5秒
 		"话说，哥们儿，你见过几个死神啊？"
 		—— Gregg
@@ -539,8 +539,8 @@ TitanSlayer: {
 	DisplayName: 泰坦杀手
 	Tooltip:
 		'''
-		左键快速挥砍战斧
-		右键投掷战斧
+		左键快速挥动战斧
+		右键快速投掷战斧
 		泰坦斧 EX
 		'''
 }
@@ -556,7 +556,7 @@ MidasClub: {
 }
 
 Tizona: {
-	DisplayName: 提泽纳长剑
+	DisplayName: Tizona剑
 	Tooltip: ""
 }
 
@@ -617,12 +617,12 @@ Chaos_Item: {
 }
 
 ChaosChain: {
-	DisplayName: 冥昧链球
+	DisplayName: 混沌链球
 	Tooltip: 投出一颗不稳定的混沌能量球
 }
 
 ChaosYari: {
-	DisplayName: 冥昧之戟
+	DisplayName: 混沌之戟
 	Tooltip: ""
 }
 
@@ -639,7 +639,7 @@ Timesplitter: {
 	DisplayName: 天时分律者
 	Tooltip:
 		'''
-		据说这柄矛曾被用来将时间划分为昼夜
+		据说这把神枪曾用来将时间划分为昼夜
 		造成破晓和蚀月
 		'''
 }
@@ -665,7 +665,7 @@ FleshrendClaymore: {
 }
 
 CarnalCrusher: {
-	DisplayName: 嗜血粉碎者
+	DisplayName: 肉欲屠刃
 	Tooltip: 暴击时为你恢复生命值
 }
 
@@ -715,7 +715,7 @@ Judgment: {
 }
 
 CrookOfTheSoulJudge: {
-	DisplayName: 灵魂判官之钩
+	DisplayName: 灵魂判官之杖
 	Tooltip:
 		'''
 		穿透物块
@@ -738,7 +738,7 @@ Verdict: {
 }
 
 AquaLance: {
-	DisplayName: 水之长矛
+	DisplayName: 水之矛
 	Tooltip: ""
 }
 
@@ -826,7 +826,7 @@ Firestorm: {
 }
 
 Ryusei: {
-	DisplayName: 龙星之刃
+	DisplayName: 流星
 	Tooltip: 命中时以火焰和燎狱龙炎点燃敌人
 }
 
@@ -839,13 +839,13 @@ DragonShiv: {
 	DisplayName: 龙牙短匕
 	Tooltip:
 		'''
-		缓慢，但打击力度犹如天体重击
+		很慢，但打击力度犹如天体重击
 		造成破晓
 		'''
 }
 
 GrassSpear: {
-	DisplayName: 青草矛
+	DisplayName: 草矛
 	Tooltip: ""
 }
 
@@ -855,7 +855,7 @@ JungleReaper: {
 }
 
 MadnessSaber: {
-	DisplayName: 狂乱军刀
+	DisplayName: 癫狂军刀
 	Tooltip: ""
 }
 
@@ -949,7 +949,7 @@ Musharang: {
 }
 
 Mushmace: {
-	DisplayName: 松露之锤
+	DisplayName: 松露链锤
 	Tooltip: ""
 }
 
@@ -959,12 +959,12 @@ CloudEdge: {
 }
 
 TheDragonsBreath: {
-	DisplayName: 龙息之刃
+	DisplayName: 原龙之息
 	Tooltip: 这龙肯定需要刷刷牙
 }
 
 BlizzardBuster: {
-	DisplayName: 暴雪破坏者
+	DisplayName: 暴雪克星
 	Tooltip: ""
 }
 
@@ -979,7 +979,7 @@ SubzeroSlasher: {
 }
 
 GlacierBreaker: {
-	DisplayName: 冰川破碎者
+	DisplayName: 冰川粉碎者
 	Tooltip: 连枷飞行时掉落冰锥
 }
 
@@ -994,7 +994,7 @@ RaiderLance: {
 }
 
 VikingPolearm: {
-	DisplayName: 维京长柄枪
+	DisplayName: 维京长枪
 	Tooltip: ""
 }
 
@@ -1004,7 +1004,7 @@ AsgardianLance: {
 }
 
 DragonFang: {
-	DisplayName: 原龙之牙
+	DisplayName: 龙之牙
 	Tooltip: 右键以女武神般之姿击杀敌人
 }
 
@@ -1090,7 +1090,7 @@ TopazSaber: {
 
 TrueTinShortsword: {
 	DisplayName: 真·锡短剑
-	Tooltip: 暗影的真刃
+	Tooltip: 真正的暗影之刃
 }
 
 SagittariusLeg: {

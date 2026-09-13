@@ -2,7 +2,7 @@ AleisterBook: {
 	DisplayName: 阿莱斯特之书
 	Tooltip:
 		'''
-		传说中伟大野兽之书。
+		传说中的伟大野兽之书。
 		增加10%召唤伤害
 		+2召唤栏
 		或许你还能让它变得更强..?
@@ -15,10 +15,10 @@ TheBookOfTheLaw: {
 	DisplayName: 法之书
 	Tooltip:
 		'''
-		传说中伟大野兽之书。
+		传说中的伟大野兽之书。
 		增加30%召唤伤害
 		+2召唤栏
-		包含制作此物所需所有碎片的全部属性。
+		包含获得此物所需所有碎片的全部属性。
 
 		'''
 }
@@ -59,7 +59,7 @@ EnergyConduit: {
 }
 
 Naitokurosu: {
-	DisplayName: 黑莲
+	DisplayName: 夜十头巾
 	Tooltip: ""
 }
 
@@ -189,7 +189,7 @@ HeartOfSorrow: {
 }
 
 WingsOfChaos: {
-	DisplayName: 混沌之翼
+	DisplayName: 冥昧之翼
 	Tooltip: ""
 }
 
@@ -311,7 +311,7 @@ AquamancerWings: {
 }
 
 BlackLotusEmblem: {
-	DisplayName: 黑莲印记
+	DisplayName: 黑莲花徽章
 	Tooltip: ""
 }
 
@@ -376,7 +376,7 @@ MadnessTruffle: {
 }
 
 HeartOfAnarchy: {
-	DisplayName: 原初之焰
+	DisplayName: 原初之心
 	Tooltip: "'这对姐妹的心脏在这件古老瓷器中如一体般跳动'"
 }
 
@@ -386,17 +386,17 @@ MetallicTruffle: {
 }
 
 AnkhNecklace: {
-	DisplayName: 生命十字项链
+	DisplayName: 十字章项链
 	Tooltip: ""
 }
 
 AnkhScarf: {
-	DisplayName: 生命十字围巾
+	DisplayName: 十字章围巾
 	Tooltip: ""
 }
 
 AnkhTablet: {
-	DisplayName: 安卡石板
+	DisplayName: 十字章石板
 	Tooltip: ""
 }
 

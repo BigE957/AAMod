@@ -141,7 +141,7 @@ NewAAInfo9: 地上的凡人！你该知道远古觉醒有个官方重制版可�
 
 downedEquinoxInfo: 上神之礼在天空中闪耀...
 downedEquinoxInfoFailure: 天上的星星还多着呢，孩子。
-downedMoonlordInfo1: 真正的远古觉醒!
+downedMoonlordInfo1: 真正的远古觉醒！
 downedMoonlordInfo2: 月球领主的精华在洞穴中闪耀...
 downedMechBossAnyInfo: 洞穴中有光闪过...
 downedSiegeUnitAnyInfo: 雷霆的轰鸣声在洞窟中回荡...
@@ -149,12 +149,12 @@ downedSistersInfo: 混沌能量从地下最深出开始涌出。
 downedBoss2Info1: 打败强大的恶魔之后，你听见泰拉心球中的靡靡之音...
 downedBoss3Info1: 沙漠之风开始酝酿...
 downedBoss3Info2: 凛冬之山隆隆作响...
-downedBoss3Info3: 远古之骨已经因能量而爆裂!
+downedBoss3Info3: 远古化石因能量而爆裂！
 downedMechBossInfo1: 嘿，小子，是我，阿努比斯。帮我个忙，请回来找我，我想和你说点事。
 downedMechBossInfo2: 暗日之仆被赐予了圣物...
 downedAllAncientsInfo1: 真正的冥昧之息在大气中翻涌...
 downedAllAncientsInfo2: 一团异界浓雾笼罩着被遗忘的沉船...
-hardModeInfo: 愤怒和怨恨的灵魂被释放了！
+hardModeInfo: 狂怒与怨怒的灵魂被释放了！
 #AAWorldBuild
 
 AAWorldBuildAltars: 安置混沌祭坛
@@ -163,9 +163,9 @@ AAWorldBuildInferno: 把土壤焦化成燎狱
 AAWorldBuildMire: 给潭渊蓄水
 AAWorldBuildTerrarium: 建筑泰拉心球
 AAWorldBuildLostKeep: 隐藏英雄要塞
-AAWorldBuildAcropolis: 漂浮卫城
+AAWorldBuildAcropolis: 让卫城漂浮
 AAWorldBuildHoard: 聚积宝藏
-AAWorldBuildEquinoxAlt: 日月平衡
+AAWorldBuildEquinoxAlt: 平衡日月
 
 RecipeGroups: {
 	Ore: {
@@ -339,32 +339,32 @@ Conditions: {
 	InAnyRedMushroom: 在红蘑菇生态群落
 	InAnyVoid: 在虚空生态群落
 	SpawnedBySubzeroSerpent: 如果绝零冰蛇当前未处于存活状态
-	PostLateAncientsAndRemovedWorldAndExpert: 如果昼夜双虫被打败
-	OneMechDefeated: 如果至少一个机械boss被打败
-	SkeletronDefeated: 如果骷髅王被打败
-	GolemDefeated: 如果石巨人被打败
-	GoblinsDefeated: 如果哥布林军队被打败
-	DownedGobSummoner: 如果哥布林术士被打败
-	DownedMoth: 如果蛾怪被打败
-	// DownedBroodmother: If the Broodmother has been defeated
-	// DownedHydra: If the Hydra has been defeated
-	// DownedAnyLateAncient: Any late Ancient has been defeated
-	// DownedAnySuperancient: Any Superancient has been defeated
+	PostLateAncientsAndRemovedWorldAndExpert: 击败昼夜双虫后
+	OneMechDefeated: 击败至少一个机械boss后
+	SkeletronDefeated: 击败骷髅王后
+	GolemDefeated: 击败石巨人后
+	GoblinsDefeated: 击败哥布林军队后
+	DownedGobSummoner: 击败哥布林术士后
+	DownedMoth: 击败蛾怪后
+	DownedBroodmother: 击败育母炎龙后
+	DownedHydra: 击败九头渊蛇后
+	DownedAnyLateAncient: 击败任意后期远古者后
+	DownedAnySuperancient: 击败任意超远古者后
 
 	LovecraftianQuest: {
-		// Purity: If the Lovecraftian's Purity quest has been completed
-		// Inferno: If the Lovecraftian's Inferno quest has been completed
-		// Mire: If the Lovecraftian's Mire quest has been completed
-		// Corruption: If the Lovecraftian's Corruption quest has been completed
-		// Crimson: If the Lovecraftian's Crimson quest has been completed
-		// Hallow: If the Lovecraftian's Hallow quest has been completed
-		// Void: If the Lovecraftian's Void quest has been completed
-		// AntiMushroom: If the Lovecraftian's Anti-Mushroom quest has been completed
-		// RedMushroom: If the Lovecraftian's Red Mushroom quest has been completed
-		// GlowingMushroom: If the Lovecraftian's Glowing Mushroom quest has been completed
-		// Jungle: If the Lovecraftian's Jungle quest has been completed
-		// Ice: If the Lovecraftian's Ice quest has been completed
-		// AntiIce: If the Lovecraftian's Anti-Ice quest has been completed
-		// Forest: If the Lovecraftian's Forest quest has been completed
+		Purity: 完成洛夫克拉夫特星人的纯净任务后
+		Inferno: 完成洛夫克拉夫特星人的燎狱任务后
+		Mire: 完成洛夫克拉夫特星人的潭渊任务后
+		Corruption: 完成洛夫克拉夫特星人的腐化任务后
+		Crimson: 完成洛夫克拉夫特星人的猩红任务后
+		Hallow: 完成洛夫克拉夫特星人的神圣任务后
+		Void: 完成洛夫克拉夫特星人的虚空任务后
+		AntiMushroom: 完成洛夫克拉夫特星人的丛林孢子任务后
+		RedMushroom: 完成洛夫克拉夫特星人的红蘑菇任务后
+		GlowingMushroom: 完成洛夫克拉夫特星人的发光蘑菇任务后
+		Jungle: 完成洛夫克拉夫特星人的丛林任务后
+		Ice: 完成洛夫克拉夫特星人的冰雪任务后
+		AntiIce: 完成洛夫克拉夫特星人的冰雪任务后
+		Forest: 完成洛夫克拉夫特星人的森林任务后
 	}
 }

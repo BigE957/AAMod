@@ -128,7 +128,7 @@ UnityPickaxe: {
 }
 
 MINEer: {
-	DisplayName: 掘矿-器
+	DisplayName: 掘矿器
 	Tooltip: 更快地挖掘矿石
 }
 

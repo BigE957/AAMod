@@ -189,7 +189,7 @@ DesertMana: {
 }
 
 DynaskullFossil: {
-	DisplayName: 恐龙王化石
+	DisplayName: 王骨化石
 	Tooltip: 数百万年的能量在这具远古化石中脉动
 }
 

@@ -514,75 +514,75 @@ CalamityMod: {
 
 	DraeTalk: {
 		ChaosBiomes: {
-			// Prompt: The Chaos
-			/* Dialogue:
+			Prompt: El Caos
+			Dialogue:
 				'''
-				Those lands were not always in the state you've seen them in. As I first began surveying these lands I encountered the two civilizations that once called those regions their home. One was built around a mountain, and their primary trade was in blacksmithery. The other surrounded a lake and was a fishing village.
+				Esas tierras no siempre estuvieron en el estado en el que las has visto. Cuando comencé a explorar estas tierras por primera vez, me encontré con las dos civilizaciones que una vez llamaron hogar a esas regiones. Una se construyó alrededor de una montaña y su comercio principal era la herrería. La otra rodeaba un lago y era un pueblo pesquero.
 
-				Both were unique as they worshiped not gods as you and I know them, but the Ancients of Fury and Wrath respectively. They had never met these Ancients, as the two were in a deep slumber after a great battle from quite before my time. However, upon their awakening, the two Ancients destroyed their worshippers. Their Fury and Wrath birthed the lands as you know them, teeming with chaotic influence.
+				Ambas eran singulares, ya que no adoraban a dioses tal como tú y yo los conocemos, sino a los Ancianos de la Furia y la Ira, respectivamente. Nunca habían conocido a estos Ancianos, ya que ambos estaban en un profundo letargo tras una gran batalla de bastante antes de mi tiempo. Sin embargo, al despertar, los dos Ancianos destruyeron a sus devotos. Su Furia y su Ira dieron origen a las tierras tal como las conoces, repletas de influencia caótica.
 
-				I witnessed all of this unfold from the lens of one of my survey drones. It was this event that convinced me to remaining in hiding for some time longer. Had I made my presence known then, I am uncertain if I would have had the defenses to fend of those raging beasts.
+				Fui testigo de todo esto desarrollarse a través de la lente de uno de mis drones de reconocimiento. Fue este suceso el que me convenció de permanecer oculto durante algún tiempo más. Si hubiera hecho evidente mi presencia entonces, no estoy seguro de si habría tenido las defensas necesarias para alejar a esas bestias enfurecidas.
 
-				Yharim's narrow focus on the Gods during his Crusade only let the forces of chaos grow in number and power. You no doubt have met the Ashe and Haruka. The two of them made quite a habit of pestering both Yharim's forces and my own laboratories. An irritable variable I have continued to need to account for.
+				La estrecha fijación de Yharim en los Dioses durante su Cruzada solo permitió que las fuerzas del caos crecieran en número y poder. Sin duda ya has conocido a Ashe and Haruka. Ambos se hicieron el hábito de fastidiar tanto a las fuerzas de Yharim como a mis propios laboratorios. Una variable irritante que he tenido que seguir teniendo en cuenta.
 
-				Your efforts in quelling the influence chaos has upon this world have not gone unnoticed. It is through these efforts of yours that I have gorwn to view you as a catalyst. It is my hope you continue onward and put an end to their kind once and for all.
-				''' */
+				Tus esfuerzos por sofocar la influencia que el caos ejerce sobre este mundo no han pasado desapercibidos. Es a través de estos esfuerzos tuyos que he llegado a verte como un catalizador. Es mi esperanza que continúes adelante y acabes con los de su clase de una vez por todas.
+				'''
 		}
 
 		Ancients: {
-			// Prompt: The Ancients
-			/* Dialogue:
+			Prompt: Los Ancianos
+			Dialogue:
 				'''
-				They are a unique caste to say the very least. Unlike the Gods, their titles are not self appointed. The first of their order were appointed long ago, before even the Draconic Era, by the Equinox.
+				Son una casta única, por decirlo suavemente. A diferencia de los Dioses, sus títulos no son autoproclamados. Los primeros de su orden fueron designados hace mucho tiempo, incluso antes de la Era Dracónica, por el Equinoccio.
 
-				The titles they bear have been passed on through their bloodlines for generations. It is their eternal duty to govern over the Ecosystems in which they reside, and through this, a balance is maintained across the entire planet.
+				Los títulos que portan se han transmitido a través de sus linajes durante generaciones. Su deber eterno es gobernar sobre los Ecosistemas en los que residen y, a través de esto, se mantiene un equilibrio en todo el planeta.
 
-				However, in more recent times, I am uncertain who among their caste can be considered true Ancients and who merely are given the title due to their strength. I've heard even the machine which resides in the Void referred to as an Ancient. It is truly perplexing.
+				Sin embargo, en tiempos más recientes, no estoy seguro de cuál de los miembros de su casta puede considerarse un Anciano verdadero y a cuáles simplemente se les otorga el título debido a su fuerza. Incluso he oído que la máquina que reside en el Vacio es referida como un Anciano. Es verdaderamente desconcertante.
 
-				Additionally, it would seem that some among them hold the ability to temper the powers they wield. It is possible this was an intentional process, or merely their abilities waning as they were passed on through the generations.
+				Además, parecería que algunos de entre ellos poseen la capacidad de templar los poderes que empuñan. Es posible que esto haya sido un proceso intencional, o simplemente que sus habilidades se hayan debilitado al transmitirse a través de las generaciones.
 
-				However, in your battles against them, one thing has become clear. The power is still held within them, and is capable of awakening in the most dire moments.
+				Sin embargo, en tus batallas contra ellos, una cosa ha quedado clara. El poder sigue residiendo en su interior y es capaz de despertar en los momentos más aciagos.
 
-				Yharim battled against the gods, and toppled their order. Now, it would seem you intend to do the same to the Ancients. The similarities between you two are truly fascinating to observe.
-				''' */
+				Yharim batalló contra los dioses y derrocó su orden. Ahora, parecería que tienes la intención de hacer lo mismo con los Ancianos. Las similitudes entre ustedes dos son verdaderamente fascinantes de observar.
+				'''
 		}
 
 		Fungus: {
-			// Prompt: Fungal Influence
-			/* Dialogue:
+			Prompt: Influencia Fúngica
+			Dialogue:
 				'''
-				What? Are you truly concerned about the capabilties of this world's fungi? What a peculiar notion. Whilst it can be observed that they are capable of exerting influence over simple-minded organics, there is little reason to believe they are capable of amounting to anything more.
+				¿Qué? ¿De verdad te preocupan las capacidades de los hongos de este mundo? Qué noción tan peculiar. Si bien se puede observar que son capaces de ejercer influencia sobre organismos simples, hay pocas razones para creer que puedan llegar a ser algo más.
 
-				The most substantial hostiles they've managed to produce are larger creatures inhabited by their spores, and those two mushroom... creatures? You refer to them as the "Mushroom Monarch" and "Feudal Fungus". 
+				Las entidades hostiles más considerables que han logrado producir son criaturas más grandes habitadas por sus esporas, y esos dos... ¿criaturas? de champiñón. Te refieres a ellos como el "Monarca Fúngico" y el "Hongo Feudal". 
 
-				I'll admit, I have given the mushrooms of this world very little attention in my research due to their pitiful results in the wild.
+				Lo admito, le he prestado muy poca atención a los hongos de este mundo en mi investigación debido a sus lamentables resultados en la naturaleza.
 
-				Regardless, as I said, there is little reason for concern. From what I've observed their attempts to spread yield little in the way of results. Perhaps if their efforts were combined they could amount to something greater than the sum of their parts.
-				''' */
+				Sea como fuere, como dije, hay pocos motivos de preocupación. Por lo que he observado, sus intentos de propagación arrojan pocos resultados. Tal vez si sus esfuerzos se combinaran, podrían llegar a ser algo mayor que la suma de sus partes.
+				'''
 		}
 
 		Void: {
-			// Prompt: The Void
-			/* Dialogue:
+			Prompt: El Vacío
+			Dialogue:
 				'''
-				There is much to say about the spacial anomaly often referred to as "The Void". Carbon dating from geological samples recovered place it as having existed long before the formation of this planet. The lone machine that sat at its epicenter was my primary subject of research. In all my attempts, I could never coax it to activate, and not even my Exo Artillery could get past its shields.
+				Hay mucho que decir sobre la anomalía espacial a la que a menudo se le llama "El Vacío". La datación por carbono de las muestras geológicas recuperadas sitúa su existencia mucho antes de la formación de este planeta. La solitaria máquina que se encontraba en su epicentro era mi principal objeto de estudio. En todos mis intentos, nunca pude lograr que se activara, y ni siquiera mi artillería Exo pudo atravesar sus escudos.
 
-				You, however, managed to succeed where I failed. You activated it, and even managed to defeat it. I observed your battle from multiple survey drones, and it was fascinating to see the Zero Unit activated. Its weaponry was particularly notable. It seems clear to me it was designed for combat which begs the question of why it sat silent all this time. Why activate now?
+				Tú, sin embargo, lograste tener éxito donde yo fracasé. Lo activaste e incluso conseguiste derrotarlo. Observé vuestra batalla a través de múltiples drones de reconocimiento, y fue fascinante ver la Unidad Cero activada. Su arsenal era particularmente notable. Me queda claro que fue diseñada para el combate, lo que plantea la pregunta de por qué permaneció en silencio todo este tiempo. ¿Por qué se activa ahora?
 
-				Regardless, I hope you continue to impress. If my scanners are operating correctly, something truly frightening has arrived through the Void. You've familiarized yourself with the apex of my research. Equip yourself as needed for whatever lies within that rift.
-				''' */
+				Sea como fuere, espero que sigas impresionando. Si mis escáneres funcionan correctamente, algo verdaderamente aterrador ha llegado a través del Vacío. Te has familiarizado con el apogeo de mis investigaciones. Equípate como sea necesario para lo que sea que aguarde dentro de esa brecha.
+				'''
 		}
 
 		Equinox: {
-			// Prompt: The Equinox
-			/* Dialogue:
+			Prompt: El Equinoccio
+			Dialogue:
 				'''
-				The Equinox are a particularly old duo that have accompanied this world for centuries; since before life had even formed on it. It was they who appointed the first of the Ancients long ago, and blessed them with a substantial portion of their powers.
+				El Equinoccio es un dúo particularmente antiguo que ha acompañado a este mundo durante siglos; desde antes de que la vida siquiera se hubiera formado en él. Fueron ellos quienes designaron al primero de los Ancianos hace mucho tiempo y los bendijeron con una parte sustancial de sus poderes.
 
-				I have heard a great deal of myths surrounding the Equinox. One which I know was of particular interest to Yharim tells that they once aided a great hero in banishing a mighty wizard who wielded the fullest power of chaos. Yharim has sited the hero in this legend as an inspiration many a time to his troops.
+				He oído una gran cantidad de mitos en torno al Equinoccio. Uno que sé que era de particular interés para Yharim relata que una vez ayudaron a un gran héroe a desterrar a un poderoso hechicero que blandía todo el poder del caos. Yharim ha citado al héroe de esta leyenda como inspiración en muchas ocasiones para sus tropas.
 
-				Whilst it is true they are responsible for the passage of day and night on our planet, may unverstand the process completely wrong. The Sun and Moon do not orbit the our planet. Any serious examination would reveal that the Equinox have the ability to emit a strong gravitational aura. With this, they are able to pull the planet around the sun, and the moon around the planet.
-				''' */
+				Si bien es cierto que son responsables del paso del día y la noche en nuestro planeta, muchos entienden el proceso completamente mal. El Sol y la Luna no orbitan nuestro planeta. Cualquier examen serio revelaría que el Equinoccio tiene la capacidad de emitir una fuerte aura gravitacional. Con esto, son capaces de arrastrar el planeta alrededor del sol y la luna alrededor del planeta.
+				'''
 		}
 	}
 }
@@ -590,15 +590,15 @@ CalamityMod: {
 Fables: {
 	Nautilus: {
 		DesertDjinnActive: {
-			// 1: <m:SmallShake>Oh, such a raucous commotion day in and out!</m><d:0.6> </d>Were I still a little more able, I would have long driven these <c:F4A460>Djinn</c> out of these ruins myself!
-			// 2: <m:Shake>That <c:F4A460>Djinn...!</c></m><d:0.8> </d>Even his underlings are a disgrace, coming and going as they please to torment me!<d:0.6> </d>He must be a terrible influence on them - nothing like how I'd grown up with <d:0.05><s:1.1><c:28dcdc>Signathion!</d></s></c>
+			1: <m:SmallShake>¡Oh, qué alboroto tan ruidoso día y noche!</m><d:0.6> </d>¡Si todavía tuviera un poco más de movilidad, hace tiempo que habría echado a estos <c:F4A460>Genios</c> de estas ruinas yo mismo!
+			2: <m:Shake>¡Ese <c:F4A460>Genio...!</c></m><d:0.8> </d>¡Hasta sus subordinados son una desgracia, yendo y viniendo a su antojo para atormentarme!<d:0.6> </d>Debe de ser una influencia terrible para ellos, ¡nada que ver con cómo crecí con <d:0.05><s:1.1><c:28dcdc>Signathion!</d></s></c>
 		}
 
 		DesertDjinnDefeated: {
-			// First: Goodness, what a favor you've done me, driving those <c:F4A460>Djinn</c> out of these ruins!<d:0.4> </d>As much as I appreciate a distraction, <m:Empathis>they were simply too much!
-			// Repeat: I certainly find it easier to pass on, knowing the <c:F4A460>Djinn</c> and his hooligans no longer maraud my old home. <m:Empathis><s:1.1><d:0.03>You have my utmost thanks!
+			First: ¡Dios mio, qué gran favor me has hecho al expulsar a esos <c:F4A460>Genios</c> de estas ruinas!<d:0.4> </d>Por mucho que aprecie una distracción, <m:Empathis>¡simplemente eran demasiado!
+			Repeat: Ciertamente me resulta más fácil descansar sabiendo que el <c:F4A460>Genio</c> y sus gamberros ya no saquean mi viejo hogar. <m:Empathis><s:1.1><d:0.03>¡Te doy mis más sinceras gracias!
 		}
 	}
 
-	// Squilium: Hi I'm squilium!
+	Squilium: Hola, ¡soy Squilium!
 }

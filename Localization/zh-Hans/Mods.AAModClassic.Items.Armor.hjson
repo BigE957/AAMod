@@ -246,7 +246,7 @@ Olympian: {
 }
 
 HoppingHoodlum: {
-	SharedFlavorText: "'跳脚狂怒'"
+	SharedFlavorText: "'跳跳狂怒'"
 
 	HoppingHoodlumChestplate: {
 		DisplayName: 跳跳流氓兔衬衫
@@ -334,17 +334,17 @@ MidnightAssassin: {
 
 Nights: {
 	NightsChestplate: {
-		DisplayName: 夜之护胸
+		DisplayName: 永夜鳞甲
 		Tooltip: ""
 	}
 
 	NightsHelmet: {
-		DisplayName: 夜之护头
+		DisplayName: 永夜头盔
 		Tooltip: ""
 	}
 
 	NightsLeggings: {
-		DisplayName: 夜之护胫
+		DisplayName: 永夜护胫
 		Tooltip: ""
 	}
 }
@@ -368,17 +368,17 @@ Fleshrend: {
 
 Dynaskull: {
 	DynaskullChestplate: {
-		DisplayName: 王骨护胸
+		DisplayName: 王骨板甲
 		Tooltip: ""
 	}
 
 	DynaskullHelmet: {
-		DisplayName: 王骨护头
+		DisplayName: 王骨头盔
 		Tooltip: ""
 	}
 
 	DynaskullLeggings: {
-		DisplayName: 王骨护腿
+		DisplayName: 王骨护胫
 		Tooltip: ""
 	}
 }
