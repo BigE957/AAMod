@@ -53,7 +53,7 @@ namespace AAModClassic._Content.Mire._PostMoonlord.Items._BossYamata.Weapons
                 projectileOffset.X *= MathHelper.Lerp(0.8f, 1.2f, (float)Main.rand.NextDouble());
                 projectileOffset.Y *= MathHelper.Lerp(0.8f, 1.2f, (float)Main.rand.NextDouble());
                 Vector2 newSpeed = velocity * MathHelper.Lerp(0.8f, 1.2f, (float)Main.rand.NextDouble());
-                Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position.X + projectileOffset.X, position.Y + projectileOffset.Y, newSpeed.X, newSpeed.Y, ModContent.ProjectileType<FallingTwilight_HydraSoul>(), damage, knockback, player.whoAmI);
+                Projectile.NewProjectile(player.GetSource_ItemUse(Item), position.X + projectileOffset.X, position.Y + projectileOffset.Y, newSpeed.X, newSpeed.Y, ModContent.ProjectileType<FallingTwilight_HydraSoul>(), damage, knockback, player.whoAmI);
             }
             return false;
         }

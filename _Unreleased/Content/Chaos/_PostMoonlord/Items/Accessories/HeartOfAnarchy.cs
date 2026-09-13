@@ -1,20 +1,9 @@
-﻿using AAModClassic._Content.Acropolis.__Hardmode.Items._BossAthena.Accessories;
-using AAModClassic._Content.Chaos._PostMoonlord.Items._BossSistersOfDiscord.Accessories;
+﻿using AAModClassic._Content.Chaos._PostMoonlord.Items._BossSistersOfDiscord.Accessories;
 using AAModClassic._Content.Chaos._PostMoonlord.Items.Tiles.Functional;
-using AAModClassic._Content.Inferno.__Hardmode.Items.Materials;
 using AAModClassic._Content.Inferno._PostMoonlord.Items.Materials;
-using AAModClassic._Content.Inferno.Buffs;
-using AAModClassic._Content.Mire.___PreHardmode.Items.Accessories;
-using AAModClassic._Content.Mire.__Hardmode.Items.Materials;
 using AAModClassic._Content.Mire._PostMoonlord.Items.Materials;
-using AAModClassic.Globals;
-using AAModClassic.Utilities;
-using AAModClassic.Utilities.AbstractsLikeDigitalCircus;
 using AAModClassic.Utilities.AbstractsLikeDigitalCircus.Items;
-using System;
-using Terraria;
 using Terraria.ID;
-using Terraria.Localization;
 using Terraria.ModLoader;
 
 namespace AAModClassic._Unreleased.Content.Chaos._PostMoonlord.Items.Accessories

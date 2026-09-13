@@ -56,7 +56,7 @@ namespace AAModClassic._Content.Mire._PostMoonlord.Items._BossYamata.Weapons
             for (int i = 0; i < 3; i++)
             {
                 Vector2 perturbedSpeed = velocity.RotatedByRandom(MathHelper.ToRadians(10));
-                Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position.X, position.Y, perturbedSpeed.X, perturbedSpeed.Y, ModContent.ProjectileType<AbyssalEruption_AcidFlame>(), damage, knockback, player.whoAmI);
+                Projectile.NewProjectile(player.GetSource_ItemUse(Item), position.X, position.Y, perturbedSpeed.X, perturbedSpeed.Y, ModContent.ProjectileType<AbyssalEruption_AcidFlame>(), damage, knockback, player.whoAmI);
             }
             shoot++;
 
@@ -64,7 +64,7 @@ namespace AAModClassic._Content.Mire._PostMoonlord.Items._BossYamata.Weapons
 
             if (shoot >= 6)
             {
-                Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position, velocity, ModContent.ProjectileType<AbyssalEruption_AcidFlame>(), damage * 2, knockback, player.whoAmI);
+                Projectile.NewProjectile(player.GetSource_ItemUse(Item), position, velocity, ModContent.ProjectileType<AbyssalEruption_AcidFlame>(), damage * 2, knockback, player.whoAmI);
                 shoot = 0;
             }
             shoot = 0;

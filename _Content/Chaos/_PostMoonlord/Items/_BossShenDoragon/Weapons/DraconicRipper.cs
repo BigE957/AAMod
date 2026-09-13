@@ -78,7 +78,7 @@ Ignores enemy defense
                     damage += 10;
                 }
                 Vector2 perturbedSpeed = velocity.RotatedByRandom(MathHelper.ToRadians(10));
-                int p = Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position.X, position.Y, perturbedSpeed.X, perturbedSpeed.Y, tooth, damage, knockback, player.whoAmI);
+                int p = Projectile.NewProjectile(player.GetSource_ItemUse(Item), position.X, position.Y, perturbedSpeed.X, perturbedSpeed.Y, tooth, damage, knockback, player.whoAmI);
                 Main.projectile[p].DamageType = DamageClass.Ranged;
             }
             return false;

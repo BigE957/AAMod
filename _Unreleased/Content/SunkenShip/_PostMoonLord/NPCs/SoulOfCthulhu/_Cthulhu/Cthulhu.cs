@@ -271,8 +271,14 @@ namespace AAModClassic._Unreleased.Content.SunkenShip._PostMoonLord.NPCs.SoulOfC
         {
             if (!Main.expertMode)
                 BaseUtility.Chat(Language.GetTextValue("Mods.AAModClassic.NPCs.BossDialogue.SoulOfCthulhu.Awakened.Defeat.Cheater"), Color.DarkCyan);
-            else if (NPC.playerInteraction[Main.myPlayer])
-                SoulOfCthulhuKilled.Condition.Complete();
+            else
+            {
+                if (NPC.playerInteraction[Main.myPlayer])
+                    SoulOfCthulhuKilled.Condition.Complete();
+
+                if (!NPC.BeenKilled(true))
+                    NPC.OnGameEventClearedForTheFirstTime(-1);
+            }
         }
 
         public override void ModifyNPCLoot(NPCLoot npcLoot)

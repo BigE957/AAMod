@@ -102,7 +102,6 @@ using AAModClassic._Content.Inferno._PostMoonlord.NPCs.__BossAkuma.Awakened;
 using AAModClassic._Content.Inferno._PostMoonlord.NPCs._Surface._Day;
 using AAModClassic._Content.Inferno._PostMoonlord.NPCs.AncientLung;
 using AAModClassic._Content.Inferno.Buffs;
-using AAModClassic._Content.Inferno.World.Biomes;
 using AAModClassic._Content.Jungle.___PreHardmode.Items.Weapons;
 using AAModClassic._Content.Jungle.__Hardmode.Items.Weapons;
 using AAModClassic._Content.Madness.___PreHardmode.Items.Weapons;
@@ -167,13 +166,12 @@ using AAModClassic._Content.Void.___PreHardmode.Items.Weapons;
 using AAModClassic._Content.Void.___PreHardmode.NPCs.__BossSagittarius;
 using AAModClassic._Content.Void._PostMoonlord.Items._BossZero;
 using AAModClassic._Content.Void._PostMoonlord.Items._BossZero.BossStandard;
-using AAModClassic._Content.Void._PostMoonlord.Items._BossZero.Pets;
 using AAModClassic._Content.Void._PostMoonlord.Items._BossZero.Weapons;
 using AAModClassic._Content.Void._PostMoonlord.NPCs.__BossZero;
 using AAModClassic._Content.Void._PostMoonlord.NPCs.__BossZero.Awakened;
 using AAModClassic._Content.Void.World.Biomes;
-using AAModClassic._CrossMod.CalamityMod;
 using AAModClassic._CrossMod.CalamityMod.LoreItems;
+using AAModClassic._CrossMod.SpiritReforged;
 using AAModClassic._Removed.Content.Parthenan;
 using AAModClassic._Removed.Content.Parthenan.__Hardmode.Items._BossOrthrusX;
 using AAModClassic._Removed.Content.Parthenan.__Hardmode.Items._BossOrthrusX.BossStandard;
@@ -191,7 +189,6 @@ using AAModClassic._Unofficial.Content.Void._PostMoonlord.Items._BossInfinityZer
 using AAModClassic._Unofficial.Content.Void._PostMoonlord.Items._BossZero.BossStandard;
 using AAModClassic._Unreleased.Content._Dev._PostMoonlord.Items.Weapons;
 using AAModClassic._Unreleased.Content._Tinker.__Hardmode.Armor.Vanity;
-using AAModClassic._Unreleased.Content.Desert.__Hardmode.NPCs.__BossAnubis;
 using AAModClassic._Unreleased.Content.LostKeep._Hardmode.NPCs.__BossBiomiteCore;
 using AAModClassic._Unreleased.Content.Parthenan.__Hardmode.Items._BossTechnoTruffle;
 using AAModClassic._Unreleased.Content.Parthenan.__Hardmode.Items._BossTechnoTruffle.BossStandard;
@@ -211,9 +208,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
-using Terraria;
 using Terraria.Graphics.Effects;
 using Terraria.Localization;
 using Terraria.ModLoader;
@@ -1797,26 +1792,26 @@ namespace AAModClassic._CrossMod
 
         private static void PerformReforgedSupport()
         {
-            if (ModLoader.TryGetMod("SpiritReforged", out var reforged))
+            if (SpiritReforgedManager.IsEnabled)
             {
                 #region Register Undead
-                reforged.Call("AddUndead", ModContent.NPCType<MushroomZombie>());
-                reforged.Call("AddUndead", ModContent.NPCType<MushroomZombie2>());
-                reforged.Call("AddUndead", ModContent.NPCType<DragonClaw_NPC>());
-                reforged.Call("AddUndead", ModContent.NPCType<HydraClaw_NPC>());
+                SpiritReforgedManager.Call("AddUndead", ModContent.NPCType<MushroomZombie>());
+                SpiritReforgedManager.Call("AddUndead", ModContent.NPCType<MushroomZombie2>());
+                SpiritReforgedManager.Call("AddUndead", ModContent.NPCType<DragonClaw_NPC>());
+                SpiritReforgedManager.Call("AddUndead", ModContent.NPCType<HydraClaw_NPC>());
 
-                reforged.Call("AddUndead", ModContent.NPCType<GripOfChaosMire>());
-                reforged.Call("AddUndead", ModContent.NPCType<GripOfChaosInferno>());
+                SpiritReforgedManager.Call("AddUndead", ModContent.NPCType<GripOfChaosMire>());
+                SpiritReforgedManager.Call("AddUndead", ModContent.NPCType<GripOfChaosInferno>());
 
-                reforged.Call("AddUndead", ModContent.NPCType<BlazeClaw>());
-                reforged.Call("AddUndead", ModContent.NPCType<AbyssClaw>());
+                SpiritReforgedManager.Call("AddUndead", ModContent.NPCType<BlazeClaw>());
+                SpiritReforgedManager.Call("AddUndead", ModContent.NPCType<AbyssClaw>());
 
-                reforged.Call("AddUndead", ModContent.NPCType<AbyssGrip>());
-                reforged.Call("AddUndead", ModContent.NPCType<BlazeGrip>());
+                SpiritReforgedManager.Call("AddUndead", ModContent.NPCType<AbyssGrip>());
+                SpiritReforgedManager.Call("AddUndead", ModContent.NPCType<BlazeGrip>());
                 #endregion
 
                 #region Add Potion Vat
-                reforged.Call("AddPotionVat", ModContent.ItemType<RoninPotion>(), new Color(154, 136, 231), true);
+                SpiritReforgedManager.Call("AddPotionVat", ModContent.ItemType<RoninPotion>(), new Color(154, 136, 231), true);
                 #endregion
             }
         }

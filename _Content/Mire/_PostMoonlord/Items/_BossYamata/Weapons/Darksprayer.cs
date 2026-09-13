@@ -51,7 +51,7 @@ Inflicts Moonrazed"); */
 
         public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
         {
-            Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position, velocity, ModContent.ProjectileType<Darksprayer_Moonblow>(), damage, knockback, player.whoAmI, 0, 1);
+            Projectile.NewProjectile(player.GetSource_ItemUse(Item), position, velocity, ModContent.ProjectileType<Darksprayer_Moonblow>(), damage, knockback, player.whoAmI, 0, 1);
             return false;
         }
 	

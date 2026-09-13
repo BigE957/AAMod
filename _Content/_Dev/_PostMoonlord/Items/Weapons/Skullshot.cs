@@ -104,12 +104,12 @@ Uses Bullets and Bones as ammo
                 {
                     float randomSpeed = baseSpeed + Main.rand.NextFloat() * 1.5f;
                     offsetAngle = startAngle + (deltaAngle * i);
-                    Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position.X, position.Y, randomSpeed * (float)Math.Sin(offsetAngle), randomSpeed * (float)Math.Cos(offsetAngle), type, damage, knockback, Main.myPlayer);
+                    Projectile.NewProjectile(player.GetSource_ItemUse(Item), position.X, position.Y, randomSpeed * (float)Math.Sin(offsetAngle), randomSpeed * (float)Math.Cos(offsetAngle), type, damage, knockback, Main.myPlayer);
                 }
             }
             else
             {
-                int proj = Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position, velocity, ProjectileID.BoneGloveProj, damage, knockback, Main.myPlayer, 0f, 0f);
+                int proj = Projectile.NewProjectile(player.GetSource_ItemUse(Item), position, velocity, ProjectileID.BoneGloveProj, damage, knockback, Main.myPlayer, 0f, 0f);
                 Main.projectile[proj].DamageType = DamageClass.Ranged;
             }
             return false;

@@ -40,7 +40,7 @@ namespace AAModClassic._Content.Desert.__Hardmode.Items._BossAnubis.Weapons
 
 	    public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
         {
-            Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position, velocity, type, damage, knockback, player.whoAmI, 0.0f, 0.0f);
+            Projectile.NewProjectile(player.GetSource_ItemUse(Item), position, velocity, type, damage, knockback, player.whoAmI, 0.0f, 0.0f);
             return false;
 		}
 

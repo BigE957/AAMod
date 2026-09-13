@@ -19,7 +19,6 @@ namespace AAModClassic._Content.Inferno.World.Tiles
             DustType = ModContent.DustType<RazeleafDust>();
             HitSound = SoundID.Grass;
             AddMapEntry(new Color(127, 57, 0));
-            MinPick = 0;
         }
     }
 }

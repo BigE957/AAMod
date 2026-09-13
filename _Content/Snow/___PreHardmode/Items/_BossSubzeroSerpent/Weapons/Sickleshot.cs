@@ -50,7 +50,7 @@ namespace AAModClassic._Content.Snow.___PreHardmode.Items._BossSubzeroSerpent.We
 		    for (int i = 0; i < 2; i++)
 		    {
 		    	offsetAngle = startAngle + deltaAngle * i;
-		    	Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position.X, position.Y, baseSpeed*(float)Math.Sin(offsetAngle), baseSpeed*(float)Math.Cos(offsetAngle), Item.shoot, damage, knockback, Main.myPlayer);
+		    	Projectile.NewProjectile(player.GetSource_ItemUse(Item), position.X, position.Y, baseSpeed*(float)Math.Sin(offsetAngle), baseSpeed*(float)Math.Cos(offsetAngle), Item.shoot, damage, knockback, Main.myPlayer);
 		    }
 		    return false;
 		}

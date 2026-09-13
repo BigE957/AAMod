@@ -1,6 +1,5 @@
 ﻿using AAModClassic.Utilities.AbstractsLikeDigitalCircus;
 using Microsoft.Xna.Framework;
-using Terraria;
 using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -47,7 +46,12 @@ namespace AAModClassic._Content._Misc.__Hardmode.Items.Weapons
 			{
                 foreach (Projectile p in Main.ActiveProjectiles)
                 {
-					if((p.type == ProjectileID.Flare || p.type == ProjectileID.BlueFlare))
+					if (p.type == ProjectileID.Flare || 
+						p.type == ProjectileID.BlueFlare ||
+                        p.type == ProjectileID.SpelunkerFlare ||
+                        p.type == ProjectileID.CursedFlare || 
+						p.type == ProjectileID.RainbowFlare || 
+						p.type == ProjectileID.ShimmerFlare)
 					{
 						p.Kill();
 					}

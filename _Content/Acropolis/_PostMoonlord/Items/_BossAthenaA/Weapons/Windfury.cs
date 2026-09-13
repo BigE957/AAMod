@@ -46,7 +46,7 @@ namespace AAModClassic._Content.Acropolis._PostMoonlord.Items._BossAthenaA.Weapo
         {
             if (type == ProjectileID.WoodenArrowFriendly)
             {
-                Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position, velocity, ModContent.ProjectileType<GaleArrow>(), damage, knockback * 5, player.whoAmI, 0f, 0f);
+                Projectile.NewProjectile(player.GetSource_ItemUse(Item), position, velocity, ModContent.ProjectileType<GaleArrow>(), damage, knockback * 5, player.whoAmI, 0f, 0f);
                 return false;
             }
             return true;

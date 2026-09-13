@@ -55,6 +55,7 @@ using AAModClassic._Content.Void.World.Biomes;
 using AAModClassic._Content.Void.World.Tiles;
 using AAModClassic._Content.Void.World.Tiles.Trees;
 using AAModClassic._CrossMod;
+using AAModClassic._CrossMod.SpiritReforged;
 using AAModClassic._Removed.Content.Parthenan.__Hardmode.Items.Materials;
 using AAModClassic._Removed.Content.Parthenan.__Hardmode.NPCs.__BossOrthrusX;
 using AAModClassic._Removed.Content.Parthenan.__Hardmode.NPCs.__BossRaiderUltima;
@@ -563,7 +564,7 @@ namespace AAModClassic
                 }));
             }
 
-            int ChaosIndex = tasks.FindIndex(genpass => genpass.Name.Equals("Micro Biomes"));
+            int ChaosIndex = SpiritReforgedManager.IsEnabled ? tasks.Count - 2 : tasks.FindIndex(genpass => genpass.Name.Equals("Micro Biomes"));
             if(ChaosIndex > -1)
             {
                 tasks.Insert(ChaosIndex + 1, new PassLegacy("Mire and Inferno", delegate (GenerationProgress progress, GameConfiguration config)
@@ -1469,7 +1470,7 @@ namespace AAModClassic
         {
             Main.SceneMetrics.SandTileCount += tileCounts[ModContent.TileType<Torchsand_Tile>()] + tileCounts[ModContent.TileType<Torchsandstone_Tile>()] + tileCounts[ModContent.TileType<TorchsandHardened_Tile>()] + tileCounts[ModContent.TileType<Depthsand_Tile>()] + tileCounts[ModContent.TileType<Depthsandstone_Tile>()] + tileCounts[ModContent.TileType<DepthsandHardened_Tile>()];
             Main.SceneMetrics.SnowTileCount += tileCounts[ModContent.TileType<Torchice_Tile>()] + tileCounts[ModContent.TileType<IndigoIce_Tile>()] + tileCounts[ModContent.TileType<TorchAsh_Tile>()];
-            mireTiles = tileCounts[ModContent.TileType<MireGrass_Tile>()]+ tileCounts[ModContent.TileType<Depthstone_Tile>()] + tileCounts[ModContent.TileType<Depthsand_Tile>()] + tileCounts[ModContent.TileType<Depthsandstone_Tile>()] + tileCounts[ModContent.TileType<DepthsandHardened_Tile>()] + tileCounts[ModContent.TileType<IndigoIce_Tile>()] + tileCounts[ModContent.TileType<LivingBogleaf_Tile>()] + tileCounts[ModContent.TileType<LivingBogwood_Tile>()];
+            mireTiles = tileCounts[ModContent.TileType<MireGrass_Tile>()]+ tileCounts[ModContent.TileType<Depthstone_Tile>()] + tileCounts[ModContent.TileType<Depthsand_Tile>()] + tileCounts[ModContent.TileType<Depthsandstone_Tile>()] + tileCounts[ModContent.TileType<DepthsandHardened_Tile>()] + tileCounts[ModContent.TileType<IndigoIce_Tile>()] + tileCounts[ModContent.TileType<LivingBogleaf_Tile>()] + tileCounts[ModContent.TileType<LivingBogwood_Tile>()] + tileCounts[ModContent.TileType<MireVines_Tile>()];
             infernoTiles = tileCounts[ModContent.TileType<InfernoGrass_Tile>()]+ tileCounts[ModContent.TileType<Torchstone_Tile>()] + tileCounts[ModContent.TileType<Torchsand_Tile>()] + tileCounts[ModContent.TileType<Torchsandstone_Tile>()] + tileCounts[ModContent.TileType<TorchsandHardened_Tile>()] + tileCounts[ModContent.TileType<Torchice_Tile>()] + tileCounts[ModContent.TileType<TorchAsh_Tile>()] + tileCounts[ModContent.TileType<LivingRazeleaves_Tile>()] + tileCounts[ModContent.TileType<LivingRazewood_Tile>()];
             voidTiles = tileCounts[ModContent.TileType<Doomstone_Tile>()] + tileCounts[ModContent.TileType<ApocalyptiteOre_Tile>()] + tileCounts[ModContent.TileType<DoomGrass_Tile>()] + tileCounts[ModContent.TileType<DoomstoneB_Tile>()];
             mushTiles = tileCounts[ModContent.TileType<Mycelium_Tile>() ];

@@ -42,7 +42,7 @@ namespace AAModClassic._Content.Snow.___PreHardmode.Items._BossSubzeroSerpent.We
             if (shoot % 2 != 0)
                 return false;
             shoot = 0;
-            int p = Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position, velocity, type, damage, knockback);
+            int p = Projectile.NewProjectile(player.GetSource_ItemUse(Item), position, velocity, type, damage, knockback);
             Main.projectile[p].DamageType = DamageClass.Melee;
             return true;
         }

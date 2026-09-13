@@ -10,6 +10,7 @@ using AAModClassic.Globals;
 using AAModClassic.Utilities;
 using System.Collections.Generic;
 using Terraria;
+using Terraria.Localization;
 using Terraria.ModLoader;
 
 namespace AAModClassic._CrossMod.CalamityMod
@@ -35,6 +36,7 @@ namespace AAModClassic._CrossMod.CalamityMod
                 if(!Main.dedServ)
                     astralDust = Calamity.Find<ModDust>("AstralChunkDust").Type;
 
+                //Debuff Registering
                 Calamity.Call("RegisterDebuff", FilePathUtils.TexturePath<SpearStuck_Buff>(), (NPC npc) => npc.GetGlobalNPC<AAModGlobalNPC>().Spear);
                 Calamity.Call("RegisterDebuff", FilePathUtils.TexturePath<Impaled_Buff>(), (NPC npc) => npc.HasBuff<Impaled_Buff>());
                 Calamity.Call("RegisterDebuff", FilePathUtils.TexturePath<Electrified_Buff>(), (NPC npc) => npc.GetGlobalNPC<AAModGlobalNPC>().Electrified);
@@ -47,6 +49,12 @@ namespace AAModClassic._CrossMod.CalamityMod
                 Calamity.Call("RegisterDebuff", FilePathUtils.TexturePath<HydraToxin_Buff>(), (NPC npc) => npc.GetGlobalNPC<AAModGlobalNPC>().Hydratoxin);
                 Calamity.Call("RegisterDebuff", FilePathUtils.TexturePath<DragonFire_Buff>(), (NPC npc) => npc.HasBuff<DragonFire_Buff>());
                 Calamity.Call("RegisterDebuff", FilePathUtils.TexturePath<DiscordianInferno_Buff>(), (NPC npc) => npc.GetGlobalNPC<AAModGlobalNPC>().DiscordInferno);
+
+                //Drae-Talk
+                string path = "Mods.AAModClassic.CrossMod.CalamityMod.DraeTalk.";
+                string[] topics = ["ChaosBiomes", "Ancients", "Fungus", "Void", "Equinox"];
+                foreach (string topic in topics)
+                    Calamity.Call("CreateCodebreakerDialogOption", Language.GetTextValue(path + topic + ".Prompt"), Language.GetTextValue(path + topic + ".Dialogue"), () => true);
             }
         }
 

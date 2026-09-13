@@ -1,5 +1,5 @@
+using AAModClassic.Utilities;
 using Microsoft.Xna.Framework;
-using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
@@ -12,7 +12,10 @@ namespace AAModClassic._Content.Mire.World.Tiles
 			Main.tileSolid[Type] = true;
             Main.tileBlockLight[Type] = true;
 			Main.tileBlendAll[Type] = true;
-            Main.tileMerge[TileID.Mud][Type] = true;
+            
+            TileID.Sets.Grass[Type] = true;
+            TileUtils.Merge(Type, TileID.Mud);
+
             TileID.Sets.NeedsGrassFraming[Type] = true;
             TileID.Sets.JungleSpecial[Type] = true;
             DustType = ModContent.DustType<Dusts.YamataADust>();

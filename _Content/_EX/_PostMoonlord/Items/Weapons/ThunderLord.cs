@@ -55,7 +55,7 @@ Storm Rifle EX"); */
                 position += muzzleOffset;
             }
             type = Main.rand.NextBool(20) ? ModContent.ProjectileType<ThunderLord_SuperchargedThunderbullet>() : ModContent.ProjectileType<ThunderLord_Thundershot>();
-            Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position, velocity, type, damage, knockback, player.whoAmI, 2f, 2f);
+            Projectile.NewProjectile(player.GetSource_ItemUse(Item), position, velocity, type, damage, knockback, player.whoAmI, 2f, 2f);
             return false;
         }
 

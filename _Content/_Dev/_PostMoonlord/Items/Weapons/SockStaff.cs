@@ -56,7 +56,7 @@ namespace AAModClassic._Content._Dev._PostMoonlord.Items.Weapons
             Vector2 vector2 = player.RotatedRelativePoint(player.MountedCenter, true);
             vector2.X = Main.mouseX + Main.screenPosition.X;
             vector2.Y = Main.mouseY + Main.screenPosition.Y;
-            Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), vector2.X, vector2.Y, 0, 0, ModContent.ProjectileType<SockStaff_SockPuppet>(), damage, num74, i, 0f, 0f);
+            Projectile.NewProjectile(player.GetSource_ItemUse(Item), vector2.X, vector2.Y, 0, 0, ModContent.ProjectileType<SockStaff_SockPuppet>(), damage, num74, i, 0f, 0f);
             return false;
         }
     }

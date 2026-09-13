@@ -85,7 +85,7 @@ namespace AAModClassic._Content._Dev._PostMoonlord.Items.Weapons
             for (int i = 0; i < 3; i++)
             {
                 offsetAngle = startAngle + (deltaAngle * i);
-                Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position.X, position.Y, baseSpeed * (float)Math.Sin(offsetAngle), baseSpeed * (float)Math.Cos(offsetAngle), type, damage, knockback, Main.myPlayer);
+                Projectile.NewProjectile(player.GetSource_ItemUse(Item), position.X, position.Y, baseSpeed * (float)Math.Sin(offsetAngle), baseSpeed * (float)Math.Cos(offsetAngle), type, damage, knockback, Main.myPlayer);
             }
             return false;
         }

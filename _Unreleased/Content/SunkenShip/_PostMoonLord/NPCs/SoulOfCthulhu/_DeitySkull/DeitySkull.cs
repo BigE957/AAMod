@@ -97,10 +97,12 @@ namespace AAModClassic._Unreleased.Content.SunkenShip._PostMoonLord.NPCs.SoulOfC
             }
         }
 
+        /*
         public override bool PreKill()
         {
             return false;
         }
+        */
 
         public int HandTimer = 120;
 

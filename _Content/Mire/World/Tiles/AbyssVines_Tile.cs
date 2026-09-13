@@ -19,10 +19,6 @@ namespace AAModClassic._Content.Mire.World.Tiles
             AddMapEntry(new Color(50, 0, 0));
         }
 
-
-        public Texture2D glowTex;
-        public bool glow = true;
-
         public override bool CanKillTile(int i, int j, ref bool blockDamaged)
         {
             return false;
@@ -37,12 +33,7 @@ namespace AAModClassic._Content.Mire.World.Tiles
 
         public override void PostDraw(int x, int y, SpriteBatch spriteBatch)
         {
-            Tile tile = Main.tile[x, y];
-            if (glow && tile != null && tile.HasTile && tile.TileType == Type)
-            {
-                if (glowTex == null) glowTex = TextureAssets.Tile[Type].Value;
-                BaseDrawing.DrawTileTexture(spriteBatch, glowTex, x, y, true, false, false, null, AAGlobalTile.GetYamataColorDim);
-            }
+            BaseDrawing.DrawTileTexture(spriteBatch, TextureAssets.Tile[Type].Value, x, y, true, false, false, null, AAGlobalTile.GetYamataColorDim);
         }
     }
 }
