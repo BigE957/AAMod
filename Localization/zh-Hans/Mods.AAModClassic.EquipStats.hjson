@@ -487,4 +487,5 @@ Effect: {
 		响指有5分钟冷却时间
 		'''
 	DemonHelmetSetEffect: 一个忠诚的小恶魔仆从将为你而战，无论何时何地
+	// MeleeSizeEffect: Increases the size of melee weapons
 }
