@@ -60,7 +60,7 @@ namespace AAModClassic._Content._EX._PostMoonlord.Items._BossEmperorFishron.Weap
 				float num181 = num83;
 				num180 += Main.rand.Next(-20, 20) * 0.1f;
 				num181 += Main.rand.Next(-20, 20) * 0.1f;
-				Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), vector2.X, vector2.Y, num180*2, num181*2, type, damage, knockback, player.whoAmI);
+				Projectile.NewProjectile(player.GetSource_ItemUse(Item), vector2.X, vector2.Y, num180*2, num181*2, type, damage, knockback, player.whoAmI);
 			}
 			return false;
 		}

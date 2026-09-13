@@ -235,6 +235,8 @@ namespace AAModClassic._Content.Mire._PostMoonlord.NPCs.__BossYamata.Awakened
 
             if (!NPC.BeenKilled(true))
             {
+                NPC.OnGameEventClearedForTheFirstTime(-1);
+
                 if (Main.netMode != NetmodeID.MultiplayerClient)
                     BaseUtility.Chat(Language.GetTextValue("Mods.AAModClassic.NPCs.BossDialogue.Yamata.Awakened.Defeat.First"), new Color(146, 30, 68));
                 if (Main.netMode != NetmodeID.MultiplayerClient)

@@ -32,6 +32,9 @@ namespace AAModClassic.Conversions
             TileLoader.RegisterConversion(ModContent.TileType<Torchice_Tile>(), Type, TileID.IceBlock);
             TileLoader.RegisterConversion(ModContent.TileType<IndigoIce_Tile>(), Type, TileID.IceBlock);
 
+            TileLoader.RegisterConversion(ModContent.TileType<InfernoVines_Tile>(), Type, TileID.Vines);
+            TileLoader.RegisterConversion(ModContent.TileType<MireVines_Tile>(), Type, TileID.Vines);
+
             //Walls
             WallLoader.RegisterConversion(ModContent.WallType<TorchstoneWall_Wall>(), Type, WallID.Stone);
             WallLoader.RegisterConversion(ModContent.WallType<DepthstoneWall_Wall>(), Type, WallID.Stone);
@@ -46,6 +49,8 @@ namespace AAModClassic.Conversions
             WallLoader.RegisterConversion(ModContent.WallType<DepthsandstoneWall_Wall>(), Type, WallID.Sandstone);
 
             WallLoader.RegisterConversion(ModContent.WallType<LivingBogwoodWall_Wall>(), Type, WallID.LivingWood);
+
+            WallLoader.RegisterConversion(ModContent.WallType<TorchAshWall_Wall>(), Type, WallID.SnowWallUnsafe);
         }
     }
 }

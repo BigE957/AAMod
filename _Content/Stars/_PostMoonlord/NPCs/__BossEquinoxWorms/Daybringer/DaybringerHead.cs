@@ -746,7 +746,7 @@ namespace AAModClassic._Content.Stars._PostMoonlord.NPCs.__BossEquinoxWorms.Dayb
             }
             if (NPC.CountNPCS(otherWormAlive) == 0)
             {
-                AAWorld.downedEquinox = true;
+                NPC.SetEventFlagCleared(ref AAWorld.downedEquinox, -1);
                 if (NPC.playerInteraction[Main.myPlayer])
                     EquinoxWormsKilled.Condition.Complete();
             }

@@ -14,6 +14,7 @@ namespace AAModClassic._Content.GlowingMushroom.___PreHardmode.NPCs.__BossTruffl
             // gregarious is a real term used to describe mushrooms which are close together but not super packed
             // cluster usually refers to shrooms connected by the stem, so get outta here with that bullshit
             Main.npcFrameCount[NPC.type] = 7;
+            this.HideFromBestiary();
         }
 
         public override void SetDefaults()

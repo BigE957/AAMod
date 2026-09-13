@@ -1013,6 +1013,8 @@ namespace AAModClassic._Content.Chaos._PostMoonlord.NPCs.__BossShenDoragon
                 {
                     if (!NPC.BeenKilled(true))
                     {
+                        NPC.OnGameEventClearedForTheFirstTime(-1);
+
                         if (Main.netMode != NetmodeID.MultiplayerClient)
                             ChatUtils.Chat(Language.GetTextValue("Mods.AAModClassic.NPCs.BossDialogue.ShenDoragon.Defeat.NotExpert.First"), Color.DarkMagenta.R, Color.DarkMagenta.G, Color.DarkMagenta.B);
                         if (WorldTypeSystem.IsWorldOptionEnabled(AAWorldOption.Unofficial))
@@ -1053,6 +1055,9 @@ namespace AAModClassic._Content.Chaos._PostMoonlord.NPCs.__BossShenDoragon
 
                     if (NPC.playerInteraction[Main.myPlayer])
                         ShenDoragonKilled.Condition.Complete();
+
+                    if (!NPC.BeenKilled(true))
+                        NPC.OnGameEventClearedForTheFirstTime(-1);
                 }
             }
         }

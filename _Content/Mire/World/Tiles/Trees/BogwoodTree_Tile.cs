@@ -1,5 +1,6 @@
 ﻿using AAModClassic._Content.Mire.___PreHardmode.Items.Tiles.Decoration;
 using AAModClassic._Unreleased.Content.Mire.___PreHardmode;
+using AAModClassic.Gores.Leaf;
 using AAModClassic.UI.World;
 using AAModClassic.Utilities;
 using Microsoft.Xna.Framework;
@@ -52,6 +53,8 @@ namespace AAModClassic._Content.Mire.World.Tiles.Trees
             style = 0;
             return ModContent.TileType<BogwoodSapling_Tile>();
         }
+
+        public override int TreeLeaf() => ModContent.GoreType<BogwoodLeafGore>();
 
         public override bool Shake(int x, int y, ref bool createLeaves)
         {

@@ -68,7 +68,7 @@ Right click and hold to release and aim manually"); */
             bool AnyOrbiters = AAGlobalProjectile.AnyProjectiles(ModContent.ProjectileType<Sunstorm_Fireball>());
             for (int Loops = 0; Loops < 4; Loops++)
             {
-                Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position, velocity, type, damage, knockback, Main.myPlayer, 0, 0);
+                Projectile.NewProjectile(player.GetSource_ItemUse(Item), position, velocity, type, damage, knockback, Main.myPlayer, 0, 0);
             }
 
             return false;

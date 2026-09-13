@@ -19,6 +19,7 @@ namespace AAModClassic._Content.Mire._PostMoonlord.NPCs.__BossYamata.Awakened
             // DisplayName.SetDefault("Mire Soul");
             Main.npcFrameCount[NPC.type] = 6;
 
+            /*
             NPCID.Sets.NPCBestiaryDrawModifiers value = new()
             {
                 PortraitPositionXOverride = 0,
@@ -26,6 +27,9 @@ namespace AAModClassic._Content.Mire._PostMoonlord.NPCs.__BossYamata.Awakened
                 Direction = 1
             };
             NPCID.Sets.NPCBestiaryDrawOffset[Type] = value;
+            */
+
+            this.HideFromBestiary();
         }
 
         public override void SetDefaults()

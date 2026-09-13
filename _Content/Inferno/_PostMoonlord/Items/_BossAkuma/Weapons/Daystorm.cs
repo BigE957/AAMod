@@ -58,7 +58,7 @@ namespace AAModClassic._Content.Inferno._PostMoonlord.Items._BossAkuma.Weapons
             for (int i = 0; i < 4; i++)
             {
                 Vector2 perturbedSpeed = velocity.RotatedByRandom(MathHelper.ToRadians(15)) * .5f;
-                Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position.X, position.Y, perturbedSpeed.X, perturbedSpeed.Y, ModContent.ProjectileType<Daystorm_Bullet>(), damage, knockback, player.whoAmI);
+                Projectile.NewProjectile(player.GetSource_ItemUse(Item), position.X, position.Y, perturbedSpeed.X, perturbedSpeed.Y, ModContent.ProjectileType<Daystorm_Bullet>(), damage, knockback, player.whoAmI);
             }
 
             if (Main.rand.NextBool(3))
@@ -69,7 +69,7 @@ namespace AAModClassic._Content.Inferno._PostMoonlord.Items._BossAkuma.Weapons
                 for (int i = 0; i < Main.rand.Next(2); i++)
                 {
                     Vector2 perturbedSpeed2 = velocity.RotatedByRandom(MathHelper.ToRadians(15));
-                    Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position.X, position.Y, perturbedSpeed2.X, perturbedSpeed2.Y, ModContent.ProjectileType<Daystorm_DaybreakBullet>(), (int)(damage * 1.5f), knockback, player.whoAmI);
+                    Projectile.NewProjectile(player.GetSource_ItemUse(Item), position.X, position.Y, perturbedSpeed2.X, perturbedSpeed2.Y, ModContent.ProjectileType<Daystorm_DaybreakBullet>(), (int)(damage * 1.5f), knockback, player.whoAmI);
                 }
             }
             return false;

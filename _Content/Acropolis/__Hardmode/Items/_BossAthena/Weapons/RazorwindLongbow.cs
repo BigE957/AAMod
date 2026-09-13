@@ -41,7 +41,7 @@ namespace AAModClassic._Content.Acropolis.__Hardmode.Items._BossAthena.Weapons
         {
             if (type == ProjectileID.WoodenArrowFriendly)
             {
-                Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position, velocity, ModContent.ProjectileType<RazorwindLongbow_WindArrow>(), damage, knockback * 3, player.whoAmI, 0f, 0f);
+                Projectile.NewProjectile(player.GetSource_ItemUse(Item), position, velocity, ModContent.ProjectileType<RazorwindLongbow_WindArrow>(), damage, knockback * 3, player.whoAmI, 0f, 0f);
                 return false;
             }
             return true;

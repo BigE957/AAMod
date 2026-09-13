@@ -324,6 +324,9 @@ namespace AAModClassic._Unreleased.Content.Void._PostMoonLord.NPCs.InfinityZero
 		{
             NPC.NewNPC(NPC.GetSource_FromAI(), (int)NPC.Center.X, (int)NPC.Center.Y, ModContent.NPCType<Oblivion>(), 0, 0);
             ZAAPlayer.IZKills += 1;
+
+            if (!NPC.BeenKilled(true))
+                NPC.OnGameEventClearedForTheFirstTime(-1);
         }
 
         public override void ModifyNPCLoot(NPCLoot npcLoot)

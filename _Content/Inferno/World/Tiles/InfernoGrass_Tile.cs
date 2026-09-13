@@ -1,11 +1,10 @@
-using AAModClassic._Content.Inferno.___PreHardmode.Items.Materials;
 using AAModClassic._Unreleased.Content.Inferno.World.Tiles;
 using AAModClassic.UI.World;
+using AAModClassic.Utilities;
 using Microsoft.Xna.Framework;
-using System;
-using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
+using Terraria.ObjectData;
 
 namespace AAModClassic._Content.Inferno.World.Tiles
 {
@@ -14,19 +13,31 @@ namespace AAModClassic._Content.Inferno.World.Tiles
         public override void SetStaticDefaults()
         {
             Main.tileSolid[Type] = true;
-            TileID.Sets.Conversion.Grass[Type] = true;
+            Main.tileBlockLight[Type] = true;
             Main.tileBlendAll[Type] = true;
+
+            Main.tileLighted[Type] = true;
+
+            TileID.Sets.Conversion.Grass[Type] = true;
+            TileID.Sets.Grass[Type] = true;
+            TileID.Sets.CanBeDugByShovel[Type] = true;
+
             TileID.Sets.NeedsGrassFraming[Type] = true;
             Main.tileMergeDirt[Type] = true;
-            Main.tileBlockLight[Type] = true;
-            Main.tileLighted[Type] = true;
+
             DustType = ModContent.DustType<Dusts.RazeleafDust>();
             AddMapEntry(new Color(255, 153, 51));
             RegisterItemDrop(ItemID.DirtBlock);
+
+            if (TileObjectData.GetTileData(TileID.Sunflower, 0) is TileObjectData data && data.AnchorValidTiles != null)
+                data.AnchorValidTiles = [.. data.AnchorValidTiles, Type];
         }
 
         public override void RandomUpdate(int i, int j)
         {
+            if (TileUtils.TrySpread(i, j, Type, 4, TileID.Dirt) && Main.netMode != NetmodeID.SinglePlayer)
+                NetMessage.SendTileSquare(-1, i, j, 3, TileChangeType.None);
+
             if (WorldTypeSystem.IsWorldOptionEnabled(AAWorldOption.Unofficial) && !Framing.GetTileSafely(i, j - 1).HasTile)
             {
                 if (WorldGen.IsFitToPlaceFlowerIn(i, j, TileID.Plants))
@@ -68,6 +79,24 @@ namespace AAModClassic._Content.Inferno.World.Tiles
                     NetMessage.SendObjectPlacement(-1, i, j - 1, ModContent.TileType<InfernoFoliage_Tile>(), style, 0, -1, -1);
 
             }
+        }
+
+        public override void NumDust(int i, int j, bool fail, ref int num) => num = 3;
+        
+        public override void KillTile(int i, int j, ref bool fail, ref bool effectOnly, ref bool noItem)
+        {
+            if (!effectOnly)
+            {
+                fail = true;
+                WorldGen.KillTile_MakeTileDust(i, j, Main.tile[i, j]);
+                Framing.GetTileSafely(i, j).TileType = TileID.Dirt;
+            }
+        }
+
+        public override bool CanExplode(int i, int j)
+        {
+            WorldGen.KillTile(i, j, false, false, true);
+            return true;
         }
     }
 }

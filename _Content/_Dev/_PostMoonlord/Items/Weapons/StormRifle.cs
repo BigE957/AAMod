@@ -26,7 +26,7 @@ namespace AAModClassic._Content._Dev._PostMoonlord.Items.Weapons
             {
                 position += muzzleOffset;
             }
-            Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position, velocity, Terraria.ModLoader.ModContent.ProjectileType<StormRifle_ThunderSpark>(), damage, knockback, Main.myPlayer, 0, 0);
+            Projectile.NewProjectile(player.GetSource_ItemUse(Item), position, velocity, Terraria.ModLoader.ModContent.ProjectileType<StormRifle_ThunderSpark>(), damage, knockback, Main.myPlayer, 0, 0);
             return false;
         }
 

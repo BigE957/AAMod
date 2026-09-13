@@ -2,6 +2,8 @@ using AAModClassic._Content._Dev.___PreHardmode.Items.Materials;
 using AAModClassic._Content._Misc.__Hardmode.Items.Ammo;
 using AAModClassic._Content._Misc.__Hardmode.Items.Materials;
 using AAModClassic._Content._Misc.__Hardmode.Items.Weapons;
+using AAModClassic._Content.Acropolis.__Hardmode.NPCs.__BossAthena;
+using AAModClassic._Content.Acropolis._PostMoonlord.NPCs.__BossAthenaA;
 using AAModClassic._Content.BloodMoon.___PreHardmode.Items.Currency;
 using AAModClassic._Content.BloodMoon.___PreHardmode.Items.Weapons;
 using AAModClassic._Content.Bunny.__Hardmode.Items._BossRajahRabbit;
@@ -12,12 +14,19 @@ using AAModClassic._Content.Chaos._PostMoonlord.NPCs.__BossShenDoragon;
 using AAModClassic._Content.Chaos._PostMoonlord.NPCs.__BossShenDoragon.Awakened;
 using AAModClassic._Content.Desert.___PreHardmode.Items.Materials;
 using AAModClassic._Content.Desert.___PreHardmode.Items.Weapons;
+using AAModClassic._Content.Desert.___PreHardmode.NPCs.__BossDesertDjinn;
 using AAModClassic._Content.Desert.__Hardmode.Items.Consumables;
+using AAModClassic._Content.Desert._PostMoonlord.NPCs.__BossAnubisA;
 using AAModClassic._Content.Dungeon.___PreHardmode.Items.Weapons;
 using AAModClassic._Content.FrostMoon.__Hardmode.Items.Currency;
+using AAModClassic._Content.GlowingMushroom.___PreHardmode.NPCs.__BossFeudalFungus;
+using AAModClassic._Content.GlowingMushroom.___PreHardmode.NPCs.__BossTruffleToad;
 using AAModClassic._Content.GoblinArmy.___PreHardmode.Items.Currency;
 using AAModClassic._Content.Hell.___PreHardmode.Items.Materials;
 using AAModClassic._Content.Hell.__Hardmode.Items.Materials;
+using AAModClassic._Content.Hoard.__Hardmode.NPCs.__BossGreed;
+using AAModClassic._Content.Hoard._PostMoonlord.NPCs.__BossGreedA;
+using AAModClassic._Content.Inferno.___PreHardmode.NPCs.__BossBroodmother;
 using AAModClassic._Content.Inferno.__Hardmode.Items.Consumables;
 using AAModClassic._Content.Inferno.__Hardmode.Items.Materials;
 using AAModClassic._Content.Jungle.__Hardmode.Items.Consumables;
@@ -25,6 +34,7 @@ using AAModClassic._Content.Jungle.__Hardmode.Items.Materials;
 using AAModClassic._Content.MartianMadness.__Hardmode.Items.Accessories;
 using AAModClassic._Content.MartianMadness.__Hardmode.Items.Currency;
 using AAModClassic._Content.MartianMadness.__Hardmode.Items.Weapons;
+using AAModClassic._Content.Mire.___PreHardmode.NPCs.__BossHydra;
 using AAModClassic._Content.Mire.__Hardmode.Items.Consumables;
 using AAModClassic._Content.Mire.__Hardmode.Items.Materials;
 using AAModClassic._Content.Ocean.__Hardmode.Items._BossDukeFishron.Pets;
@@ -33,6 +43,7 @@ using AAModClassic._Content.PumpkinMoon.__Hardmode.Items.Currency;
 using AAModClassic._Content.Purity.__Hardmode.Items.Consumables;
 using AAModClassic._Content.Rain.__Hardmode.Items.Weapons;
 using AAModClassic._Content.RedMushroom.___PreHardmode.Items.Consumables;
+using AAModClassic._Content.RedMushroom.___PreHardmode.NPCs.__BossMushroomMonarch;
 using AAModClassic._Content.Snow.___PreHardmode.Items.Materials;
 using AAModClassic._Content.Snow.___PreHardmode.NPCs.__BossSubzeroSerpent;
 using AAModClassic._Content.Snow.___PreHardmode.NPCs._Night._SnowSerpent;
@@ -40,8 +51,13 @@ using AAModClassic._Content.Snow.__Hardmode.Items.Consumables;
 using AAModClassic._Content.SolarEclipse.__Hardmode.Items.Currency;
 using AAModClassic._Content.Terrarium.__Hardmode.Items.Materials;
 using AAModClassic._Content.Underground.___PreHardmode.Items.Armor;
+using AAModClassic._Content.Void.___PreHardmode.NPCs.__BossSagittarius;
 using AAModClassic._Content.Void.__Hardmode.Items.Consumables;
 using AAModClassic._Removed.Content.GoblinArmy._PostMoonlord.Items.Consumables;
+using AAModClassic._Removed.Content.Parthenan.__Hardmode.NPCs.__BossOrthrusX;
+using AAModClassic._Removed.Content.Parthenan.__Hardmode.NPCs.__BossRaiderUltima;
+using AAModClassic._Removed.Content.Parthenan.__Hardmode.NPCs.__BossRetriever;
+using AAModClassic._Unreleased.Content.Parthenan.__Hardmode.NPCs.__BossTechnoTruffle;
 using AAModClassic._Unofficial.Bunny.Items;
 using AAModClassic.Base.BaseMod.Base;
 using AAModClassic.UI.Core;
@@ -572,28 +588,53 @@ namespace AAModClassic.Globals
             globalLoot.Add(terraPrismCondition);
         }
 
+        private static HashSet<int> LanternNightStarters = [];
+
         public override void OnKill(NPC npc)
         {
+            #region Lantern Night
+            if(LanternNightStarters.Count == 0)
+            {
+                LanternNightStarters =
+                [
+                    ModContent.NPCType<MushroomMonarch>(),
+                    ModContent.NPCType<FeudalFungus>(),
+                    ModContent.NPCType<TruffleToad>(),
+                    ModContent.NPCType<Broodmother>(),
+                    ModContent.NPCType<HydraBody>(),
+                    ModContent.NPCType<DesertDjinn>(),
+                    ModContent.NPCType<SubzeroSerpentHead>(),
+                    ModContent.NPCType<Sagittarius>(),
+                    ModContent.NPCType<TechnoTruffle>(),
+                    ModContent.NPCType<Retriever>(),
+                    ModContent.NPCType<OrthrusXBody>(),
+                    ModContent.NPCType<RaiderUltima>(),
+                    ModContent.NPCType<Athena>(),
+                    ModContent.NPCType<GreedHead>(),
+                    ModContent.NPCType<RajahRabbit>(),
+                    ModContent.NPCType<AnubisA>(),
+                    ModContent.NPCType<AthenaA>(),
+                    ModContent.NPCType<GreedAHead>(),
+                    ModContent.NPCType<RajahRabbitA>(),
+                ];
+            }
+
+            if (LanternNightStarters.Contains(npc.type) && !NPCExtensions.BeenKilled(npc.type, true))
+                NPC.OnGameEventClearedForTheFirstTime(-1);
+            #endregion
+
             #region Downed
             if (npc.type == NPCID.GoblinSummoner)
-            {
                 DownedBools.downedGobSummoner = true;
-            }
 
             if (npc.type == NPCID.DD2OgreT2)
-            {
                 DownedBools.downedOgre = true;
-            }
 
             if (npc.type == NPCID.DD2Betsy)
-            {
                 DownedBools.downedBetsy = true;
-            }
 
             if (npc.type == NPCID.Mothron)
-            {
                 DownedBools.downedMoth = true;
-            }
             #endregion
 
             //TODO: Fake item

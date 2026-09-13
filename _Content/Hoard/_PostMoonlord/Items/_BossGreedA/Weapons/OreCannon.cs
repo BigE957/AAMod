@@ -67,7 +67,7 @@ Certain ores have special effects when shot"); */
 
         public override bool Shoot(Player player, EntitySource_ItemUse_WithAmmo source, Vector2 position, Vector2 velocity, int type, int damage, float knockback)
  		{
-            int p = Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position, velocity, ModContent.ProjectileType<OreChunk>(), damage, knockback, player.whoAmI, 0, projType);
+            int p = Projectile.NewProjectile(player.GetSource_ItemUse(Item), position, velocity, ModContent.ProjectileType<OreChunk>(), damage, knockback, player.whoAmI, 0, projType);
             Main.projectile[p].TriggerOreOnSpawn();
             return false;
         }

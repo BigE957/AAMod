@@ -39,19 +39,19 @@ Creates 2 forsaken phantom blades which hit enemy horizontally as well"); */
 			int damage = damageDone;
 			Vector2 vel1 = new Vector2(0, -1);
 			vel1 *= 8f;
-			Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), target.Center.X, target.Center.Y-20, vel1.X, vel1.Y, ModContent.ProjectileType<Verdict_ForsakenSand>(), damage/3, 0, Main.myPlayer);
-			Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), target.Center.X-10, target.Center.Y-18, vel1.X, vel1.Y, ModContent.ProjectileType<Verdict_ForsakenSand>(), damage/3, 0, Main.myPlayer);
-			Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), target.Center.X-20, target.Center.Y-14, vel1.X, vel1.Y, ModContent.ProjectileType<Verdict_ForsakenSand>(), damage/3, 0, Main.myPlayer);
-			Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), target.Center.X-30, target.Center.Y-10, vel1.X, vel1.Y, ModContent.ProjectileType<Verdict_ForsakenSand>(), damage/2, 0, Main.myPlayer);
-			Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), target.Center.X+10, target.Center.Y-18, vel1.X, vel1.Y, ModContent.ProjectileType<Verdict_ForsakenSand>(), damage/3, 0, Main.myPlayer);
-			Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), target.Center.X+20, target.Center.Y-14, vel1.X, vel1.Y, ModContent.ProjectileType<Verdict_ForsakenSand>(), damage/3, 0, Main.myPlayer);
-			Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), target.Center.X+30, target.Center.Y-10, vel1.X, vel1.Y, ModContent.ProjectileType<Verdict_ForsakenSand>(), damage/2, 0, Main.myPlayer);
+			Projectile.NewProjectile(player.GetSource_ItemUse(Item), target.Center.X, target.Center.Y-20, vel1.X, vel1.Y, ModContent.ProjectileType<Verdict_ForsakenSand>(), damage/3, 0, Main.myPlayer);
+			Projectile.NewProjectile(player.GetSource_ItemUse(Item), target.Center.X-10, target.Center.Y-18, vel1.X, vel1.Y, ModContent.ProjectileType<Verdict_ForsakenSand>(), damage/3, 0, Main.myPlayer);
+			Projectile.NewProjectile(player.GetSource_ItemUse(Item), target.Center.X-20, target.Center.Y-14, vel1.X, vel1.Y, ModContent.ProjectileType<Verdict_ForsakenSand>(), damage/3, 0, Main.myPlayer);
+			Projectile.NewProjectile(player.GetSource_ItemUse(Item), target.Center.X-30, target.Center.Y-10, vel1.X, vel1.Y, ModContent.ProjectileType<Verdict_ForsakenSand>(), damage/2, 0, Main.myPlayer);
+			Projectile.NewProjectile(player.GetSource_ItemUse(Item), target.Center.X+10, target.Center.Y-18, vel1.X, vel1.Y, ModContent.ProjectileType<Verdict_ForsakenSand>(), damage/3, 0, Main.myPlayer);
+			Projectile.NewProjectile(player.GetSource_ItemUse(Item), target.Center.X+20, target.Center.Y-14, vel1.X, vel1.Y, ModContent.ProjectileType<Verdict_ForsakenSand>(), damage/3, 0, Main.myPlayer);
+			Projectile.NewProjectile(player.GetSource_ItemUse(Item), target.Center.X+30, target.Center.Y-10, vel1.X, vel1.Y, ModContent.ProjectileType<Verdict_ForsakenSand>(), damage/2, 0, Main.myPlayer);
 			Vector2 vel2 = new Vector2(-1, 0);
 			vel2 *= 16f;
 			Vector2 vel3 = new Vector2(1, 0);
 			vel3 *= 16f;
-			Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), target.Center.X + 600, target.Center.Y, vel2.X, vel2.Y, ModContent.ProjectileType<Verdict_ForsakenPhantomBlade>(), damage/2, 0, Main.myPlayer);
-			Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), target.Center.X - 600, target.Center.Y, vel3.X, vel3.Y, ModContent.ProjectileType<Verdict_ForsakenPhantomBlade>(), damage/2, 0, Main.myPlayer);
+			Projectile.NewProjectile(player.GetSource_ItemUse(Item), target.Center.X + 600, target.Center.Y, vel2.X, vel2.Y, ModContent.ProjectileType<Verdict_ForsakenPhantomBlade>(), damage/2, 0, Main.myPlayer);
+			Projectile.NewProjectile(player.GetSource_ItemUse(Item), target.Center.X - 600, target.Center.Y, vel3.X, vel3.Y, ModContent.ProjectileType<Verdict_ForsakenPhantomBlade>(), damage/2, 0, Main.myPlayer);
 		}
 
 		public override void AddRecipes()

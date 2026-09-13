@@ -484,7 +484,11 @@ namespace AAModClassic._Content.Desert.__Hardmode.NPCs.__BossAnubis
 
         public override void OnKill()
         {
-            if (NPC.downedMoonlord && NPCExtensions.BeenKilled<Anubis>(true))
+            bool beenKilled = NPCExtensions.BeenKilled<Anubis>(true);
+            if (!beenKilled)
+                NPC.OnGameEventClearedForTheFirstTime(-1);
+
+            if (NPC.downedMoonlord && beenKilled)
                 NPC.NewNPC(NPC.GetSource_FromThis(), (int)NPC.position.X, (int)NPC.position.Y, ModContent.NPCType<AnubisForsakenTransition>());
             else
                 NPC.NewNPC(NPC.GetSource_FromThis(), (int)NPC.position.X, (int)NPC.position.Y, ModContent.NPCType<Legendscribe>());

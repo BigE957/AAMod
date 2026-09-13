@@ -96,11 +96,11 @@ Scythe of the Grim Reaper EX"); */
 					}
 					if (type == ModContent.ProjectileType<SoulShredder_Proj>() && player.HasBuff(ModContent.BuffType<ScytheOfTheGrimReaper_ReaperScytheImmunity>()))
 					{
-						Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), vector2.X + vector15.X, vector2.Y + vector15.Y, num82, num83, type, damage/15, knockback, player.whoAmI);
+						Projectile.NewProjectile(player.GetSource_ItemUse(Item), vector2.X + vector15.X, vector2.Y + vector15.Y, num82, num83, type, damage/15, knockback, player.whoAmI);
 					}
 					else
 					{
-						Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), vector2.X + vector15.X, vector2.Y + vector15.Y, num82, num83, type, damage, knockback, player.whoAmI);
+						Projectile.NewProjectile(player.GetSource_ItemUse(Item), vector2.X + vector15.X, vector2.Y + vector15.Y, num82, num83, type, damage, knockback, player.whoAmI);
 					}
 				}
 			}

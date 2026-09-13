@@ -636,6 +636,9 @@ namespace AAModClassic._Content.Inferno._PostMoonlord.NPCs.__BossAkuma.Awakened
                 if (Main.netMode != NetmodeID.MultiplayerClient)
                     ChatUtils.Chat(Language.GetTextValue("Mods.AAModClassic.NPCs.BossDialogue.Akuma.Awakened.Defeat.Cheat"), Color.DeepSkyBlue.R, Color.DeepSkyBlue.G, Color.DeepSkyBlue.B);
             }
+
+            if (!NPC.BeenKilled(true))
+                NPC.OnGameEventClearedForTheFirstTime(-1);
         }
 
         public override void ModifyNPCLoot(NPCLoot npcLoot)

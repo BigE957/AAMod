@@ -68,7 +68,7 @@ namespace AAModClassic._Unreleased.Content.Mire.World.Tiles
 
             TileObjectData.addTile(Type);
 
-            DustType = ModContent.DustType<BogwoodDust>();
+            DustType = ModContent.DustType<MireDust>();
             HitSound = SoundID.Grass;
             AddMapEntry(new Color(0, 32, 137));
 

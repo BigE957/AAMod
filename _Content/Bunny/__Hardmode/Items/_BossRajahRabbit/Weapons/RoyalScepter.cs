@@ -49,7 +49,7 @@ namespace AAModClassic._Content.Bunny.__Hardmode.Items._BossRajahRabbit.Weapons
 		    for (int i = 0; i < 3; i++)
 		    {
 		    	offsetAngle = startAngle + deltaAngle * i;
-		    	int proj = Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position.X, position.Y, baseSpeed*(float)Math.Sin(offsetAngle), baseSpeed*(float)Math.Cos(offsetAngle), type, damage, knockback, Main.myPlayer);
+		    	int proj = Projectile.NewProjectile(player.GetSource_ItemUse(Item), position.X, position.Y, baseSpeed*(float)Math.Sin(offsetAngle), baseSpeed*(float)Math.Cos(offsetAngle), type, damage, knockback, Main.myPlayer);
                 Main.projectile[proj].DamageType = DamageClass.Magic;
             }
 		    return false;

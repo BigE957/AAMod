@@ -1,4 +1,5 @@
 ﻿using AAModClassic._Content.Mire.___PreHardmode.Items.Tiles.Decoration;
+using AAModClassic.Gores.Leaf;
 using Microsoft.Xna.Framework.Graphics;
 using ReLogic.Content;
 using Terraria.GameContent;
@@ -34,5 +35,7 @@ namespace AAModClassic._Content.Mire.World.Tiles.Trees
             style = 0;
             return ModContent.TileType<BogwoodPalmTreeSapling_Tile>();
         }
+
+        public override int TreeLeaf() => ModContent.GoreType<BogwoodPalmLeafGore>();
     }
 }

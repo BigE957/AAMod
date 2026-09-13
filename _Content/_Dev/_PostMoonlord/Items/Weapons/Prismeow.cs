@@ -53,7 +53,7 @@ namespace AAModClassic._Content._Dev._PostMoonlord.Items.Weapons
             {
                 float randomSpeed = baseSpeed + Main.rand.NextFloat() * 1.5f;
                 offsetAngle = startAngle + (deltaAngle * i);
-                int shoot = Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position.X, position.Y, randomSpeed * (float)Math.Sin(offsetAngle), randomSpeed * (float)Math.Cos(offsetAngle), type, damage, knockback, Main.myPlayer);
+                int shoot = Projectile.NewProjectile(player.GetSource_ItemUse(Item), position.X, position.Y, randomSpeed * (float)Math.Sin(offsetAngle), randomSpeed * (float)Math.Cos(offsetAngle), type, damage, knockback, Main.myPlayer);
                 Main.projectile[shoot].DamageType = DamageClass.Magic;
             }
             return false;

@@ -85,7 +85,7 @@ Inflicts Daybroken"); */
 				float num83 = vector13.Y;
 				float speedX5 = num82;
 				float speedY6 = num83 + Main.rand.Next(-30, 30) * 0.02f;
-				Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), vector2.X, vector2.Y, speedX5, speedY6, ModContent.ProjectileType<ReignOfFire_Meteor>(), Item.damage/2, Item.knockBack, Main.myPlayer, Main.rand.Next(1, 6));
+				Projectile.NewProjectile(player.GetSource_ItemUse(Item), vector2.X, vector2.Y, speedX5, speedY6, ModContent.ProjectileType<ReignOfFire_Meteor>(), Item.damage/2, Item.knockBack, Main.myPlayer, Main.rand.Next(1, 6));
 			}
 			return base.UseItem(player);
 		}

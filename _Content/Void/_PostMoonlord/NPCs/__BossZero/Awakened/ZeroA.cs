@@ -144,6 +144,9 @@ namespace AAModClassic._Content.Void._PostMoonlord.NPCs.__BossZero.Awakened
 
                 if (NPC.playerInteraction[Main.myPlayer])
                     ZeroKilled.Condition.Complete();
+
+                if (!NPC.BeenKilled(true))
+                    NPC.OnGameEventClearedForTheFirstTime(-1);
             }
         }
 

@@ -6,6 +6,9 @@ using Terraria.Localization;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 using AAModClassic.Dusts;
+using System.Collections.Generic;
+using AAModClassic._Content.Chaos.__Hardmode.NPCs;
+using AAModClassic.UI.World;
 
 namespace AAModClassic._Content.Mire.World.Tiles
 {
@@ -56,7 +59,21 @@ namespace AAModClassic._Content.Mire.World.Tiles
 
         public override void KillMultiTile(int i, int j, int frameX, int frameY)
         {
+            HashSet<int> wraithIndexes = [];
+            bool nonMPClient = Main.netMode != NetmodeID.MultiplayerClient;
+            bool unofficial = WorldTypeSystem.IsWorldOptionEnabled(AAWorldOption.Unofficial);
+
+            if (nonMPClient && unofficial)
+                foreach (NPC n in Main.ActiveNPCs)
+                    if (n.type == NPCID.Wraith)
+                        wraithIndexes.Add(n.whoAmI);
+
             WorldGen.SmashAltar(i, j);
+
+            if (nonMPClient && unofficial)
+                foreach (NPC n in Main.ActiveNPCs)
+                    if (n.type == NPCID.Wraith && !wraithIndexes.Contains(n.whoAmI))
+                        n.Transform(ModContent.NPCType<ChaosDragon>());
         }
 
         public static void DamagePlayer (Player player)

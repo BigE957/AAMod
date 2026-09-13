@@ -246,10 +246,13 @@ namespace AAModClassic._Content.Mire._PostMoonlord.NPCs.__BossYamata
 
             if (!Main.expertMode)
             {
-                if (Main.netMode != NetmodeID.MultiplayerClient) BaseUtility.Chat(Language.GetTextValue("Mods.AAModClassic.NPCs.BossDialogue.Yamata.Defeat.NotExpert"), AAColor.YamataDialogue);
+                if (Main.netMode != NetmodeID.MultiplayerClient)
+                    BaseUtility.Chat(Language.GetTextValue("Mods.AAModClassic.NPCs.BossDialogue.Yamata.Defeat.NotExpert"), AAColor.YamataDialogue);
                 if (!NPC.BeenKilled(true))
                 {
-                    if (Main.netMode != NetmodeID.MultiplayerClient) BaseUtility.Chat(Language.GetTextValue("Mods.AAModClassic.NPCs.BossDialogue.Yamata.Defeat.Status"), Color.Indigo);
+                    NPC.OnGameEventClearedForTheFirstTime(-1);
+                    if (Main.netMode != NetmodeID.MultiplayerClient)
+                        BaseUtility.Chat(Language.GetTextValue("Mods.AAModClassic.NPCs.BossDialogue.Yamata.Defeat.Status"), Color.Indigo);
                 }
 
                 if (NPC.playerInteraction[Main.myPlayer])

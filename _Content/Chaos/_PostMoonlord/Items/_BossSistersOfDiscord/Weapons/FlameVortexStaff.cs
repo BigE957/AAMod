@@ -59,7 +59,7 @@ You must have at least 2 open slots for the first summon"); */
             }
             for (int Loops = 0; Loops < SummonCount; Loops++)
             {
-                Projectile.NewProjectile(Item.GetSource_ReleaseEntity(), position, velocity, type, damage, knockback, Main.myPlayer, 0, 0);
+                Projectile.NewProjectile(player.GetSource_ItemUse(Item), position, velocity, type, damage, knockback, Main.myPlayer, 0, 0);
             }
 
             return false;

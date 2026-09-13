@@ -247,6 +247,9 @@ namespace AAModClassic._Unreleased.Content.SunkenShip._PostMoonLord.NPCs.SoulOfC
             {
                 if (NPC.playerInteraction[Main.myPlayer])
                     SoulOfCthulhuKilled.Condition.Complete();
+
+                if (!NPC.BeenKilled(true))
+                    NPC.OnGameEventClearedForTheFirstTime(-1);
             }
         }
 
